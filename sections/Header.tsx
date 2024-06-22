@@ -44,52 +44,55 @@ export default function Header({
 }: Nav) {
   return (
     <nav class="drawer drawer-end">
-      <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
+      <div class="h-28"></div>
+      <div class="fixed w-full bg-secondary z-50">
+        <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
-      {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-8 max-w-[1378px]">
+        {/* main content */}
+        <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-8 max-w-[1378px]">
 
-        <div class="hidden items-center justify-between lg:flex w-full">
-          <div class="flex gap-[70px] items-center bg-neutral border border-primary rounded-full py-2 pl-4 pr-8">
-            <a href="/">
-              <Image src={logo.src || ""} width={67} height={36} alt={logo.alt} />
-            </a>
-            <ul class="flex gap-[70px]">
-              {navigation.links.map((link) => (
-                <li>
-                  <a
-                    href={link.url}
-                    aria-label={link.label}
-                    class="link no-underline hover:underline text-primary"
-                  >
-                    {link.label}
-                  </a>
-                </li>
+          <div class="hidden items-center justify-between lg:flex w-full">
+            <div class="flex gap-[70px] items-center bg-neutral border border-primary rounded-full py-2 pl-4 pr-8">
+              <a href="/">
+                <Image src={logo.src || ""} width={67} height={36} alt={logo.alt} />
+              </a>
+              <ul class="flex gap-[70px]">
+                {navigation.links.map((link) => (
+                  <li>
+                    <a
+                      href={link.url}
+                      aria-label={link.label}
+                      class="link no-underline hover:underline text-primary"
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <ul class="flex gap-3">
+              {navigation.buttons?.map((item) => (
+                <a
+                  key={item?.id}
+                  id={item?.id}
+                  href={item?.href ?? "#"}
+                  target={item?.href.includes("http") ? "_blank" : "_self"}
+                  class={`font-normal btn btn-primary text-secondary font-medium rounded-full min-h-9 h-9 ${item.outline && "btn-outline"
+                    }`}
+                >
+                  {item?.text}
+                </a>
               ))}
             </ul>
           </div>
-          <ul class="flex gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary text-secondary font-medium rounded-full min-h-9 h-9 ${item.outline && "btn-outline"
-                  }`}
-              >
-                {item?.text}
-              </a>
-            ))}
-          </ul>
-        </div>
 
-        <label
-          htmlFor="mobile-drawer-nav"
-          class="flex lg:hidden btn btn-ghost drawer-button"
-        >
-          <Icon id="Bars3" size={24} strokeWidth={0.1} />
-        </label>
+          <label
+            htmlFor="mobile-drawer-nav"
+            class="flex lg:hidden btn btn-ghost drawer-button"
+          >
+            <Icon id="Bars3" size={24} strokeWidth={0.1} />
+          </label>
+        </div>
       </div>
 
       {/* sidebar */}
