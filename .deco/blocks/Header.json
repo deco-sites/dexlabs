@@ -1,1 +1,28 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Product"
+      },
+      {
+        "label": "Integrations"
+      },
+      {
+        "label": "Blog"
+      },
+      {
+        "label": "Pricing"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Book a demo",
+        "href": "http://www.google.com"
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f4581d48-8c75-45f9-8539-487ba1089a9f"
+  }
+}
