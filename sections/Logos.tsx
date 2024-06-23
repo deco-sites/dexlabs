@@ -30,7 +30,6 @@ export default function Logos({
             src={logo.src || ""}
             alt={logo.altText || ""}
             width={110}
-            height={110}
           />
         );
       })}
