@@ -31,16 +31,46 @@
           "altText": "medway logo"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/51b7a89c-be8b-4839-8b86-9f0bbd4438d7"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/51b7a89c-be8b-4839-8b86-9f0bbd4438d7",
+          "altText": "by aliens logo"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/18fb7a34-abbc-42ff-9f19-91e251d9b0e5"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/18fb7a34-abbc-42ff-9f19-91e251d9b0e5",
+          "altText": "hub logo"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ec470887-0ae3-4639-b237-5d8b612dcbaa"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ec470887-0ae3-4639-b237-5d8b612dcbaa",
+          "altText": "insider logo"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f2c30718-6b57-4d61-9c34-e642bb741ec9"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ec3cb946-0c99-41e3-8eb2-8792e7d83235",
+          "altText": "unb logo"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Hero3.tsx",
+      "title": "It all starts with data",
+      "titleCaption": "PLATFORM",
+      "caption": "Answer business questions, make the right decisions  and grow with data intelligence",
+      "items": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/37ecfabe-dcfa-420f-a43c-c12ba9514ee6",
+          "title": "Make the right call",
+          "description": "Create data models, perform quality testing, and make decisions based on trusted data.",
+          "imageAlt": "Lamp icon"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/341ee285-08bd-406d-a025-25fdd6ab4455",
+          "imageAlt": "people icon",
+          "title": "Democratize insights",
+          "description": "Empower your team with data  to find new insights."
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/367adb0b-5c81-44b3-b829-64decf4fc425",
+          "imageAlt": "coin icon",
+          "title": "Reduce costs",
+          "description": "Gain efficiency and simplify complexity with a unified, serverless data infrastructure."
         }
       ]
     },

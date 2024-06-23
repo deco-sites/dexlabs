@@ -1,6 +1,9 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
+/**
+ * @title {{altText}}
+ */
 export interface Logo {
   src?: ImageWidget;
   /** @description text alternative */
@@ -41,7 +44,7 @@ export default function Logos({
   return (
     <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 py-6 lg:py-14">
       <div class="flex flex-col gap-12">
-        <p class="text-center text-lg">{title}</p>
+        <p class="text-center text-xl text-accent font-light">{title}</p>
         <div class="relative w-full overflow-hidden h-28">
           <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-full">
             {slideContent}
