@@ -109,7 +109,7 @@ export default function Header({
                     />
 
                     <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content p-4 bg-opacity-80 backdrop-blur-sm">
-                        <div class="bg-neutral border border-primary rounded-xl">
+                        <div>
 
                             <a class="p-4" href="/">
                                 <Image

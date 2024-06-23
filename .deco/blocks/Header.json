@@ -18,7 +18,8 @@
     "buttons": [
       {
         "text": "Book a demo",
-        "href": "http://www.google.com"
+        "href": "http://www.google.com",
+        "outline": false
       }
     ]
   },

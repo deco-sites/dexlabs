@@ -1,6 +1,9 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
+/**
+ * @title {{text}}
+ */
 export interface CTA {
   id?: string;
   href: string;
@@ -82,7 +85,7 @@ export default function HeroFlats({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary ${item.outline && "btn-outline"
+                  class={`font-normal btn btn-primary font-medium rounded-full min-h-10 h-10 text-lg hover:bg-secondary text-secondary hover:text-primary ${item.outline && "btn-outline"
                     }`}
                 >
                   {item?.text}

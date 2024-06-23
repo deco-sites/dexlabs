@@ -8,11 +8,23 @@
     {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>The fastest way to build data products</p>",
-      "cta": [],
+      "cta": [
+        {
+          "text": "Book a demo",
+          "outline": false,
+          "href": "/"
+        },
+        {
+          "href": "/",
+          "text": "Explore our platform",
+          "outline": true
+        }
+      ],
       "description": "deX is a unified data platform to fuel analytics,  data science, and AI with trusted data."
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
+      "__resolveType": "site/sections/Logos.tsx",
+      "title": "TRUSTED BY"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx"
