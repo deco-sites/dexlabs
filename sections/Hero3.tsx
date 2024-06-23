@@ -19,7 +19,7 @@ export interface Props {
 }
 
 export default function Hero3({ title, titleCaption, caption, items = [] }: Props) {
-    return <section class="max-w-[1378px] mx-auto">
+    return <section class="max-w-[1378px] mx-auto mb-20">
         <h3 class="text-center text-xl text-accent font-light">{titleCaption || ""}</h3>
         <h1 class="py-5 font-semibold text-3xl text-[60px] leading-[64px] text-center text-primary">{title}</h1>
         <h2 class="max-w-[630px] mx-auto text-primary text-2xl font-normal leading-7 text-center">{caption || ""}</h2>

@@ -75,6 +75,35 @@
       ]
     },
     {
+      "__resolveType": "site/sections/StatisticsHero.tsx",
+      "title": "Focus on business, not infrastructure",
+      "titleCaption": "WHY DEX",
+      "caption": "The deX Lake platform integrates all the tools you need, ready for use. Get your data quickly and securely, with no maintenance.",
+      "buttonText": "Book a demo",
+      "buttonHref": "/",
+      "buttonOutline": false,
+      "linkText": "Explore our platform",
+      "linkHref": "/",
+      "statistics": [
+        {
+          "value": "70%",
+          "text": "Less code"
+        },
+        {
+          "value": "10x",
+          "text": "Faster to ship datasets"
+        },
+        {
+          "value": "Zero",
+          "text": "Maintenance overhead"
+        },
+        {
+          "value": "Secure",
+          "text": "Your data stays in your cloud"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/ImageWithParagraph.tsx"
     },
     {
