@@ -22,6 +22,9 @@ export default function Logos({
   title = "Edit this heading however you want",
   logos = IMG_PLACEHODLER,
 }: Props) {
+
+  if (logos.length > 3 || logos.length < 13) logos = [...logos, ...logos, ...logos];
+
   const slideContent = (
     <div class="flex items-center gap-20">
       {logos?.map((logo) => {
