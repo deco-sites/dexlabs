@@ -276,20 +276,16 @@
       "justifyText": "right"
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Testimonials.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Faq.tsx"
-    },
-    {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/SimpleHero.tsx",
+      "title": "Ready to get started?",
+      "caption": "See what you can do with a unified Lakehouse Platform",
+      "cta": [
+        {
+          "href": "/",
+          "text": "Book a demo",
+          "outline": true
+        }
+      ]
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

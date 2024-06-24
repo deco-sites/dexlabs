@@ -91,9 +91,9 @@ export default function ImageWithParagraph({
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary text-xl font-bold transition-all duration-200
+                class={`font-normal btn btn-primary text-xl font-bold transition-all duration-200 
                   ${!item.style || item.style == "Outline" && "btn-outline"}
-                  ${item.style == "Ghost" && "btn-ghost hover:bg-transparent underline hover:text-info font-extrabold"}
+                  ${item.style == "Ghost" && "btn-ghost hover:bg-transparent underline hover:text-info font-extrabold text-primary"}
                 `}
               >
                 {item?.text}
