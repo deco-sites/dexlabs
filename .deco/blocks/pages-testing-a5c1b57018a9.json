@@ -23,6 +23,10 @@
       "description": "deX is a unified data platform to fuel analytics,  data science, and AI with trusted data."
     },
     {
+      "__resolveType": "site/sections/Video.tsx",
+      "video": "https://ibbx.tech/wp-content/uploads/2024/05/IBBx-para-site-1.mp4"
+    },
+    {
       "__resolveType": "site/sections/Logos.tsx",
       "title": "TRUSTED BY",
       "logos": [
