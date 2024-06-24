@@ -46,14 +46,14 @@ export default function ImageWithParagraph({
   ],
 }: Props) {
   const textJustification = {
-    left: "text-left",
-    center: "text-center",
-    right: "text-right"
+    left: "md:text-left",
+    center: "md:text-center",
+    right: "md:text-right"
   }
   const flexDirection = {
-    left: "justify-start",
-    center: "justify-center",
-    right: "justify-end"
+    left: "md:justify-start",
+    center: "md:justify-center",
+    right: "md:justify-end"
   }
   return (
     <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
@@ -74,7 +74,7 @@ export default function ImageWithParagraph({
             loading="lazy"
           />
         </div>
-        <div class={`w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 ${textJustification[justifyText]}`}>
+        <div class={`w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 text-center ${textJustification[justifyText]}`}>
           <p class="text-xl font-light">
             {tagline}
           </p>
@@ -84,7 +84,7 @@ export default function ImageWithParagraph({
           <p class={'leading-normal font-normal text-2xl'}>
             {description}
           </p>
-          <div class={`flex gap-3 pt-4 ${flexDirection[justifyText]}`}>
+          <div class={`flex gap-3 pt-4 justify-center ${flexDirection[justifyText]}`}>
             {cta?.map((item) => (
               <a
                 key={item?.id}
