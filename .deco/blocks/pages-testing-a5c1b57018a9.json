@@ -263,7 +263,8 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/5c2006f5-cbbb-4658-b473-7b7f0c016ab6",
       "placement": "left",
       "disableSpacing": {
-        "top": false
+        "top": false,
+        "bottom": false
       },
       "cta": [
         {
