@@ -20,8 +20,8 @@
     "secondary": "#ffffff",
     "tertiary": "#576680",
     "neutral": "#F6FBFF",
-    "success": "#008060",
-    "warning": "#ffc453",
+    "success": "#39F2AE",
+    "warning": "#263D62",
     "error": "#d82c0d",
     "info": "#8692A7"
   },
@@ -38,5 +38,8 @@
       }
     ]
   },
-  "mode": "light"
+  "mode": "light",
+  "complementaryColors": {
+    "base-200": "#000000"
+  }
 }

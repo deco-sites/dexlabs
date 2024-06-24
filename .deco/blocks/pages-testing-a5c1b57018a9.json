@@ -46,7 +46,11 @@
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ec3cb946-0c99-41e3-8eb2-8792e7d83235",
           "altText": "unb logo"
         }
-      ]
+      ],
+      "link": {
+        "text": "Read all customers stories",
+        "href": "/"
+      }
     },
     {
       "__resolveType": "site/sections/Hero3.tsx",
@@ -100,6 +104,150 @@
         {
           "value": "Secure",
           "text": "Your data stays in your cloud"
+        }
+      ],
+      "button": {
+        "text": "Book a demo",
+        "href": "/"
+      },
+      "link": {
+        "text": "Explore our platform",
+        "href": "/"
+      }
+    },
+    {
+      "__resolveType": "site/sections/DetailedHero.tsx",
+      "title": "Get your data in minutes, not days",
+      "titleCaption": "INTEGRATIONS",
+      "caption": "Collect data using 300+ native connectors and quickly sync to your data warehouse",
+      "cta": [
+        {
+          "href": "/",
+          "text": "Book a demo"
+        },
+        {
+          "text": "Discover all integrations",
+          "href": "/",
+          "outline": true
+        }
+      ],
+      "heroSections": [
+        {
+          "Images": [
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4aec330f-e1b8-49ba-bd91-c7cd2be6d2f4",
+              "alt": "integration icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/7a5bd7f2-3f71-43a6-a03a-b4a1eb9f84a5",
+              "alt": "HubSpot icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/45284dc8-cc28-44b0-99ed-a40b80c17608",
+              "alt": "php icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/9ae73f0c-8d82-409c-ae69-07ffb4e5f8f1",
+              "alt": "exel icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/edf3815e-6e40-4b19-b61e-6ff7cf4b6452",
+              "alt": "blue magnifying glass icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/79e2b906-76b3-425c-84f1-9721f16a8d9d",
+              "alt": "dolphin icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/b2198030-7ee0-4d31-8973-ebea4fe92c7b",
+              "alt": "flower pot icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/449adfb8-d19c-4e2f-82cd-4b21dedf4050",
+              "alt": "files icon"
+            }
+          ],
+          "Title": "Databases",
+          "Text": "Get reliable data from any database you want at top speeds",
+          "ImagesPerLine": 4
+        },
+        {
+          "Images": [
+            {
+              "alt": "git icon",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4d47e521-2313-424a-a156-a7b366804e99"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f133a78b-fca8-4a1d-a30e-8f6017930411",
+              "alt": "colorful up arrow icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/0f5bb207-fdcf-4547-9ce2-1df72baad9b1",
+              "alt": "tik tok icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4343a690-4205-4a3e-b11f-c25fc236884f",
+              "alt": "facebook icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f2e49bc5-015a-4366-a700-ce9d20c4617c",
+              "alt": "store bag icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/2133390b-1ff3-491f-bc78-ab4c3242ed88",
+              "alt": "bing icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4872e78d-d710-4731-b62c-e71aa450713b",
+              "alt": "yellow bars icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/0f9195e0-efb6-48c7-8300-16b9d602fbbe",
+              "alt": "paypal icon"
+            }
+          ],
+          "Title": "External sources",
+          "Text": "Stream data from any source  you want. Never miss important data again.",
+          "ImagesPerLine": 4
+        },
+        {
+          "Images": [
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/bc385ad0-66e4-48da-94c6-98df92423e21",
+              "alt": "doted M icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/1378d333-cf96-4a60-a977-6ba32490c745",
+              "alt": "stripes icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/64765bee-620f-4fa0-9557-9085f0974a10",
+              "alt": "colorful plus icons"
+            },
+            {
+              "alt": "R icon",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/89718c27-ef21-46dc-af6f-f6c1138cc168"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/fb98f067-6f8e-47cf-b477-cd58c7feb1fd",
+              "alt": "green magnifying glass icon"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/c88be65c-c5b5-41b8-8c6a-ed043c226690",
+              "alt": "colorful circles icon"
+            },
+            {
+              "alt": "python",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/dd1a8e33-418a-40b0-aeb6-f1b8730fae9a"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/2a5a696a-4be0-4d93-b1e6-cc3f60e8c1ea",
+              "alt": "jupyter icon"
+            }
+          ],
+          "Title": "Analytics tools",
+          "Text": "Analyze your data in the tools of your choice and democratize access to insights.",
+          "ImagesPerLine": 4
         }
       ]
     },
