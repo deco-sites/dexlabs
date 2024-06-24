@@ -50,6 +50,11 @@ export default function ImageWithParagraph({
     center: "text-center",
     right: "text-right"
   }
+  const flexDirection = {
+    left: "justify-start",
+    center: "justify-center",
+    right: "justify-end"
+  }
   return (
     <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
       <div
@@ -79,7 +84,7 @@ export default function ImageWithParagraph({
           <p class={`leading-normal`}>
             {description}
           </p>
-          <div class="flex gap-3 pt-4">
+          <div class={`flex gap-3 pt-4 ${flexDirection[justifyText]}`}>
             {cta?.map((item) => (
               <a
                 key={item?.id}
