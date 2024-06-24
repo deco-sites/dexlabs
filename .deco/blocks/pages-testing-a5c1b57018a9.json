@@ -256,7 +256,23 @@
       ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Need help building your models?",
+      "description": "deX offers an optional professional services package to help you build your models and structuring your data.",
+      "tagline": "PROFESSIONAL SERVICES",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/5c2006f5-cbbb-4658-b473-7b7f0c016ab6",
+      "placement": "left",
+      "disableSpacing": {
+        "top": false
+      },
+      "cta": [
+        {
+          "style": "Ghost",
+          "href": "/",
+          "text": "Learn more"
+        }
+      ],
+      "justifyText": "right"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",

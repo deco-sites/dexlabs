@@ -15,7 +15,7 @@ export default function Video({ video }: Props) {
                 muted
                 loading="lazy"
                 loop
-                class="w-full h-full top-0 left-0 object-cover"
+                class="w-full h-full object-cover"
             >
                 <source src={video} type="video/mp4" />
                 <object data="" width="320" height="240">

@@ -15,6 +15,7 @@ export interface Props {
   tagline?: string;
   image?: ImageWidget;
   placement?: "left" | "right";
+  justifyText?: "left" | "center" | "right";
   cta?: CTA[];
   disableSpacing?: {
     top?: boolean;
@@ -33,24 +34,28 @@ const DEFAULT_IMAGE =
 export default function ImageWithParagraph({
   title = "Here's an intermediate size heading you can edit",
   description =
-    "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+  "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   tagline = "Tagline",
   image = DEFAULT_IMAGE,
   placement = "left",
+  justifyText = "left",
   disableSpacing,
   cta = [
     { id: "change-me-1", href: "/", text: "Change me", style: "Outline" },
     { id: "change-me-2", href: "/", text: "Change me", style: "Ghost" },
   ],
 }: Props) {
+  const textJustification = {
+    left: "text-left",
+    center: "text-center",
+    right: "text-right"
+  }
   return (
     <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
       <div
-        class={`flex ${
-          PLACEMENT[placement]
-        } gap-12 md:gap-20 text-left items-center z-10 ${
-          disableSpacing?.top ? "" : "pt-12 lg:pt-28"
-        } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
+        class={`flex ${PLACEMENT[placement]
+          } gap-12 md:gap-20 text-left items-center z-10 ${disableSpacing?.top ? "" : "pt-12 lg:pt-28"
+          } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
         <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
           <Image
@@ -64,14 +69,14 @@ export default function ImageWithParagraph({
             loading="lazy"
           />
         </div>
-        <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
+        <div class={`w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 ${textJustification[justifyText]}`}>
           <p class="text-sm font-semibold">
             {tagline}
           </p>
           <p class="text-4xl leading-snug">
             {title}
           </p>
-          <p class="leading-normal">
+          <p class={`leading-normal`}>
             {description}
           </p>
           <div class="flex gap-3 pt-4">
