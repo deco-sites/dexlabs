@@ -1,0 +1,58 @@
+{
+  "name": "Product",
+  "path": "/product",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>The fastest way to build data products</p>",
+      "cta": [
+        {
+          "text": "Book a demo",
+          "outline": false,
+          "href": "/"
+        },
+        {
+          "href": "/",
+          "text": "Explore our platform",
+          "outline": true
+        }
+      ],
+      "description": "deX is a unified data platform to fuel analytics,  data science, and AI with trusted data."
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Work in multiple environments",
+      "cta": [],
+      "description": "Work across environments with improved collaboration and streamlined development\n to ensure a smooth transition from development to production.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4e7fc42f-290a-430e-9ac7-80786da7c4e4",
+      "placement": "left",
+      "disableSpacing": {
+        "top": false,
+        "bottom": false
+      },
+      "justifyText": "right"
+    },
+    {
+      "__resolveType": "site/sections/SimpleHero.tsx",
+      "title": "Ready to get started?",
+      "cta": [
+        {
+          "href": "/",
+          "text": "Book a demo",
+          "outline": true
+        }
+      ],
+      "caption": "See what you can do with a unified Lakehouse Platform"
+    },
+    {
+      "__resolveType": "global footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

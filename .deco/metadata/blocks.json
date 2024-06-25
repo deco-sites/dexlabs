@@ -108,5 +108,11 @@
   "/.deco/blocks/global%20footer.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Footer.tsx"
+  },
+  "/.deco/blocks/pages-Product-547487.json": {
+    "name": "Product",
+    "path": "/product",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

@@ -35,7 +35,7 @@ export default function ImageWithParagraph({
   title = "Here's an intermediate size heading you can edit",
   description =
   "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-  tagline = "Tagline",
+  tagline,
   image = DEFAULT_IMAGE,
   placement = "left",
   justifyText = "left",
@@ -76,7 +76,7 @@ export default function ImageWithParagraph({
         </div>
         <div class={`w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 text-center ${textJustification[justifyText]}`}>
           <p class="text-xl font-light">
-            {tagline}
+            {tagline || ""}
           </p>
           <p class="text-6xl font-semibold">
             {title}
