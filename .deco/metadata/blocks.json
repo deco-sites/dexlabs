@@ -15,10 +15,6 @@
     "blockType": "matchers",
     "__resolveType": "website/matchers/device.ts"
   },
-  "/.deco/blocks/Neutral.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Theme/Theme.tsx"
-  },
   "/.deco/blocks/Preview%20%2Fsections%2FFaq.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Faq.tsx"
@@ -104,5 +100,13 @@
   "/.deco/blocks/Preview%20site%2Fsections%2FLogos.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Logos.tsx"
+  },
+  "/.deco/blocks/Neutral.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/global%20footer.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Footer.tsx"
   }
 }
