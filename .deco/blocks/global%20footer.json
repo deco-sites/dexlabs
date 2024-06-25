@@ -5,10 +5,78 @@
     "title": "wwe",
     "description": "wew"
   },
-  "links": [],
+  "links": [
+    {
+      "items": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Product",
+          "href": "/product"
+        },
+        {
+          "label": "Integrations",
+          "href": "/integrations"
+        },
+        {
+          "label": "Pricing",
+          "href": "/pricing"
+        }
+      ],
+      "title": "Product"
+    },
+    {
+      "items": [
+        {
+          "label": "Stories",
+          "href": "/stories"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy"
+        },
+        {
+          "label": "Terms",
+          "href": "/terms"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "title": "Company"
+    },
+    {
+      "items": [
+        {
+          "label": "Linkedin",
+          "href": "/"
+        },
+        {
+          "label": "Twitter",
+          "href": "/"
+        }
+      ],
+      "title": "Follow us"
+    }
+  ],
   "bottomLinks": [],
-  "social": [],
+  "social": [
+    {
+      "network": "X - Twitter",
+      "href": "http://twitter.com"
+    },
+    {
+      "network": "Linkedin",
+      "href": "http://linkedin.com"
+    }
+  ],
   "logo": {
-    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ebdf8386-ed0e-47e3-ac4d-3d71e2120d62"
-  }
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ebdf8386-ed0e-47e3-ac4d-3d71e2120d62",
+    "alt": "dex logo"
+  },
+  "madeWith": {},
+  "text": "deX is a cloud platform for big data analytics and data science, enabling innovative teams to collect, transform, and orchestrate data pipelines efficiently."
 }
