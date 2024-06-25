@@ -23,6 +23,10 @@
       "description": "deX is a unified data platform to fuel analytics,  data science, and AI with trusted data."
     },
     {
+      "__resolveType": "site/sections/ImageSelector.tsx",
+      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/102a7e19-5c30-4a21-bfdb-ada500c1e613"
+    },
+    {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "Work in multiple environments",
       "cta": [],
@@ -40,26 +44,26 @@
       "title": "Embed testing into your workflow",
       "cta": [],
       "description": "Integrate data testing into your CI/CD \npipeline with a single line of code. Make data quality checks maintainable to ensure data quality and integrity.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f79ec9a4-cc1e-4fa7-a252-56d559fb6b1d",
       "placement": "right",
       "disableSpacing": {
         "top": false,
         "bottom": true
       },
-      "justifyText": "left"
+      "justifyText": "left",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f79ec9a4-cc1e-4fa7-a252-56d559fb6b1d"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "Automate  DAG creation",
       "cta": [],
       "description": "Automatically create and manage Airflow DAGs based on your data models. \nFocus on your business and reduce your workflow code by 70%",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/873d144f-6adb-4650-b330-e24e8116ce7a",
       "placement": "left",
       "disableSpacing": {
         "top": false,
         "bottom": true
       },
-      "justifyText": "left",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/873d144f-6adb-4650-b330-e24e8116ce7a"
+      "justifyText": "left"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",

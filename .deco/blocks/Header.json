@@ -3,16 +3,19 @@
   "navigation": {
     "links": [
       {
-        "label": "Product"
+        "label": "Product",
+        "url": "/product"
       },
       {
         "label": "Integrations"
       },
       {
-        "label": "Blog"
+        "label": "Blog",
+        "url": "/blog"
       },
       {
-        "label": "Pricing"
+        "label": "Pricing",
+        "url": "/pricing"
       }
     ],
     "buttons": [

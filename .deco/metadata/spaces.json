@@ -191,73 +191,7 @@
       "name": "Releases",
       "pinned": true,
       "icon": "rocket",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 100,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "releases::releases::rocket::releases::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-releases::releases::rocket::releases::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "releases::releases::rocket::releases::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
+      "layout": [],
       "tabs": {
         "releases::releases::rocket::releases::%7B%7D": {
           "name": "releases",
@@ -577,7 +511,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 22.500000000000004,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -599,7 +533,7 @@
               },
               {
                 "type": "stack",
-                "width": 52.5,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -614,27 +548,6 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 25,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"
-                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -659,8 +572,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Preview::world::Preview::%7B%7D": {
@@ -671,17 +583,6 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D": {
-          "name": "JSON Properties",
-          "icon": "braces",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "JSON Properties",
-          "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -987,7 +888,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 15.387320847621561,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1009,7 +910,7 @@
               },
               {
                 "type": "stack",
-                "width": 33.315059353061756,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1024,27 +925,6 @@
                       "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 51.297619799316685,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D"
-                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1082,20 +962,6 @@
           "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D": {
-          "name": "/islands/Header.tsx",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "viewProps": {
-            "spaceId": "/islands/Header.tsx"
-          },
-          "id": "%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D",
-          "state": {
-            "__signal": "error"
           }
         }
       }
@@ -1399,7 +1265,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 16.3883604022295,
+                "width": 24.40401505646173,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1421,7 +1287,7 @@
               },
               {
                 "type": "stack",
-                "width": 56.64014295332841,
+                "width": 75.59598494353827,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1436,27 +1302,6 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 26.971496644442094,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"
-                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1492,17 +1337,6 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D": {
-          "name": "JSON Properties",
-          "icon": "braces",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "JSON Properties",
-          "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
           "state": {
             "__signal": null
           }
