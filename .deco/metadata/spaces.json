@@ -445,7 +445,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 28.0426599749059,
+                "width": 30,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -467,7 +467,7 @@
               },
               {
                 "type": "stack",
-                "width": 71.95734002509411,
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -506,7 +506,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Preview::world::Preview::%7B%7D": {
@@ -822,7 +823,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 20.138017565872023,
+                "width": 15.387320847621561,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -844,7 +845,7 @@
               },
               {
                 "type": "stack",
-                "width": 79.86198243412798,
+                "width": 33.315059353061756,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -859,6 +860,27 @@
                       "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 51.297619799316685,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -896,6 +918,20 @@
           "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D": {
+          "name": "/islands/Header.tsx",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "viewProps": {
+            "spaceId": "/islands/Header.tsx"
+          },
+          "id": "%2F.deco%2Fblocks%2FHeader.json::%2Fislands%2FHeader.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FHeader.tsx%22%7D",
+          "state": {
+            "__signal": "error"
           }
         }
       }
@@ -986,10 +1022,10 @@
       }
     },
     {
-      "id": "/.deco/blocks/global%20footer.json",
-      "name": "global footer",
+      "id": "{\"oid\":\"2bae562c41ad59e452822ac090f89d3a8e99e540\",\"short\":\"2bae562\",\"commit\":{\"message\":\"style: header scroll behavior implemented as described in the figma design and header button hover added\\n\",\"parent\":[\"e3a9acb3cd45e1e556e5c0b43d20b568bb49eacd\"],\"tree\":\"c28eff8ad5b1e9ee4725fe1ce590a2da8f900979\",\"author\":{\"name\":\"Eduardo de Lima Balbinot\",\"email\":\"914thepro@gmail.com\",\"timestamp\":1719055847,\"timezoneOffset\":0},\"committer\":{\"name\":\"Eduardo de Lima Balbinot\",\"email\":\"914thepro@gmail.com\",\"timestamp\":1719055847,\"timezoneOffset\":0}}}",
+      "name": "Release 2bae562",
       "pinned": false,
-      "icon": "package",
+      "icon": "rocket",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -1029,43 +1065,20 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 100,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fglobal%2520footer.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fglobal%2520footer.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%7B%22oid%22%3A%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%22short%22%3A%222bae562%22%2C%22commit%22%3A%7B%22message%22%3A%22style%3A%20header%20scroll%20behavior%20implemented%20as%20described%20in%20the%20figma%20design%20and%20header%20button%20hover%20added%5Cn%22%2C%22parent%22%3A%5B%22e3a9acb3cd45e1e556e5c0b43d20b568bb49eacd%22%5D%2C%22tree%22%3A%22c28eff8ad5b1e9ee4725fe1ce590a2da8f900979%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%22short%22%3A%222bae562%22%2C%22commit%22%3A%7B%22message%22%3A%22style%3A%20header%20scroll%20behavior%20implemented%20as%20described%20in%20the%20figma%20design%20and%20header%20button%20hover%20added%5Cn%22%2C%22parent%22%3A%5B%22e3a9acb3cd45e1e556e5c0b43d20b568bb49eacd%22%5D%2C%22tree%22%3A%22c28eff8ad5b1e9ee4725fe1ce590a2da8f900979%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fglobal%2520footer.json::Properties::list::Properties::%7B%7D"
+                      "id": "%7B%22oid%22%3A%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%22short%22%3A%222bae562%22%2C%22commit%22%3A%7B%22message%22%3A%22style%3A%20header%20scroll%20behavior%20implemented%20as%20described%20in%20the%20figma%20design%20and%20header%20button%20hover%20added%5Cn%22%2C%22parent%22%3A%5B%22e3a9acb3cd45e1e556e5c0b43d20b568bb49eacd%22%5D%2C%22tree%22%3A%22c28eff8ad5b1e9ee4725fe1ce590a2da8f900979%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D"
                     },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 70,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fglobal%2520footer.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fglobal%2520footer.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fglobal%2520footer.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1081,27 +1094,97 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fglobal%2520footer.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
+        "%7B%22oid%22%3A%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%22short%22%3A%222bae562%22%2C%22commit%22%3A%7B%22message%22%3A%22style%3A%20header%20scroll%20behavior%20implemented%20as%20described%20in%20the%20figma%20design%20and%20header%20button%20hover%20added%5Cn%22%2C%22parent%22%3A%5B%22e3a9acb3cd45e1e556e5c0b43d20b568bb49eacd%22%5D%2C%22tree%22%3A%22c28eff8ad5b1e9ee4725fe1ce590a2da8f900979%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D": {
+          "name": "Release",
+          "icon": "rocket",
           "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fglobal%2520footer.json::Properties::list::Properties::%7B%7D",
+          "viewId": "Release",
+          "id": "%7B%22oid%22%3A%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%22short%22%3A%222bae562%22%2C%22commit%22%3A%7B%22message%22%3A%22style%3A%20header%20scroll%20behavior%20implemented%20as%20described%20in%20the%20figma%20design%20and%20header%20button%20hover%20added%5Cn%22%2C%22parent%22%3A%5B%22e3a9acb3cd45e1e556e5c0b43d20b568bb49eacd%22%5D%2C%22tree%22%3A%22c28eff8ad5b1e9ee4725fe1ce590a2da8f900979%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%22914thepro%40gmail.com%22%2C%22timestamp%22%3A1719055847%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
+        }
+      }
+    },
+    {
+      "id": "{\"oid\":\"4546583a2bfa81c8f1d5512fd0a5de46ff02e165\",\"short\":\"4546583\",\"commit\":{\"message\":\"Merge pull request #3 from deco-sites/feat/header\\n\\nfix: window changed to globalThis\\n\",\"parent\":[\"2bae562c41ad59e452822ac090f89d3a8e99e540\",\"55fa0aa075490afa171e6d9401c8565df073d1f8\"],\"tree\":\"cc253ef66bebf2c9ce688f55e39a0b6017cb86cc\",\"author\":{\"name\":\"Eduardo de Lima Balbinot\",\"email\":\"70007405+EduardoBalbinot@users.noreply.github.com\",\"timestamp\":1719056654,\"timezoneOffset\":180},\"committer\":{\"name\":\"GitHub\",\"email\":\"noreply@github.com\",\"timestamp\":1719056654,\"timezoneOffset\":180},\"gpgsig\":\"-----BEGIN PGP SIGNATURE-----\\n\\nwsFcBAABCAAQBQJmdrkOCRC1aQ7uu5UhlAAAoDsQAEKXlJL3562b15xN6J8gwzoW\\nasH7aU+5LjMgLHmzPE9RfqASjwMEHAeQzS1hdnyJVMPyevHcUHuSxosur8GkzXge\\nab+PGr6W0uwlOvNuXoAU2DuIEHJjwsS1mOFAep6Lnb/u4ahXVivlFBDhawl46WQ9\\nF1flhCqvmU13Jmoinp/otpmCVjl0uUWSBGkNwdtNGW4hU1L9dTZ/WF3dzXRFn6M6\\nlVsDvaQXDHmdonnU/tQuDwVePKfUXWo+Rg9HWTyt/U3ZiAB+Lzhp+mpuGBwLCOz+\\nhdAHWaytjoQGbqObpnDc8j8KIcpleRAoJyb3bJ2DjTap3+jEKIyygOxKAsW8LqOD\\nwJ7Bfy5RrORlG0NP7lHH5K1PcBOjrgRzA3btzzZbk0gO+0KpfYRfOqs4Qr21pj97\\n9ZrqT+Or54ulRZQ5MJMHim2wxx1qJ5uooVk/jdT2pGnS3QRKJ6gbZzDre8Bl4RNs\\noX6hklaq8w5MjQutPrH7SB9ozCvdO67ZPsMUhNWrFyGm/RPKPTjTGuIJJk2JC7kR\\nojwah3ka3UeCMbQtWF+8cQPdzboTi94A0IpKTddcP1zp1ulUFSOZhysjxL4jiZOL\\nICSj2Fu4XGXykHI8UsqQiFWqPvnJcQPbyl0UbW3OZmCSf7mlSWAA5yEV+eUvNccf\\n0g5pEfiWmz1vyONqtmG8\\n=b1GO\\n-----END PGP SIGNATURE-----\\n\"}}",
+      "name": "Release 4546583",
+      "pinned": false,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
         },
-        "%2F.deco%2Fblocks%2Fglobal%2520footer.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%7B%22oid%22%3A%224546583a2bfa81c8f1d5512fd0a5de46ff02e165%22%2C%22short%22%3A%224546583%22%2C%22commit%22%3A%7B%22message%22%3A%22Merge%20pull%20request%20%233%20from%20deco-sites%2Ffeat%2Fheader%5Cn%5Cnfix%3A%20window%20changed%20to%20globalThis%5Cn%22%2C%22parent%22%3A%5B%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%2255fa0aa075490afa171e6d9401c8565df073d1f8%22%5D%2C%22tree%22%3A%22cc253ef66bebf2c9ce688f55e39a0b6017cb86cc%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%2270007405%2BEduardoBalbinot%40users.noreply.github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmdrkOCRC1aQ7uu5UhlAAAoDsQAEKXlJL3562b15xN6J8gwzoW%5CnasH7aU%2B5LjMgLHmzPE9RfqASjwMEHAeQzS1hdnyJVMPyevHcUHuSxosur8GkzXge%5Cnab%2BPGr6W0uwlOvNuXoAU2DuIEHJjwsS1mOFAep6Lnb%2Fu4ahXVivlFBDhawl46WQ9%5CnF1flhCqvmU13Jmoinp%2FotpmCVjl0uUWSBGkNwdtNGW4hU1L9dTZ%2FWF3dzXRFn6M6%5CnlVsDvaQXDHmdonnU%2FtQuDwVePKfUXWo%2BRg9HWTyt%2FU3ZiAB%2BLzhp%2BmpuGBwLCOz%2B%5CnhdAHWaytjoQGbqObpnDc8j8KIcpleRAoJyb3bJ2DjTap3%2BjEKIyygOxKAsW8LqOD%5CnwJ7Bfy5RrORlG0NP7lHH5K1PcBOjrgRzA3btzzZbk0gO%2B0KpfYRfOqs4Qr21pj97%5Cn9ZrqT%2BOr54ulRZQ5MJMHim2wxx1qJ5uooVk%2FjdT2pGnS3QRKJ6gbZzDre8Bl4RNs%5CnoX6hklaq8w5MjQutPrH7SB9ozCvdO67ZPsMUhNWrFyGm%2FRPKPTjTGuIJJk2JC7kR%5Cnojwah3ka3UeCMbQtWF%2B8cQPdzboTi94A0IpKTddcP1zp1ulUFSOZhysjxL4jiZOL%5CnICSj2Fu4XGXykHI8UsqQiFWqPvnJcQPbyl0UbW3OZmCSf7mlSWAA5yEV%2BeUvNccf%5Cn0g5pEfiWmz1vyONqtmG8%5Cn%3Db1GO%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%224546583a2bfa81c8f1d5512fd0a5de46ff02e165%22%2C%22short%22%3A%224546583%22%2C%22commit%22%3A%7B%22message%22%3A%22Merge%20pull%20request%20%233%20from%20deco-sites%2Ffeat%2Fheader%5Cn%5Cnfix%3A%20window%20changed%20to%20globalThis%5Cn%22%2C%22parent%22%3A%5B%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%2255fa0aa075490afa171e6d9401c8565df073d1f8%22%5D%2C%22tree%22%3A%22cc253ef66bebf2c9ce688f55e39a0b6017cb86cc%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%2270007405%2BEduardoBalbinot%40users.noreply.github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmdrkOCRC1aQ7uu5UhlAAAoDsQAEKXlJL3562b15xN6J8gwzoW%5CnasH7aU%2B5LjMgLHmzPE9RfqASjwMEHAeQzS1hdnyJVMPyevHcUHuSxosur8GkzXge%5Cnab%2BPGr6W0uwlOvNuXoAU2DuIEHJjwsS1mOFAep6Lnb%2Fu4ahXVivlFBDhawl46WQ9%5CnF1flhCqvmU13Jmoinp%2FotpmCVjl0uUWSBGkNwdtNGW4hU1L9dTZ%2FWF3dzXRFn6M6%5CnlVsDvaQXDHmdonnU%2FtQuDwVePKfUXWo%2BRg9HWTyt%2FU3ZiAB%2BLzhp%2BmpuGBwLCOz%2B%5CnhdAHWaytjoQGbqObpnDc8j8KIcpleRAoJyb3bJ2DjTap3%2BjEKIyygOxKAsW8LqOD%5CnwJ7Bfy5RrORlG0NP7lHH5K1PcBOjrgRzA3btzzZbk0gO%2B0KpfYRfOqs4Qr21pj97%5Cn9ZrqT%2BOr54ulRZQ5MJMHim2wxx1qJ5uooVk%2FjdT2pGnS3QRKJ6gbZzDre8Bl4RNs%5CnoX6hklaq8w5MjQutPrH7SB9ozCvdO67ZPsMUhNWrFyGm%2FRPKPTjTGuIJJk2JC7kR%5Cnojwah3ka3UeCMbQtWF%2B8cQPdzboTi94A0IpKTddcP1zp1ulUFSOZhysjxL4jiZOL%5CnICSj2Fu4XGXykHI8UsqQiFWqPvnJcQPbyl0UbW3OZmCSf7mlSWAA5yEV%2BeUvNccf%5Cn0g5pEfiWmz1vyONqtmG8%5Cn%3Db1GO%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%7B%22oid%22%3A%224546583a2bfa81c8f1d5512fd0a5de46ff02e165%22%2C%22short%22%3A%224546583%22%2C%22commit%22%3A%7B%22message%22%3A%22Merge%20pull%20request%20%233%20from%20deco-sites%2Ffeat%2Fheader%5Cn%5Cnfix%3A%20window%20changed%20to%20globalThis%5Cn%22%2C%22parent%22%3A%5B%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%2255fa0aa075490afa171e6d9401c8565df073d1f8%22%5D%2C%22tree%22%3A%22cc253ef66bebf2c9ce688f55e39a0b6017cb86cc%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%2270007405%2BEduardoBalbinot%40users.noreply.github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmdrkOCRC1aQ7uu5UhlAAAoDsQAEKXlJL3562b15xN6J8gwzoW%5CnasH7aU%2B5LjMgLHmzPE9RfqASjwMEHAeQzS1hdnyJVMPyevHcUHuSxosur8GkzXge%5Cnab%2BPGr6W0uwlOvNuXoAU2DuIEHJjwsS1mOFAep6Lnb%2Fu4ahXVivlFBDhawl46WQ9%5CnF1flhCqvmU13Jmoinp%2FotpmCVjl0uUWSBGkNwdtNGW4hU1L9dTZ%2FWF3dzXRFn6M6%5CnlVsDvaQXDHmdonnU%2FtQuDwVePKfUXWo%2BRg9HWTyt%2FU3ZiAB%2BLzhp%2BmpuGBwLCOz%2B%5CnhdAHWaytjoQGbqObpnDc8j8KIcpleRAoJyb3bJ2DjTap3%2BjEKIyygOxKAsW8LqOD%5CnwJ7Bfy5RrORlG0NP7lHH5K1PcBOjrgRzA3btzzZbk0gO%2B0KpfYRfOqs4Qr21pj97%5Cn9ZrqT%2BOr54ulRZQ5MJMHim2wxx1qJ5uooVk%2FjdT2pGnS3QRKJ6gbZzDre8Bl4RNs%5CnoX6hklaq8w5MjQutPrH7SB9ozCvdO67ZPsMUhNWrFyGm%2FRPKPTjTGuIJJk2JC7kR%5Cnojwah3ka3UeCMbQtWF%2B8cQPdzboTi94A0IpKTddcP1zp1ulUFSOZhysjxL4jiZOL%5CnICSj2Fu4XGXykHI8UsqQiFWqPvnJcQPbyl0UbW3OZmCSf7mlSWAA5yEV%2BeUvNccf%5Cn0g5pEfiWmz1vyONqtmG8%5Cn%3Db1GO%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%7B%22oid%22%3A%224546583a2bfa81c8f1d5512fd0a5de46ff02e165%22%2C%22short%22%3A%224546583%22%2C%22commit%22%3A%7B%22message%22%3A%22Merge%20pull%20request%20%233%20from%20deco-sites%2Ffeat%2Fheader%5Cn%5Cnfix%3A%20window%20changed%20to%20globalThis%5Cn%22%2C%22parent%22%3A%5B%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%2255fa0aa075490afa171e6d9401c8565df073d1f8%22%5D%2C%22tree%22%3A%22cc253ef66bebf2c9ce688f55e39a0b6017cb86cc%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%2270007405%2BEduardoBalbinot%40users.noreply.github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmdrkOCRC1aQ7uu5UhlAAAoDsQAEKXlJL3562b15xN6J8gwzoW%5CnasH7aU%2B5LjMgLHmzPE9RfqASjwMEHAeQzS1hdnyJVMPyevHcUHuSxosur8GkzXge%5Cnab%2BPGr6W0uwlOvNuXoAU2DuIEHJjwsS1mOFAep6Lnb%2Fu4ahXVivlFBDhawl46WQ9%5CnF1flhCqvmU13Jmoinp%2FotpmCVjl0uUWSBGkNwdtNGW4hU1L9dTZ%2FWF3dzXRFn6M6%5CnlVsDvaQXDHmdonnU%2FtQuDwVePKfUXWo%2BRg9HWTyt%2FU3ZiAB%2BLzhp%2BmpuGBwLCOz%2B%5CnhdAHWaytjoQGbqObpnDc8j8KIcpleRAoJyb3bJ2DjTap3%2BjEKIyygOxKAsW8LqOD%5CnwJ7Bfy5RrORlG0NP7lHH5K1PcBOjrgRzA3btzzZbk0gO%2B0KpfYRfOqs4Qr21pj97%5Cn9ZrqT%2BOr54ulRZQ5MJMHim2wxx1qJ5uooVk%2FjdT2pGnS3QRKJ6gbZzDre8Bl4RNs%5CnoX6hklaq8w5MjQutPrH7SB9ozCvdO67ZPsMUhNWrFyGm%2FRPKPTjTGuIJJk2JC7kR%5Cnojwah3ka3UeCMbQtWF%2B8cQPdzboTi94A0IpKTddcP1zp1ulUFSOZhysjxL4jiZOL%5CnICSj2Fu4XGXykHI8UsqQiFWqPvnJcQPbyl0UbW3OZmCSf7mlSWAA5yEV%2BeUvNccf%5Cn0g5pEfiWmz1vyONqtmG8%5Cn%3Db1GO%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D": {
+          "name": "Release",
+          "icon": "rocket",
           "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fglobal%2520footer.json::Preview::world::Preview::%7B%7D",
+          "viewId": "Release",
+          "id": "%7B%22oid%22%3A%224546583a2bfa81c8f1d5512fd0a5de46ff02e165%22%2C%22short%22%3A%224546583%22%2C%22commit%22%3A%7B%22message%22%3A%22Merge%20pull%20request%20%233%20from%20deco-sites%2Ffeat%2Fheader%5Cn%5Cnfix%3A%20window%20changed%20to%20globalThis%5Cn%22%2C%22parent%22%3A%5B%222bae562c41ad59e452822ac090f89d3a8e99e540%22%2C%2255fa0aa075490afa171e6d9401c8565df073d1f8%22%5D%2C%22tree%22%3A%22cc253ef66bebf2c9ce688f55e39a0b6017cb86cc%22%2C%22author%22%3A%7B%22name%22%3A%22Eduardo%20de%20Lima%20Balbinot%22%2C%22email%22%3A%2270007405%2BEduardoBalbinot%40users.noreply.github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1719056654%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmdrkOCRC1aQ7uu5UhlAAAoDsQAEKXlJL3562b15xN6J8gwzoW%5CnasH7aU%2B5LjMgLHmzPE9RfqASjwMEHAeQzS1hdnyJVMPyevHcUHuSxosur8GkzXge%5Cnab%2BPGr6W0uwlOvNuXoAU2DuIEHJjwsS1mOFAep6Lnb%2Fu4ahXVivlFBDhawl46WQ9%5CnF1flhCqvmU13Jmoinp%2FotpmCVjl0uUWSBGkNwdtNGW4hU1L9dTZ%2FWF3dzXRFn6M6%5CnlVsDvaQXDHmdonnU%2FtQuDwVePKfUXWo%2BRg9HWTyt%2FU3ZiAB%2BLzhp%2BmpuGBwLCOz%2B%5CnhdAHWaytjoQGbqObpnDc8j8KIcpleRAoJyb3bJ2DjTap3%2BjEKIyygOxKAsW8LqOD%5CnwJ7Bfy5RrORlG0NP7lHH5K1PcBOjrgRzA3btzzZbk0gO%2B0KpfYRfOqs4Qr21pj97%5Cn9ZrqT%2BOr54ulRZQ5MJMHim2wxx1qJ5uooVk%2FjdT2pGnS3QRKJ6gbZzDre8Bl4RNs%5CnoX6hklaq8w5MjQutPrH7SB9ozCvdO67ZPsMUhNWrFyGm%2FRPKPTjTGuIJJk2JC7kR%5Cnojwah3ka3UeCMbQtWF%2B8cQPdzboTi94A0IpKTddcP1zp1ulUFSOZhysjxL4jiZOL%5CnICSj2Fu4XGXykHI8UsqQiFWqPvnJcQPbyl0UbW3OZmCSf7mlSWAA5yEV%2BeUvNccf%5Cn0g5pEfiWmz1vyONqtmG8%5Cn%3Db1GO%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D",
           "state": {
             "__signal": null
           }
