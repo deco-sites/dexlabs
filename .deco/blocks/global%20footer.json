@@ -77,6 +77,8 @@
     "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ebdf8386-ed0e-47e3-ac4d-3d71e2120d62",
     "alt": "dex logo"
   },
-  "madeWith": {},
+  "madeWith": {
+    "enable": false
+  },
   "text": "deX is a cloud platform for big data analytics and data science, enabling innovative teams to collect, transform, and orchestrate data pipelines efficiently."
 }
