@@ -286,6 +286,14 @@
           "outline": true
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "subscribe": {
+        "instructions": "<p>wewew</p>",
+        "title": "wwe",
+        "description": "wew"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

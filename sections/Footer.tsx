@@ -11,13 +11,6 @@ export interface Items {
   href: string;
 }
 
-export interface Subscribe {
-  title: string;
-  description: string;
-  /** @format rich-text */
-  instructions: string;
-}
-
 export interface Social {
   network: "Facebook" | "Instagram" | "Linkedin" | "X - Twitter" | "Youtube";
   href: string;
@@ -29,7 +22,6 @@ export interface Props {
     alt?: string;
   };
   links?: Column[];
-  subscribe?: Subscribe;
   madeWith?: {
     label?: string;
     src?: ImageWidget;
@@ -131,31 +123,6 @@ export default function Footer({
                 ))}
               </div>
             ))}
-          </div>
-          <div class="lg:w-[40%]">
-            <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
-            <form class="flex flex-col gap-4">
-              <p class="font-normal">{subscribe.description}</p>
-              <div class="flex gap-4">
-                <input
-                  type="text"
-                  placeholder="Enter your email"
-                  class="w-full input input-bordered input-primary"
-                />
-                <button
-                  type="submit"
-                  class="btn btn-outline font-normal"
-                  aria-label="Subscribe"
-                >
-                  Subscribe
-                </button>
-              </div>
-              <p
-                class="text-xs"
-                dangerouslySetInnerHTML={{ __html: subscribe.instructions }}
-              >
-              </p>
-            </form>
           </div>
         </div>
         <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
