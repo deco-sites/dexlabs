@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "subscribe": {
+    "instructions": "<p>wewew</p>",
+    "title": "wwe",
+    "description": "wew"
+  },
+  "links": [],
+  "bottomLinks": [],
+  "social": [],
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ebdf8386-ed0e-47e3-ac4d-3d71e2120d62"
+  }
+}
