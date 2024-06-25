@@ -1399,7 +1399,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30.495832452054856,
+                "width": 16.3883604022295,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1421,7 +1421,7 @@
               },
               {
                 "type": "stack",
-                "width": 69.50416754794514,
+                "width": 56.64014295332841,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1436,6 +1436,27 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 26.971496644442094,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1471,6 +1492,17 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D": {
+          "name": "JSON Properties",
+          "icon": "braces",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "JSON Properties",
+          "id": "%2F.deco%2Fblocks%2Fpages-Product-547487.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
           "state": {
             "__signal": null
           }

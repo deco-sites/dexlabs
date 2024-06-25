@@ -31,21 +31,60 @@
       "placement": "left",
       "disableSpacing": {
         "top": false,
-        "bottom": false
+        "bottom": true
       },
-      "justifyText": "right"
+      "justifyText": "left"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Embed testing into your workflow",
+      "cta": [],
+      "description": "Integrate data testing into your CI/CD \npipeline with a single line of code. Make data quality checks maintainable to ensure data quality and integrity.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f79ec9a4-cc1e-4fa7-a252-56d559fb6b1d",
+      "placement": "right",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Automate  DAG creation",
+      "cta": [],
+      "description": "Automatically create and manage Airflow DAGs based on your data models. \nFocus on your business and reduce your workflow code by 70%",
+      "placement": "left",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/873d144f-6adb-4650-b330-e24e8116ce7a"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Build. Review. Deploy.",
+      "cta": [],
+      "description": "Use native Git integration for seamless version control and use pull requests (PRs) to merge updates efficiently.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/8d03bb2e-a82b-4421-86c1-182c9a5f9dd2",
+      "placement": "right",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left"
     },
     {
       "__resolveType": "site/sections/SimpleHero.tsx",
       "title": "Ready to get started?",
+      "caption": "See what you can do with a unified Lakehouse Platform",
       "cta": [
         {
           "href": "/",
           "text": "Book a demo",
           "outline": true
         }
-      ],
-      "caption": "See what you can do with a unified Lakehouse Platform"
+      ]
     },
     {
       "__resolveType": "global footer"

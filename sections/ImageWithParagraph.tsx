@@ -56,16 +56,16 @@ export default function ImageWithParagraph({
     right: "md:justify-end"
   }
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
+    <div class="lg:container md:max-w-7xl lg:mx-auto mx-4 text-sm">
       <div
         class={`flex ${PLACEMENT[placement]
           } gap-12 md:gap-20 text-left items-center z-10 ${disableSpacing?.top ? "" : "pt-12 lg:pt-28"
           } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
-        <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
+        <div class="w-full md:w-3/5 border border-secondary rounded-lg overflow-hidden">
           <Image
-            width={640}
-            height={640}
+            width={732}
+            height={732}
             class="object-fit z-10"
             sizes="(max-width: 640px) 100vw, 30vw"
             src={image}
@@ -74,14 +74,14 @@ export default function ImageWithParagraph({
             loading="lazy"
           />
         </div>
-        <div class={`w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 text-center ${textJustification[justifyText]}`}>
-          <p class="text-xl font-light">
+        <div class={`w-full md:w-2/5 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 text-center ${textJustification[justifyText]}`}>
+          <p class="text-lg: md:text-xl font-light">
             {tagline || ""}
           </p>
-          <p class="text-6xl font-semibold">
+          <p class="text-3xl md:text-6xl font-semibold">
             {title}
           </p>
-          <p class={'leading-normal font-normal text-2xl'}>
+          <p class={'leading-normal font-normal text-xl md:text-2xl'}>
             {description}
           </p>
           <div class={`flex gap-3 pt-4 justify-center ${flexDirection[justifyText]}`}>
