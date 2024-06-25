@@ -129,7 +129,7 @@ export default function Footer({
               ))}
             </div>
           </div>
-          <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center pb-8">
+          <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center pb-16">
             <div class="flex gap-3">
               {social?.map((item) => (
                 <a class="block text-secondary" href={item.href} target="_blank">
