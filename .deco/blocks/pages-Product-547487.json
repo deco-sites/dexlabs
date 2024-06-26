@@ -24,7 +24,27 @@
     },
     {
       "__resolveType": "site/sections/ImageSelector.tsx",
-      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/102a7e19-5c30-4a21-bfdb-ada500c1e613"
+      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/102a7e19-5c30-4a21-bfdb-ada500c1e613",
+      "images": [
+        {
+          "title": "Ingest data",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/d7d81347-2e72-446f-a583-7fa25a49ff13",
+          "alt": "ingest data"
+        },
+        {
+          "title": "Create models",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/08323e0f-a0f1-4333-8d10-99d827fc53ed",
+          "alt": "sunset"
+        },
+        {
+          "title": "Ensure reliability",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/8d03bb2e-a82b-4421-86c1-182c9a5f9dd2"
+        },
+        {
+          "title": "Orchestrate",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/873d144f-6adb-4650-b330-e24e8116ce7a"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -50,7 +70,7 @@
         "bottom": true
       },
       "justifyText": "left",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f79ec9a4-cc1e-4fa7-a252-56d559fb6b1d"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/08323e0f-a0f1-4333-8d10-99d827fc53ed"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -74,7 +94,7 @@
       "placement": "right",
       "disableSpacing": {
         "top": false,
-        "bottom": true
+        "bottom": false
       },
       "justifyText": "left"
     },
