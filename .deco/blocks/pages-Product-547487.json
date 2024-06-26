@@ -1,0 +1,121 @@
+{
+  "name": "Product",
+  "path": "/product",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>The fastest way to build data products</p>",
+      "cta": [
+        {
+          "text": "Book a demo",
+          "outline": false,
+          "href": "/"
+        },
+        {
+          "href": "/",
+          "text": "Explore our platform",
+          "outline": true
+        }
+      ],
+      "description": "deX is a unified data platform to fuel analytics,  data science, and AI with trusted data."
+    },
+    {
+      "__resolveType": "site/sections/ImageSelector.tsx",
+      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/102a7e19-5c30-4a21-bfdb-ada500c1e613",
+      "images": [
+        {
+          "title": "Ingest data",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/d7d81347-2e72-446f-a583-7fa25a49ff13",
+          "alt": "ingest data"
+        },
+        {
+          "title": "Create models",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/08323e0f-a0f1-4333-8d10-99d827fc53ed",
+          "alt": "sunset"
+        },
+        {
+          "title": "Ensure reliability",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/8d03bb2e-a82b-4421-86c1-182c9a5f9dd2"
+        },
+        {
+          "title": "Orchestrate",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/873d144f-6adb-4650-b330-e24e8116ce7a"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Work in multiple environments",
+      "cta": [],
+      "description": "Work across environments with improved collaboration and streamlined development\n to ensure a smooth transition from development to production.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4e7fc42f-290a-430e-9ac7-80786da7c4e4",
+      "placement": "left",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Embed testing into your workflow",
+      "cta": [],
+      "description": "Integrate data testing into your CI/CD \npipeline with a single line of code. Make data quality checks maintainable to ensure data quality and integrity.",
+      "placement": "right",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/08323e0f-a0f1-4333-8d10-99d827fc53ed"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Automate  DAG creation",
+      "cta": [],
+      "description": "Automatically create and manage Airflow DAGs based on your data models. \nFocus on your business and reduce your workflow code by 70%",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/873d144f-6adb-4650-b330-e24e8116ce7a",
+      "placement": "left",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Build. Review. Deploy.",
+      "cta": [],
+      "description": "Use native Git integration for seamless version control and use pull requests (PRs) to merge updates efficiently.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/8d03bb2e-a82b-4421-86c1-182c9a5f9dd2",
+      "placement": "right",
+      "disableSpacing": {
+        "top": false,
+        "bottom": false
+      },
+      "justifyText": "left"
+    },
+    {
+      "__resolveType": "site/sections/SimpleHero.tsx",
+      "title": "Ready to get started?",
+      "caption": "See what you can do with a unified Lakehouse Platform",
+      "cta": [
+        {
+          "href": "/",
+          "text": "Book a demo",
+          "outline": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "global footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
