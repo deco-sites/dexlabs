@@ -28,7 +28,7 @@ export default function ImageSelector({ backgroundImage, images = [] }: Props) {
             class="w-full object-cover"
         /></div>}
         <div class="flex justify-end">
-            <div class="min-h-14 flex justify-end gap-4 border border-primary rounded-full bg-neutral mb-6">
+            <div class="min-h-14 flex flex-wrap justify-center lg:justify-end gap-4 border border-primary rounded-lg lg:rounded-full bg-neutral mb-6">
                 {images.length && images.map((image, index) => (
                     <button
                         onClick={() => setSelectedImage(index)}
@@ -45,7 +45,7 @@ export default function ImageSelector({ backgroundImage, images = [] }: Props) {
                 src={images[selectedImage].image}
                 alt={images[selectedImage].alt || ""}
                 width={1280}
-                class={`object-contain`}
+                class={`object-cover md:object-contain`}
             />
         </div>
 
