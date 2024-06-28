@@ -48,8 +48,6 @@ export default function Header({
     const scrolled = scroll.value > scrollTransition;
     const transitionClass = "transition-all duration-1000 ease-in-out";
 
-    let timeOut = 1000;
-
     function bgSizeUp() {
         const navContainer = document.getElementById('navContainer');
         const sharedBg = document.getElementById('sharedBg');
@@ -61,9 +59,7 @@ export default function Header({
     }
 
     function bgSizeDown() {
-
         try {
-
             const navItemsContainer = document.getElementById('navItemsContainer');
             const sharedBg = document.getElementById('sharedBg');
             if (navItemsContainer && sharedBg) {
@@ -86,8 +82,8 @@ export default function Header({
                 {/* main content */}
                 <div class={`drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between ${transitionClass} ${scrolled ? "pt-16" : "py-8"} max-w-[1378px]`}>
 
-                    <div id="navContainer" class={`hidden items-center justify-between lg:flex w-full`}>
-                        <div id="navItemsContainer" class={`relative flex gap-10 items-center py-2 pl-4 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}>
+                    <div id="navContainer" class={`hidden items-center justify-between lg:flex w-full pr-2.5`}>
+                        <div id="navItemsContainer" class={`relative flex gap-10 items-center py-2 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}>
                             <div id="sharedBg" class={`absolute h-full w-full bg-neutral border border-primary rounded-full ${transitionClass} -z-10 ${scrolled ? bgSizeUp() : bgSizeDown()}`}></div>
                             <a href="/">
                                 <Image src={logo.src || ""} width={67} height={36} alt={logo.alt} />
