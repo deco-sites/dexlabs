@@ -45,18 +45,50 @@ export default function Header({
 }: Nav) {
     const scroll = useScroll();
     const scrollTransition = 20;
+    const scrolled = scroll.value > scrollTransition;
+    const transitionClass = "transition-all duration-1000 ease-in-out";
+
+    let timeOut = 1000;
+
+    function bgSizeUp() {
+        const navContainer = document.getElementById('navContainer');
+        const sharedBg = document.getElementById('sharedBg');
+        if (navContainer && sharedBg) {
+            const navContainerWidth = navContainer.clientWidth;
+            sharedBg.style.width = navContainerWidth.toString() + 'px';
+        }
+        return '';
+    }
+
+    function bgSizeDown() {
+
+        try {
+
+            const navItemsContainer = document.getElementById('navItemsContainer');
+            const sharedBg = document.getElementById('sharedBg');
+            if (navItemsContainer && sharedBg) {
+                const navItemsContainerWidth = navItemsContainer.clientWidth;
+                sharedBg.style.width = navItemsContainerWidth.toString() + 'px';
+            }
+            return '';
+        } catch (error) {
+            console.log(error);
+        }
+
+    }
 
     return (
         <>
             <div class="h-28"></div>
-            <nav class={`drawer drawer-end fixed top-0 w-full z-50 bg-secondary transition-all duration-300 ${scroll.value > scrollTransition && "bg-opacity-85"}`}>
+            <nav class={`drawer drawer-end fixed top-0 w-full z-50 bg-secondary ${transitionClass} ${scrolled && "bg-opacity-85"}`}>
                 <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
                 {/* main content */}
-                <div class={`drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between ${scroll.value > scrollTransition ? "pt-16" : "py-8"} max-w-[1378px]`}>
+                <div class={`drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between ${transitionClass} ${scrolled ? "pt-16" : "py-8"} max-w-[1378px]`}>
 
-                    <div class={`hidden items-center justify-between lg:flex w-full bg-neutral border border-primary rounded-full pr-2.5 transition-all duration-300 ${scroll.value < scrollTransition && "bg-opacity-0 border-opacity-0"}`}>
-                        <div class={`flex gap-10 items-center py-2 pl-4 pr-8 bg-neutral border border-primary rounded-full transition-all duration-300 ${scroll.value > scrollTransition && "bg-opacity-0 border-opacity-0"}`}>
+                    <div id="navContainer" class={`hidden items-center justify-between lg:flex w-full`}>
+                        <div id="navItemsContainer" class={`relative flex gap-10 items-center py-2 pl-4 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}>
+                            <div id="sharedBg" class={`absolute h-full w-full bg-neutral border border-primary rounded-full ${transitionClass} -z-10 ${scrolled ? bgSizeUp() : bgSizeDown()}`}></div>
                             <a href="/">
                                 <Image src={logo.src || ""} width={67} height={36} alt={logo.alt} />
                             </a>
