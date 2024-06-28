@@ -58,7 +58,7 @@ export default function HeroFlats({
                     class={`flex w-full xl:container xl:mx-auto ${transitionClass} ${scrolled ? 'py-0' : 'py-20'} mx-5 md:mx-10 z-10 ${image
                         ? PLACEMENT[placement]
                         : "flex-col items-center justify-center text-center"
-                        } lg:pt-24 gap-12 md:gap-20 items-center`}
+                        } ${!scrolled && 'lg:pt-24'} gap-12 md:gap-20 items-center`}
                 >
                     {image && (
                         <Image
