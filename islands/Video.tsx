@@ -15,7 +15,7 @@ export default function Video({ video, backgroundImage }: Props) {
     const transitionClass = "transition-all duration-1000 ease-in-out";
 
     return <section class="overflow-hidden">
-        <div class={`relative mx-auto ${!scrolled && 'mt-24'} min-h-96 md:min-h-[850px] ${transitionClass} ${scrolled ? 'max-w-[1440px]' : 'max-w-full'}`}>
+        <div class={`relative mx-auto min-h-96 md:min-h-[850px] ${transitionClass} ${scrolled ? 'max-w-[1440px]' : 'max-w-full mt-24'}`}>
             {backgroundImage && <div class="absolute w-full -z-10 left-0 top-0"><Image
                 src={backgroundImage}
                 alt="Background Image"
