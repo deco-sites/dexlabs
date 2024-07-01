@@ -16,6 +16,12 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
       },
+      boxShadow: {
+        "custom-box": "0px 4px 4px 0px rgba(0, 0, 0, 0.4)",
+      },
+      borderColor: {
+        "custom-box": "#E9ECF5",
+      },
     },
   },
 };

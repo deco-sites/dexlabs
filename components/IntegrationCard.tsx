@@ -7,13 +7,16 @@ export interface Props {
 
 export default function IntegrationCard({ image, title }: Props) {
     return (
-        <div>
-            <Image
-                width={64}
-                height={64}
-                src={image}
-            />
-            <p>{title}</p>
+        <div class="shadow-custom-box border rounded-md w-32 flex flex-col items-center gap-2 p-2">
+            <div class="h-[64px]">
+                <Image
+                    height={64} // Altura fixa de 64 pixels
+                    width={100} // Largura inicial (pode ser ajustada conforme necessário)
+                    src={image}
+                    class="h-full"
+                />
+            </div>
+            <p class="text-center">{title}</p>
         </div>
     )
 }
