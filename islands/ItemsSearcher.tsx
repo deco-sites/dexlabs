@@ -17,13 +17,15 @@ export interface Props {
 }
 
 export default function ({ categories, items }: Props) {
+    const [searchTerm, setSearchTerm] = useState('');
     const [selectedOrder, setSelectedOrder] = useState('Asc');
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
-    let filteredItems = [];
+    let filteredItems = items;
 
-    if (selectedCategories.length) filteredItems = items.filter((item) => item.categories?.some((category) => selectedCategories.includes(category.toLowerCase())));
-    else filteredItems = items;
+    if (searchTerm) filteredItems = filteredItems.filter((item) => item.title.toLowerCase().includes(searchTerm.toLowerCase()));
+
+    if (selectedCategories.length) filteredItems = filteredItems.filter((item) => item.categories?.some((category) => selectedCategories.includes(category.toLowerCase())));
 
     if (selectedOrder == 'Asc') filteredItems = filteredItems.sort((a, b) => a.title.localeCompare(b.title));
     else filteredItems = filteredItems.sort((a, b) => b.title.localeCompare(a.title));
@@ -59,8 +61,15 @@ export default function ({ categories, items }: Props) {
                 ))}
             </div>
         </div>
-        <div class="flex flex-wrap">
-            {filteredItems.map((item) => <IntegrationCard title={item.title} image={item.image} />)}
+        <div>
+            <input
+                type="text"
+                placeholder="Search"
+                onChange={(e: any) => setSearchTerm(e.target.value)}
+            />
+            <div class="flex flex-wrap">
+                {filteredItems.map((item) => <IntegrationCard title={item.title} image={item.image} />)}
+            </div>
         </div>
     </section>
 }
