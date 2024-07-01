@@ -82,7 +82,7 @@ export default function ({ categories, items }: Props) {
                     <path d="M21.5815 19.1843L27.5616 24.5" stroke="#576680" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </div>
-            <div class="flex flex-wrap gap-8 justify-center">
+            <div class="flex flex-wrap gap-8 justify-center sm:justify-start">
                 {filteredItems.length == 0
                     ? <RequestConnector />
                     : filteredItems.map((item) => <IntegrationCard title={item.title} image={item.image} />)}
