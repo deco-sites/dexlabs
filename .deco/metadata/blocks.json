@@ -114,5 +114,11 @@
     "path": "/product",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Integrations-207719.json": {
+    "name": "Integrations",
+    "path": "/integrations",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

@@ -1,0 +1,89 @@
+{
+  "name": "Integrations",
+  "path": "/integrations",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>All connectors you can think of</p>",
+      "cta": [],
+      "description": "deX has more than 300 native connectors. And if you can’t find what you are looking for, don’t worry, we create it for you!"
+    },
+    {
+      "__resolveType": "site/sections/ItemsSearcher.tsx",
+      "categories": [
+        "BI and Analytics",
+        "Cloud products",
+        "Databases",
+        "Enterprise solutions"
+      ],
+      "items": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/a55a5ff7-b92a-4220-8d74-b04a76ce8197",
+          "title": "Active Campaign",
+          "categories": [
+            "BI and Analytics"
+          ]
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/0b105f5f-da09-4202-928e-0562ba9010a0",
+          "title": "Adjust",
+          "categories": [
+            "Cloud products"
+          ]
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/995a2957-12ab-4770-b1cd-07870d02b102",
+          "title": "Aha!",
+          "categories": [
+            "Enterprise solutions"
+          ]
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/1e0f478d-ea5f-4cf7-8307-99b088fdaf87",
+          "title": "Aircall",
+          "categories": [
+            "BI and Analytics"
+          ]
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/16410c0a-3040-4b64-9bdb-61dd46b06bcd",
+          "title": "Airtable",
+          "categories": [
+            "Enterprise solutions"
+          ]
+        },
+        {
+          "title": "Big Query",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/bb22b55f-4ecf-4994-9d83-950fd8a2b90e",
+          "categories": [
+            "BI and Analytics",
+            "Cloud products",
+            "Databases"
+          ]
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/SimpleHero.tsx",
+      "title": "Ready to get started?",
+      "caption": "See what you can do with a unified Lakehouse Platform",
+      "cta": [
+        {
+          "href": "/",
+          "text": "Book a demo",
+          "outline": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "global footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
