@@ -120,5 +120,11 @@
     "path": "/integrations",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Stories-762338.json": {
+    "name": "Stories",
+    "path": "/stories",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

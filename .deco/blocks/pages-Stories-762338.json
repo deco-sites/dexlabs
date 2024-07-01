@@ -1,0 +1,42 @@
+{
+  "name": "Stories",
+  "path": "/stories",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Get to know our stories</p>",
+      "cta": [],
+      "description": "Here are some of the things we learned during our journey."
+    },
+    {
+      "__resolveType": "site/sections/SmallImageHero.tsx",
+      "title": "How Insider partnered with deX to deliver business value through data",
+      "caption": "Insider uses deX Lake Platform to make sense of its data",
+      "tagline": "CUSTOMERS",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/d397d32b-f684-4092-a185-839f6e8c9db0",
+      "imageAlt": "no image"
+    },
+    {
+      "__resolveType": "site/sections/SimpleHero.tsx",
+      "title": "Want to write your own success story?",
+      "caption": "Contact us to see how deX can meet your needs.",
+      "cta": [
+        {
+          "href": "/",
+          "text": "Book a demo",
+          "outline": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "global footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
