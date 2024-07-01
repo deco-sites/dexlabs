@@ -46,10 +46,10 @@ export default function ({ categories, items }: Props) {
             );
         }
     };
-    return <section class="max-w-[1280px] mx-auto flex mb-32">
-        <div class="pr-10">
+    return <section class="max-w-[1280px] mx-auto flex flex-wrap justify-center sm:flex-nowrap mb-32">
+        <div class="px-10 sm:px-0 sm:pr-10">
             <div class="border-b border-info min-w-44">
-                <h2 class="font-semibold text-3xl">Sort by</h2>
+                <h2 class="font-semibold text-3xl text-center sm:text-left">Sort by</h2>
                 <select
                     class="rounded-lg w-full h-8 my-3 border custom-box shadow-custom-box border-custom-box focus:outline-none focus:ring-0"
                     onChange={handleOrderChange}
@@ -59,10 +59,10 @@ export default function ({ categories, items }: Props) {
                 </select>
             </div>
 
-            <h2 class="font-semibold text-3xl mt-3">Categories</h2>
-            <div className="form-control">
+            <h2 class="font-semibold text-3xl mt-3 text-center sm:text-left">Categories</h2>
+            <div className="form-control p-4 sm:p-0 flex-row sm:flex-col flex-wrap">
                 {categories.map((category) => (
-                    <label className="label inline cursor-pointer flex items-center justify-start">
+                    <label className="label inline cursor-pointer flex items-center justify-start w-1/2 sm:w-full">
                         <input type="checkbox" className="checkbox checkbox-primary border-2 border-primary" value={category} onChange={handleCheckboxChange} />
                         <span className="label-text pl-2 text-lg">{category}</span>
                     </label>
