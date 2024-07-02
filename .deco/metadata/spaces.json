@@ -1996,7 +1996,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 10.473186119873818,
+                "width": 20.894607843137255,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2018,7 +2018,7 @@
               },
               {
                 "type": "stack",
-                "width": 89.52681388012618,
+                "width": 79.10539215686273,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2057,7 +2057,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-pricing-549610.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-pricing-549610.json::Preview::visibility::Preview::%7B%7D": {
