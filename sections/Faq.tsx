@@ -63,11 +63,11 @@ export default function BlogPosts({
     <div class="lg:container md:max-w-[900px] lg:mx-auto mx-4 text-sm py-12 lg:py-28">
       <div class="flex flex-col gap-10 lg:gap-20 justify-between">
         <div class="flex-none space-y-6">
-          <p class="text-accent font-light text-lg text-center">{tagline || ""}</p>
-          <p class="text-6xl leading-snug font-medium text-center">
+          <p class="text-accent font-light text-lg md:text-xl text-center">{tagline || ""}</p>
+          <p class="text-3xl md:text-6xl leading-snug font-medium text-center">
             {title}
           </p>
-          <p class="text-2xl text-center">
+          <p class="text-xl md:text-2xl text-center">
             {description}
           </p>
           {cta?.text && <a
