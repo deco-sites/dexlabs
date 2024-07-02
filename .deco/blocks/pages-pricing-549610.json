@@ -1,0 +1,78 @@
+{
+  "name": "pricing",
+  "path": "/pricing",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Making the right call is priceless</p>",
+      "cta": [],
+      "description": "deX offers a free proof of concept so you can see our platform in action. Once it's proven its value, you will have affordable plans available"
+    },
+    {
+      "__resolveType": "site/sections/DetailedHero.tsx",
+      "title": "Expert support to build a world-class data organization",
+      "titleCaption": "PROFESSIONAL SERVICES",
+      "cta": [
+        {
+          "href": "/",
+          "text": "Talk to Us",
+          "outline": true
+        }
+      ],
+      "heroSections": [
+        {
+          "Images": [],
+          "Title": "Migration",
+          "Text": "Work with our experts to migrate your existing workflows to deX with minimal effort and time",
+          "ImagesPerLine": 4,
+          "TitleIcon": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/b98eb0e3-a5c5-4da9-ab4e-76ed7c61a3a0",
+            "alt": "Migration Icon"
+          }
+        },
+        {
+          "Images": [],
+          "Title": "Modeling",
+          "Text": "Collaborate with deX analytics engineers on advanced data modeling, pipeline design and optimization, metrics and dashboards",
+          "ImagesPerLine": 4,
+          "TitleIcon": {
+            "alt": "modeling Icon",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f7e1a9b0-a793-46db-9df0-87edc6a77dce"
+          }
+        },
+        {
+          "Images": [],
+          "Title": "Validation ",
+          "Text": "Get expert help to improve data quality and ensure data consistency throughout the data pipeline",
+          "ImagesPerLine": 1,
+          "TitleIcon": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/b5ece3de-9629-49fd-91b0-bae1c7fcfb2b",
+            "alt": "check icon"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/SimpleHero.tsx",
+      "title": "Ready to get started?",
+      "cta": [
+        {
+          "href": "/",
+          "text": "Book a demo",
+          "outline": true
+        }
+      ],
+      "caption": "See what you can do with a unified Lakehouse Platform"
+    },
+    {
+      "__resolveType": "global footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

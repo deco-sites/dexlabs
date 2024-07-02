@@ -174,7 +174,8 @@
           ],
           "Title": "Databases",
           "Text": "Get reliable data from any database you want at top speeds",
-          "ImagesPerLine": 4
+          "ImagesPerLine": 4,
+          "TitleIcon": {}
         },
         {
           "Images": [

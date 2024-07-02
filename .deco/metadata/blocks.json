@@ -126,5 +126,11 @@
     "path": "/stories",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-pricing-549610.json": {
+    "name": "pricing",
+    "path": "/pricing",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
