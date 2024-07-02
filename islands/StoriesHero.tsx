@@ -24,10 +24,11 @@ export interface Props {
 }
 
 export default function StoriesHero({ stories, link }: Props) {
-    const buttonClass = "font-normal btn btn-primary font-medium rounded-full min-h-10 h-10 text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary";
-    const tagClass = "h-8 text-center bg-zinc-300 rounded text-zinc-600 mt-2.5 pt-1 cursor-pointer";
+    const buttonClass = "font-normal btn btn-primary font-medium rounded-full min-h-10 text-sm sm:text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary w-full";
+    const tagClass = " text-center bg-zinc-300 rounded text-zinc-600 mt-2.5 p-2 cursor-pointer text-sm sm:text-lg";
 
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+    const categories = ['Customers', 'Tech Insights', 'Company news'];
 
     function addCategory(value: string) {
         if (!selectedCategories.includes(value)) setSelectedCategories((prevCategories) => [...prevCategories, value])
@@ -40,28 +41,18 @@ export default function StoriesHero({ stories, link }: Props) {
     return (
         <section class="mx-auto max-w-[1240px]">
             <div class="flex flex-wrap justify-center gap-12">
-                <button class={buttonClass} onClick={() => setSelectedCategories([])}>All categories</button>
-                <div>
-                    <button class={buttonClass} onClick={() => addCategory('Customers')}>Customers</button>
-                    {selectedCategories.includes('Customers') && <div class={tagClass} onClick={() => removeCategory('Customers')}>
-                        Customers
-                        <span class="pl-2">X</span>
-                    </div>}
+                <div class="max-w-24 sm:max-w-full">
+                    <button class={buttonClass} onClick={() => setSelectedCategories([])}>All categories</button>
                 </div>
-                <div>
-                    <button class={buttonClass} onClick={() => addCategory('Tech Insights')}>Tech Insights</button>
-                    {selectedCategories.includes('Tech Insights') && <div class={tagClass} onClick={() => removeCategory('Tech Insights')}>
-                        Tech Insights
-                        <span class="pl-2">X</span>
-                    </div>}
-                </div>
-                <div>
-                    <button class={buttonClass} onClick={() => addCategory('Company news')}>Company news</button>
-                    {selectedCategories.includes('Company news') && <div class={tagClass} onClick={() => removeCategory('Company news')}>
-                        Company news
-                        <span class="pl-2">X</span>
-                    </div>}
-                </div>
+                {categories.map((category) => (
+                    <div class="max-w-24 sm:max-w-full">
+                        <button class={buttonClass} onClick={() => addCategory(category)}>{category}</button>
+                        {selectedCategories.includes(category) && <div class={tagClass} onClick={() => removeCategory(category)}>
+                            {category}
+                            <span class="pl-2">X</span>
+                        </div>}
+                    </div>
+                ))}
             </div>
             <div class="flex flex-wrap gap-4 justify-center my-12">
                 {stories && stories.map((story) => (
