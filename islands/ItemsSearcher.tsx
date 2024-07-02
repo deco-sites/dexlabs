@@ -1,5 +1,4 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
 import { useState } from "preact/hooks";
 import IntegrationCard from "site/components/IntegrationCard.tsx";
 import RequestConnector from "site/components/RequestConncetor.tsx";

@@ -7,6 +7,7 @@ import * as $Header from "./islands/Header.tsx";
 import * as $Hero from "./islands/Hero.tsx";
 import * as $ImageSelector from "./islands/ImageSelector.tsx";
 import * as $ItemsSearcher from "./islands/ItemsSearcher.tsx";
+import * as $StoriesHero from "./islands/StoriesHero.tsx";
 import * as $Video from "./islands/Video.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -19,6 +20,7 @@ const manifest = {
     "./islands/Hero.tsx": $Hero,
     "./islands/ImageSelector.tsx": $ImageSelector,
     "./islands/ItemsSearcher.tsx": $ItemsSearcher,
+    "./islands/StoriesHero.tsx": $StoriesHero,
     "./islands/Video.tsx": $Video,
   },
   baseUrl: import.meta.url,
