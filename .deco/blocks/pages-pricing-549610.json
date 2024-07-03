@@ -12,9 +12,54 @@
       "description": "deX offers a free proof of concept so you can see our platform in action. Once it's proven its value, you will have affordable plans available"
     },
     {
+      "__resolveType": "site/sections/Plans.tsx",
+      "plans": [
+        {
+          "Title": "Free",
+          "caption": "For teams starting the data journey",
+          "cta": {
+            "text": "Build for free",
+            "outline": false
+          },
+          "description": "Facilitated trials to get you started",
+          "link": {
+            "text": "Explore conditions",
+            "href": "/"
+          }
+        },
+        {
+          "Title": "Startups",
+          "caption": "For teams growing with data",
+          "cta": {
+            "text": "Choose Startups"
+          },
+          "description": "Credit packages to help your startup reduce costs and accelerate time to value",
+          "link": {
+            "text": "Explore conditions",
+            "href": "/"
+          }
+        },
+        {
+          "Title": "Enterprise",
+          "caption": "For teams & orgs operating at scale",
+          "cta": {
+            "text": "Choose Enterprise"
+          },
+          "description": "Flexible pricing that scales with your business",
+          "link": {
+            "text": "Explore conditions",
+            "href": "/"
+          }
+        }
+      ],
+      "link": {
+        "text": "See all features you can have",
+        "href": "/"
+      }
+    },
+    {
       "__resolveType": "site/sections/DetailedHero.tsx",
       "title": "Expert support to build a world-class data organization",
-      "titleCaption": "PROFESSIONAL SERVICES",
       "cta": [
         {
           "href": "/",
@@ -22,6 +67,7 @@
           "outline": true
         }
       ],
+      "titleCaption": "PROFESSIONAL SERVICES",
       "heroSections": [
         {
           "Images": [],
@@ -58,6 +104,7 @@
     {
       "__resolveType": "site/sections/Faq.tsx",
       "title": "Frequently asked questions",
+      "cta": {},
       "description": "Frequently asked questions about how to start your journey with deX",
       "questions": [
         {
@@ -97,7 +144,6 @@
           "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>"
         }
       ],
-      "cta": {},
       "tagline": "FAQ"
     },
     {
