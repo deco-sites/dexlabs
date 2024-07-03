@@ -81,9 +81,9 @@ export default function BlogPosts({
             {cta?.text}
           </a>}
         </div>
-        <div class="flex-auto border-primary border-t">
+        <div class="flex-auto border-info-content border-t">
           {questions?.map((question) => (
-            <details class="border-primary border-b group">
+            <details class="border-info-content border-b group">
               <summary class="text-lg cursor-pointer py-6 flex ">
                 <span class="flex-auto">{question.title}</span>
                 <span class="flex-none transition group-open:rotate-180">

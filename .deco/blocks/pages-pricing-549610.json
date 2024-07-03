@@ -102,6 +102,49 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Features.tsx",
+      "Title": "Explore all features",
+      "Caption": "Explore everything deX Lake Platform can do for your business",
+      "Sections": [
+        {
+          "features": [
+            "Browser-based IDE",
+            "Out-of-the-box data connectors",
+            "Automated data testing",
+            "Schema propagation",
+            "Job Scheduling & Reporting",
+            "Unlimited daily runs",
+            "Logging & Alerts",
+            "Data Documentation"
+          ],
+          "Title": "Baseline Features"
+        },
+        {
+          "features": [
+            "Git support (Gitlab/GitHub)",
+            "Cron Scheduling",
+            "Change Data Capture (CDC)",
+            "Multiple Workspaces and Environments",
+            "Continuous Integration",
+            "Infrastructure monitoring",
+            "Audit Logs",
+            "deX API access"
+          ],
+          "Title": "Advanced Features"
+        },
+        {
+          "features": [
+            "Implementation Support",
+            "Custom Connectors",
+            "Dedicated account management",
+            "Service Level Agreements (SLAs)",
+            "Access to Professional Services (add-on)"
+          ],
+          "Title": "Premium Support"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Faq.tsx",
       "title": "Frequently asked questions",
       "cta": {},
