@@ -4,8 +4,8 @@ import Image from "apps/website/components/Image.tsx";
 /**
  * @title {{alt}}
  */
-export interface ISectionImage {
-    image: ImageWidget;
+export interface Image {
+    image?: ImageWidget;
     alt?: string;
 }
 
@@ -14,9 +14,11 @@ export interface ISectionImage {
  */
 export interface IHeroSection {
     Title: string;
+    TitleIcon?: Image;
     Text: string;
     ImagesPerLine?: 1 | 2 | 3 | 4;
-    Images?: ISectionImage[];
+    Images?: Image[];
+    border?: boolean;
 }
 
 /**
@@ -65,15 +67,22 @@ export default function ({ title, titleCaption, caption, cta, heroSections }: Pr
         </div>
         <div class="flex flex-wrap w-full justify-center xl:justify-between mt-8 gap-4 xl:gap-0">
             {heroSections?.map((section) => (
-                <div class="p-6 rounded-xl border border-warning max-w-[356px] flex flex-col gap-6">
-                    <h2 class="text-secondary font-semibold text-3xl">{section.Title}</h2>
+                <div class={`p-6 rounded-xl max-w-[356px] flex flex-col gap-6 ${section.border && 'border border-warning'}`}>
+                    <div class="flex gap-4">
+                        {section.TitleIcon?.image && <Image
+                            width={33}
+                            src={section.TitleIcon.image}
+                            alt={section.TitleIcon.alt || ""}
+                        />}
+                        <h2 class="text-secondary font-semibold text-3xl">{section.Title}</h2>
+                    </div>
                     <p class="text-secondary font-normal text-xl">{section.Text}</p>
                     <div class="flex flex-wrap justify-center">
                         {section.Images?.map((img) => (
                             <div class={`${imageWidth[section.ImagesPerLine || 1]} p-1`}>
                                 <Image
                                     width={360}
-                                    src={img.image}
+                                    src={img.image || ""}
                                     alt={img.alt || ""}
                                 />
                             </div>
