@@ -138,5 +138,11 @@
     "path": "/bookademo",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Str-738864.json": {
+    "name": "Str",
+    "path": "/str/:slug",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

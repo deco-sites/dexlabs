@@ -1,0 +1,38 @@
+{
+  "name": "Str",
+  "path": "/str/:slug",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/PostTop.tsx",
+      "title": "How Insider partnered with deX to deliver business value through data",
+      "caption": "Insider uses deX Lake Platform to make sense of its data",
+      "image": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/fb98e175-68a7-4de5-bdb9-14740d7f3be3"
+      },
+      "postData": [
+        {
+          "data": "22",
+          "caption": "Data sources"
+        },
+        {
+          "data": "Fully managed",
+          "caption": "Cloud infrastructure"
+        },
+        {
+          "data": "2 weeks",
+          "caption": "Setup time"
+        }
+      ]
+    },
+    {
+      "__resolveType": "global footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
