@@ -194,7 +194,7 @@
       "title": "Ready to get started?",
       "cta": [
         {
-          "href": "/",
+          "href": "/bookademo",
           "text": "Book a demo",
           "outline": true
         }

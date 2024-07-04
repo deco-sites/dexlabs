@@ -1,0 +1,37 @@
+{
+  "name": "BookADemo",
+  "path": "/bookademo",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/BookADemo.tsx",
+      "Title": "Get a free demo of deX Lake Platform",
+      "Caption": "The deX Lake platform provides the best experience for working with your data. It integrates ingestion, transformation, and orchestration capabilities in a single tab.",
+      "FeaturesTitle": "Popular Features:",
+      "Features": [
+        "Catalog of 300+ native connectors",
+        "Integrated text editor",
+        "Git integration",
+        "Productivity tools",
+        "Automated DAG creation",
+        "Automated tasks run"
+      ],
+      "FormTitle": "Contact us",
+      "cta": {
+        "text": "Book a demo",
+        "href": "/",
+        "outline": true
+      },
+      "PrivacyPolicyUrl": "/"
+    },
+    {
+      "__resolveType": "global footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

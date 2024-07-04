@@ -12,7 +12,7 @@
         {
           "text": "Book a demo",
           "outline": false,
-          "href": "/"
+          "href": "/bookademo"
         },
         {
           "href": "/",
@@ -113,7 +113,7 @@
       ],
       "button": {
         "text": "Book a demo",
-        "href": "/"
+        "href": "/bookademo"
       },
       "link": {
         "text": "Explore our platform",
@@ -127,7 +127,7 @@
       "caption": "Collect data using 300+ native connectors and quickly sync to your data warehouse",
       "cta": [
         {
-          "href": "/",
+          "href": "/bookademo",
           "text": "Book a demo"
         },
         {
@@ -283,7 +283,7 @@
       "caption": "See what you can do with a unified Lakehouse Platform",
       "cta": [
         {
-          "href": "/",
+          "href": "/bookademo",
           "text": "Book a demo",
           "outline": true
         }

@@ -132,5 +132,11 @@
     "path": "/pricing",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-BookADemo-615589.json": {
+    "name": "BookADemo",
+    "path": "/bookademo",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
