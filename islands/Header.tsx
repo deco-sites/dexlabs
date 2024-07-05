@@ -76,11 +76,11 @@ export default function Header({
     return (
         <>
             <div class="h-28"></div>
-            <nav class={`drawer drawer-end fixed top-0 w-full z-50 bg-secondary ${transitionClass} ${scrolled && "bg-opacity-85"}`}>
+            <nav class={`drawer drawer-end fixed top-0 w-full z-50 bg-gradient-to-b from-secondary to-transparent ${transitionClass} ${scrolled && "bg-opacity-95"}`}>
                 <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
                 {/* main content */}
-                <div class={`drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between ${transitionClass} ${scrolled ? "pt-16" : "py-8"} max-w-[1378px]`}>
+                <div class={`drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between pt-8 ${transitionClass} ${scrolled ? "pb-3" : ""} max-w-[1378px]`}>
 
                     <div id="navContainer" class={`hidden items-center justify-between lg:flex w-full pr-2.5`}>
                         <div id="navItemsContainer" class={`relative flex gap-10 items-center py-2 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}>
