@@ -76,7 +76,7 @@ export default function Header({
     return (
         <>
             <div class="h-28"></div>
-            <nav class={`drawer drawer-end fixed top-0 w-full z-50 bg-secondary ${transitionClass} ${scrolled && "bg-opacity-85"}`}>
+            <nav class={`drawer drawer-end fixed top-0 w-full z-50 bg-gradient-to-b from-secondary to-transparent ${transitionClass} ${scrolled && "bg-opacity-95"}`}>
                 <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
                 {/* main content */}
