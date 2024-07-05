@@ -41,6 +41,7 @@
   "mode": "light",
   "complementaryColors": {
     "base-200": "#000000",
-    "info-content": "#E9ECF5"
+    "info-content": "#E9ECF5",
+    "primary-content": "#000000"
   }
 }

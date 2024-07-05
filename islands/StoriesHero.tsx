@@ -11,6 +11,7 @@ export interface IStory {
     title: string;
     caption: string;
     category: 'Customers' | 'Tech Insights' | 'Company news';
+    href?: string;
 }
 
 export interface ILink {
@@ -57,7 +58,7 @@ export default function StoriesHero({ stories, link }: Props) {
             <div class="flex flex-wrap gap-4 justify-center my-12">
                 {stories && stories.map((story) => (
                     (selectedCategories.includes(story.category) || selectedCategories.length == 0) &&
-                    <div class="rounded-3xl border custom-box p-4 w-full md:w-[400px] flex flex-col items-center gap-6 text-primary" style="box-shadow: 0px 2px 12px 0px #14142B14;">
+                    <a href={story.href || ""} class="rounded-3xl border custom-box p-4 w-full md:w-[400px] flex flex-col items-center gap-6 text-primary" style="box-shadow: 0px 2px 12px 0px #14142B14;">
                         <div class="h-44">
                             {story.image && <Image
                                 src={story.image}
@@ -69,7 +70,7 @@ export default function StoriesHero({ stories, link }: Props) {
                         <h3 class=" font-light text-lg text-right w-full">{story.category}</h3>
                         <h2 class="font-semibold text-2xl">{story.title}</h2>
                         <p class="text-lg">{story.caption}</p>
-                    </div>
+                    </a>
                 ))}
             </div>
             <div class="flex justify-center mb-24">
