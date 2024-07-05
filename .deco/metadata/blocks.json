@@ -141,7 +141,7 @@
   },
   "/.deco/blocks/pages-Str-738864.json": {
     "name": "Str",
-    "path": "/str/:slug",
+    "path": "/str/insider",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
