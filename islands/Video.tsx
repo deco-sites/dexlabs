@@ -16,7 +16,7 @@ export default function Video({ video, backgroundImage }: Props) {
 
     return <section class="overflow-hidden">
         <div class={`relative mx-auto min-h-96 md:min-h-[850px] ${transitionClass} ${scrolled ? 'max-w-[1230px]' : 'max-w-full mt-24 '}`}>
-            {backgroundImage && <div class={`absolute w-full -z-10 left-0 top-0 ${scrolled && 'h-[590px]'}`}><Image
+            {backgroundImage && <div class={`absolute w-full -z-10 left-0 top-0 ${transitionClass} ${scrolled ? 'h-[590px]' : 'h-[850px]'}`}><Image
                 src={backgroundImage}
                 alt="Background Image"
                 width={1440}
