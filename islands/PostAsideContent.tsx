@@ -20,8 +20,8 @@ export default function PostAsideContent({ asideLogo, asideInfo, floatingButton 
                 </div>
                 {asideInfo.map((info) => (
                     <div>
-                        <h2 class="font-bold text-lg text-primary-content">{info.title}</h2>
-                        <p class="text-lg text-primary-content">{info.text}</p>
+                        <h2 class="font-bold text-lg text-secondary-content">{info.title}</h2>
+                        <p class="text-lg text-secondary-content">{info.text}</p>
                     </div>
                 ))}
             </div>

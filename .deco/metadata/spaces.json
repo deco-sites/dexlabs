@@ -752,7 +752,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 21.186440677966107,
+                "width": 24.390243902439025,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -774,7 +774,7 @@
               },
               {
                 "type": "stack",
-                "width": 53.38983050847458,
+                "width": 51.21951219512194,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -796,7 +796,7 @@
               },
               {
                 "type": "stack",
-                "width": 25.423728813559315,
+                "width": 24.390243902439018,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -834,7 +834,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Preview::visibility::Preview::%7B%7D": {
@@ -857,7 +858,8 @@
           "viewId": "JSON Properties",
           "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         }
       }
