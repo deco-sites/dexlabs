@@ -25,7 +25,7 @@ export default function PostTop({ title, caption, image, postData }: Props) {
     return (
         <section class="mb-20">
             <div class="bg-info-content">
-                <div class="max-w-[1440px] pt-16 px-20 pb-24 mx-auto text-primary flex flex-wrap justify-between">
+                <div class="max-w-[1440px] p-4 lg:pt-16 lg:px-20 lg:pb-24 mx-auto text-primary flex flex-wrap justify-between">
                     <div class="w-full xl:max-w-[724px]">
                         <h1 class="font-semibold text-2xl lg:text-5xl text-center xl:text-left">{title}</h1>
                         <p class="text-accent text-xl lg:text-2xl py-4 text-center xl:text-left">{caption}</p>
