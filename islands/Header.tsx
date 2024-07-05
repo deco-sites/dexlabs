@@ -80,7 +80,7 @@ export default function Header({
                 <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
                 {/* main content */}
-                <div class={`drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between ${transitionClass} ${scrolled ? "pt-16" : "py-8"} max-w-[1378px]`}>
+                <div class={`drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between ${transitionClass} ${scrolled ? "pt-8" : "pt-8"} max-w-[1378px]`}>
 
                     <div id="navContainer" class={`hidden items-center justify-between lg:flex w-full pr-2.5`}>
                         <div id="navItemsContainer" class={`relative flex gap-10 items-center py-2 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}>
