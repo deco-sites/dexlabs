@@ -36,7 +36,7 @@ export default function ImageSelector({ backgroundImage, images = [] }: Props) {
                 class={`w-full h-full object-cover ${transitionClass} ${scrolled && 'rounded-xl lg:rounded-[42px]'}`}
             /></div>}
             <div class={`flex justify-end max-w-[1440px] mx-auto ${transitionClass} ${!scrolled && 'opacity-0'}`}>
-                <div class="min-h-14 flex flex-wrap justify-center lg:justify-end gap-4 border border-primary rounded-lg lg:rounded-full bg-neutral mb-6">
+                <div class="min-h-[52px] flex flex-wrap justify-center lg:justify-end gap-4 border border-primary rounded-lg lg:rounded-full bg-neutral mb-6">
                     {images.length && images.map((image, index) => (
                         <button
                             onClick={() => setSelectedImage(index)}
