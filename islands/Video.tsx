@@ -15,16 +15,16 @@ export default function Video({ video, backgroundImage }: Props) {
     const transitionClass = "transition-all duration-1000 ease-in-out";
 
     return <section class="overflow-hidden">
-        <div class={`relative mx-auto min-h-96 md:min-h-[850px] ${transitionClass} ${scrolled ? 'max-w-[1440px]' : 'max-w-full mt-24'}`}>
-            {backgroundImage && <div class="absolute w-full -z-10 left-0 top-0"><Image
+        <div class={`relative mx-auto min-h-96 md:min-h-[850px] ${transitionClass} ${scrolled ? 'max-w-[1230px]' : 'max-w-full mt-24 '}`}>
+            {backgroundImage && <div class={`absolute w-full -z-10 left-0 top-0 ${scrolled && 'h-[590px]'}`}><Image
                 src={backgroundImage}
                 alt="Background Image"
                 width={1440}
                 height={816}
-                class={`w-full object-cover ${transitionClass} ${scrolled && 'rounded-xl lg:rounded-[42px]'}`}
+                class={`w-full object-cover h-full ${transitionClass} ${scrolled && 'rounded-xl lg:rounded-[42px]'}`}
             /></div>}
-            <div class={`relative mx-auto ${transitionClass} ${scrolled ? 'max-w-[1056px]' : 'max-w-[1440px]'}`}>
-                <div class={`absolute ${transitionClass} ${scrolled ? 'top-24' : '-top-24'}`}>
+            <div class={`relative mx-auto ${transitionClass} ${scrolled ? 'max-w-[870px]' : 'max-w-[1440px]'}`}>
+                <div class={`absolute ${transitionClass} ${scrolled ? 'top-9' : '-top-24'}`}>
                     <video
                         width="1441"
                         height="720"
