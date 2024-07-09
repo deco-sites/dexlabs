@@ -50,7 +50,7 @@ export default function ({ categories, items }: Props) {
             <div class="border-b border-info min-w-44">
                 <h2 class="font-semibold text-3xl text-center sm:text-left">Sort by</h2>
                 <select
-                    class="rounded-lg w-full h-8 my-3 border custom-box shadow-custom-box border-custom-box focus:outline-none focus:ring-0"
+                    class="rounded-lg w-full h-8 my-3 border focus:outline-none focus:ring-0"
                     onChange={handleOrderChange}
                 >
                     <option>Asc</option>
@@ -72,7 +72,7 @@ export default function ({ categories, items }: Props) {
             <div class="relative">
                 <input
                     type="text"
-                    class="shadow-custom-box border rounded-full h-9 w-full max-w-[780px] mb-4 pl-11 focus:outline-none focus:ring-0"
+                    class="border rounded-full h-9 w-full max-w-[780px] mb-4 pl-11 focus:outline-none focus:ring-0"
                     placeholder="Search"
                     onChange={(e: any) => setSearchTerm(e.target.value)}
                 />
