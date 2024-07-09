@@ -36,13 +36,14 @@ export default function Logos({
   if (logos.length > 3 && logos.length < 13) logos = [...logos, ...logos, ...logos];
 
   const slideContent = (
-    <div class="flex items-center gap-20">
+    <div class="flex items-center gap-20 h-8 lg:h-12">
       {logos?.map((logo) => {
         return (
           <Image
             src={logo.src || ""}
             alt={logo.altText || ""}
-            width={110}
+            width={300}
+            class="h-full"
           />
         );
       })}
