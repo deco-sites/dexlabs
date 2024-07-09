@@ -3,6 +3,13 @@ import Image from "apps/website/components/Image.tsx";
 import { useState } from "preact/hooks";
 import { useScroll } from "site/sdk/useScroll.ts";
 
+export interface CTA {
+    id?: string;
+    href: string;
+    text: string;
+    outline?: boolean;
+}
+
 /**
  * @title {{title}}
  */
@@ -15,9 +22,10 @@ export interface ItemImage {
 export interface Props {
     backgroundImage?: ImageWidget;
     images?: ItemImage[];
+    cta?: CTA[];
 }
 
-export default function ImageSelector({ backgroundImage, images = [] }: Props) {
+export default function ImageSelector({ backgroundImage, images = [], cta }: Props) {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const scroll = useScroll();
@@ -26,7 +34,6 @@ export default function ImageSelector({ backgroundImage, images = [] }: Props) {
     const transitionClass = "transition-all duration-1000 ease-in-out";
 
     return <section class="overflow-hidden">
-
         <div class={`${transitionClass} ${scrolled ? 'max-w-[1230px] h-[590px]' : 'max-w-full mt-24 h-[816px]'} mx-auto relative sm:p-8`}>
             {backgroundImage && <div class="absolute w-full h-full -z-10 left-0 top-0"><Image
                 src={backgroundImage}
@@ -58,6 +65,21 @@ export default function ImageSelector({ backgroundImage, images = [] }: Props) {
                     />
                 </div>
             </div>
+        </div>
+
+        <div class="flex items-center gap-3 flex-wrap justify-center pt-10">
+            {cta?.map((item) => (
+                <a
+                    key={item?.id}
+                    id={item?.id}
+                    href={item?.href}
+                    target={item?.href.includes("http") ? "_blank" : "_self"}
+                    class={`font-normal btn btn-primary font-medium rounded-full min-h-10 h-10 text-lg hover:bg-secondary text-secondary hover:text-primary ${item.outline && "btn-outline"
+                        }`}
+                >
+                    {item?.text}
+                </a>
+            ))}
         </div>
     </section>
 }
