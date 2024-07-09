@@ -27,7 +27,7 @@ export default function ImageSelector({ backgroundImage, images = [] }: Props) {
 
     return <section class="overflow-hidden">
 
-        <div class={`${transitionClass} ${scrolled ? 'max-w-[1230px] h-[590px]' : 'max-w-full mt-24 h-[816px]'} mx-auto relative p-8`}>
+        <div class={`${transitionClass} ${scrolled ? 'max-w-[1230px] h-[590px]' : 'max-w-full mt-24 h-[816px]'} mx-auto relative sm:p-8`}>
             {backgroundImage && <div class="absolute w-full h-full -z-10 left-0 top-0"><Image
                 src={backgroundImage}
                 alt="Background Image"
