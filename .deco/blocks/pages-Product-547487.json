@@ -95,9 +95,19 @@
       "placement": "right",
       "disableSpacing": {
         "top": false,
-        "bottom": false
+        "bottom": true
       },
       "justifyText": "left"
+    },
+    {
+      "__resolveType": "site/sections/Buttons.tsx",
+      "cta": [
+        {
+          "href": "/",
+          "text": "Explore all features",
+          "outline": true
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/SimpleHero.tsx",
