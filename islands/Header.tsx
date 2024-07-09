@@ -73,6 +73,31 @@ export default function Header({
 
     }
 
+    function enableHover(event: any) {
+        const sharedHover = document.getElementById('sharedHover');
+        const relativeParent = document.getElementById('navItemsContainer');
+        if (sharedHover && relativeParent) {
+
+            const targetRect = event.target.getBoundingClientRect();
+            const relativeParentRect = relativeParent.getBoundingClientRect();
+
+            sharedHover.style.width = `${targetRect.width}px`;
+            sharedHover.style.height = `${targetRect.height}px`;
+            sharedHover.style.left = `${targetRect.left - relativeParentRect.left}px`;
+            sharedHover.style.top = `${targetRect.top - relativeParentRect.top}px`;
+
+
+            sharedHover.style.opacity = '1';
+        }
+    }
+
+    function disableHover(event: any) {
+        const sharedHover = document.getElementById('sharedHover');
+        if (sharedHover) {
+            sharedHover.style.opacity = '0';
+        }
+    }
+
     return (
         <>
             <div class="h-28"></div>
@@ -83,18 +108,27 @@ export default function Header({
                 <div class={`drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between pt-8 ${transitionClass} ${scrolled ? "pb-3" : ""} max-w-[1378px]`}>
 
                     <div id="navContainer" class={`hidden items-center justify-between lg:flex w-full pr-2.5`}>
-                        <div id="navItemsContainer" class={`relative flex gap-10 items-center py-2 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}>
+                        <div
+                            id="navItemsContainer"
+                            class={`relative flex gap-10 items-center py-2 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}
+                        >
                             <div id="sharedBg" class={`absolute h-full w-full bg-neutral border border-primary rounded-full ${transitionClass} -z-10 ${scrolled ? bgSizeUp() : bgSizeDown()}`}></div>
                             <a href="/">
                                 <Image src={logo.src || ""} width={67} height={36} alt={logo.alt} />
                             </a>
+                            <div
+                                id="sharedHover"
+                                class="bg-primary rounded-full absolute -z-10 opacity-0 transition-all duration-300 ease-in-out">
+                            </div>
                             <ul class="flex gap-10">
                                 {navigation.links.map((link) => (
                                     <li>
                                         <a
                                             href={link.url}
                                             aria-label={link.label}
-                                            class="link no-underline hover:bg-primary hover:text-secondary text-primary py-2.5 px-3.5 rounded-full transition"
+                                            class="link no-underline hover:text-secondary text-primary py-2.5 px-3.5 rounded-full transition"
+                                            onMouseEnter={enableHover}
+                                            onMouseLeave={disableHover}
                                         >
                                             {link.label}
                                         </a>
