@@ -98,10 +98,10 @@ export default function Footer({
   ],
 }: Props) {
   return (
-    <div class="bg-primary text-secondary text-center lg:text-left">
-      <div class="lg:container mx-auto md:max-w-[1440px] px-4 pt-16 text-sm">
-        <div class="flex flex-col gap-20">
-          <div class="flex flex-col gap-6 justify-between items-center lg:flex-row">
+    <div class="bg-primary text-secondary text-center lg:text-left py-6 pl-6 pr-11">
+      <div class="lg:container mx-auto md:max-w-[1440px] text-sm">
+        <div class="flex flex-col">
+          <div class="flex flex-col gap-6 justify-between lg:flex-row">
             <div class="flex flex-col max-w-md gap-6">
               <div class="flex justify-center lg:justify-start">
                 <Image
@@ -129,7 +129,7 @@ export default function Footer({
               ))}
             </div>
           </div>
-          <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center pb-16">
+          <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center ">
             <div class="flex gap-3">
               {social?.map((item) => (
                 <a class="block text-secondary" href={item.href} target="_blank">
