@@ -33,6 +33,18 @@
           "title": "Orchestrate",
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/873d144f-6adb-4650-b330-e24e8116ce7a"
         }
+      ],
+      "cta": [
+        {
+          "href": "/bookademo",
+          "text": "Book a demo",
+          "outline": false
+        },
+        {
+          "text": "Explore our platform",
+          "href": "/",
+          "outline": true
+        }
       ]
     },
     {
