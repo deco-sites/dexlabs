@@ -9,11 +9,16 @@ export default {
     extend: {
       animation: {
         sliding: "sliding 30s linear infinite",
+        slidingFast: "slidingFast 20s linear infinite",
       },
       keyframes: {
         sliding: {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
+        },
+        slidingFast: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
         },
       },
       boxShadow: {

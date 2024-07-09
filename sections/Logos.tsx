@@ -33,10 +33,10 @@ export default function Logos({
   link,
 }: Props) {
 
-  if (logos.length > 3 && logos.length < 13) logos = [...logos, ...logos, ...logos];
+  logos = [...logos, ...logos, ...logos];
 
   const slideContent = (
-    <div class="flex items-center gap-20 h-8 lg:h-12">
+    <div class="flex items-center sm:gap-14 gap-20 h-6 md:h-8 lg:h-12">
       {logos?.map((logo) => {
         return (
           <Image
@@ -54,7 +54,7 @@ export default function Logos({
       <div class="flex flex-col gap-12">
         <p class="text-center text-xl text-accent font-light">{title}</p>
         <div class="relative w-full overflow-hidden h-28">
-          <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-full">
+          <div class="animate-slidingFast absolute top-0 left-0 flex flex-nowrap h-full">
             {slideContent}
           </div>
         </div>
