@@ -7,9 +7,9 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>The fastest way to build data products</p>",
+      "title": "<p>The data platform to drive business value</p>",
       "cta": [],
-      "description": "deX is a unified data platform to fuel analytics,  data science, and AI with trusted data."
+      "description": "A faster, more efficient way to do data engineering."
     },
     {
       "__resolveType": "site/sections/ImageSelector.tsx",
