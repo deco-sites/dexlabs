@@ -19,7 +19,8 @@
           "caption": "For teams starting the data journey",
           "cta": {
             "text": "Build for free",
-            "outline": false
+            "outline": false,
+            "href": "/bookademo?plan=free"
           },
           "description": "Facilitated trials to get you started",
           "link": {
@@ -31,7 +32,8 @@
           "Title": "Startups",
           "caption": "For teams growing with data",
           "cta": {
-            "text": "Choose Startups"
+            "text": "Choose Startups",
+            "href": "/bookademo?plan=startups"
           },
           "description": "Credit packages to help your startup reduce costs and accelerate time to value",
           "link": {
@@ -43,7 +45,8 @@
           "Title": "Enterprise",
           "caption": "For teams & orgs operating at scale",
           "cta": {
-            "text": "Choose Enterprise"
+            "text": "Choose Enterprise",
+            "href": "/bookademo?plan=enterprise"
           },
           "description": "Flexible pricing that scales with your business",
           "link": {

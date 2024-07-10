@@ -37,6 +37,11 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
     const handleSubmit = (e: any) => {
         e.preventDefault();
         console.log(formData);
+
+        const searchParams = new URLSearchParams(window.location.search);
+        const plan = searchParams.get("plan");
+
+        console.log(plan);
     };
 
     const inputClass = "shadow-soft-shadow border rounded-3xl h-9 w-full mb-4 pl-4 focus:outline-none focus:ring-0";
