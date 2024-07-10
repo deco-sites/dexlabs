@@ -7,7 +7,7 @@ export interface Props {
 
 export default function IntegrationCard({ image, title }: Props) {
     return (
-        <div class="shadow-custom-box border rounded-md w-32 flex flex-col items-center gap-2 p-2">
+        <div class="shadow-spreaded-softshadow border rounded-md w-32 flex flex-col items-center gap-2 p-2">
             <div class="h-[64px]">
                 <Image
                     height={64}
@@ -16,7 +16,9 @@ export default function IntegrationCard({ image, title }: Props) {
                     class="h-full"
                 />
             </div>
-            <p class="text-center">{title}</p>
+            <div class="flex-grow flex items-center">
+                <p class="text-center text-secondary-content font-semibold">{title}</p>
+            </div>
         </div>
     )
 }

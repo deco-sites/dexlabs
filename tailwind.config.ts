@@ -24,6 +24,7 @@ export default {
       boxShadow: {
         "custom-box": "0px 4px 4px 0px rgba(0, 0, 0, 0.4)",
         "soft-shadow": "0px 2px 4px 0px #0000001A",
+        "spreaded-softshadow": "0px 2px 12px 0px #14142B14",
       },
       borderColor: {
         "custom-box": "#E9ECF5",
