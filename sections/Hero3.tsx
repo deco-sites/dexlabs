@@ -33,7 +33,7 @@ export default function Hero3({ title, titleCaption, caption, items = [] }: Prop
                     />
                 </div>
                 <h2 class="font-semibold text-xl md:text-3xl py-4">{item.title}</h2>
-                <p class="text-base md:text-2xl text-center md:text-left">{item.description}</p>
+                <p class="text-base md:text-lg text-center md:text-left">{item.description}</p>
             </div>))}
         </div>
     </section>
