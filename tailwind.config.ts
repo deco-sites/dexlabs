@@ -29,6 +29,9 @@ export default {
       borderColor: {
         "custom-box": "#E9ECF5",
       },
+      fontSize: {
+        "28": "1.75rem", // 28px
+      },
     },
   },
 };
