@@ -33,7 +33,7 @@ export default function Logos({
   link,
 }: Props) {
 
-  logos = [...logos, ...logos, ...logos];
+  if (logos.length > 3 && logos.length < 13) logos = [...logos, ...logos, ...logos];
 
   const slideContent = (
     <div class="flex items-center sm:gap-14 gap-20 h-6 md:h-8 lg:h-12">

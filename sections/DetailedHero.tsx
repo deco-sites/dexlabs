@@ -46,7 +46,7 @@ export default function ({ title, titleCaption, caption, cta, heroSections }: Pr
         3: 'w-[33%]',
         4: 'w-1/4'
     };
-    return <section class="bg-primary max-w-[1378px] md:rounded-[40px] mx-auto p-4 md:p-[100px] text-center lg:text-left">
+    return <section class="bg-primary max-w-[1378px] md:rounded-[40px] mx-auto p-4 md:p-14 text-center lg:text-left">
         <h4 class="text-lg md:text-xl text-secondary font-light">{titleCaption || ""}</h4>
         <h2 class="py-5 font-medium text-3xl md:text-[60px] md:leading-[64px] text-secondary">{title}</h2>
         <h3 class="mx-auto text-secondary text-xl md:text-2xl font-normal">{caption || ""}</h3>

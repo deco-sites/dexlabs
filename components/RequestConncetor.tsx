@@ -1,6 +1,6 @@
 export default function RequestConnector() {
     return (
-        <div class="flex flex-col items-center gap-8">
+        <div class="flex flex-col items-center gap-8 mx-auto">
             <p
                 class="max-w-[456px] text-2xl text-center text-primary"
             >

@@ -19,13 +19,13 @@ export default function Features({ Title, Caption, Sections }: Props) {
             <p class="text-lg sm:text-2xl text-center text-accent mb-14">{Caption}</p>
             <div class="flex flex-col gap-14">
                 {Sections && Sections.map((section) => (
-                    <div class="flex flex-wrap lg:flex-nowrap rounded-[40px] border border-primary min-h-72 overflow-hidden">
-                        <div class="w-full lg:max-w-[360px] px-4 bg-info-content rounded-[40px] flex flex-col justify-center">
-                            <h3 class="text-center font-bold text-5xl">{section.Title}</h3>
+                    <div class="flex flex-wrap lg:flex-nowrap rounded-[40px] border border-primary min-h-[219px] overflow-hidden">
+                        <div class="w-full lg:max-w-[360px] px-4 bg-info-content rounded-[40px] flex flex-col justify-center items-center">
+                            <h3 class="text-center font-bold text-3xl max-w-60">{section.Title}</h3>
                         </div>
                         <ul class="flex flex-wrap grow py-10 px-10 list-disc">
                             {section.features.map((feature) => (
-                                <li class="text-2xl w-full md:w-1/2 text-primary">{feature}</li>
+                                <li class="text-lg w-full md:w-1/2 text-primary">{feature}</li>
                             ))}
                         </ul>
                     </div>

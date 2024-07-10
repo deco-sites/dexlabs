@@ -47,10 +47,10 @@ export default function ({ categories, items }: Props) {
     };
     return <section class="max-w-[1280px] mx-auto flex flex-wrap justify-center sm:flex-nowrap mb-32">
         <div class="px-10 sm:px-0 sm:pr-10">
-            <div class="border-b border-info min-w-44">
+            <div class="min-w-44">
                 <h2 class="font-semibold text-3xl text-center sm:text-left">Sort by</h2>
                 <select
-                    class="rounded-lg w-full h-8 my-3 border focus:outline-none focus:ring-0"
+                    class="rounded-full w-full h-10 my-3 px-3 border border-primary focus:outline-none focus:ring-0"
                     onChange={handleOrderChange}
                 >
                     <option>Asc</option>
@@ -63,25 +63,24 @@ export default function ({ categories, items }: Props) {
                 {categories.map((category) => (
                     <label className="label inline cursor-pointer flex items-center justify-start w-1/2 sm:w-full">
                         <input type="checkbox" className="checkbox checkbox-primary border-2 border-primary" value={category} onChange={handleCheckboxChange} />
-                        <span className="label-text pl-2 text-lg">{category}</span>
+                        <span className="label-text pl-2 text-base">{category}</span>
                     </label>
                 ))}
             </div>
         </div>
-        <div class="flex-grow p-4">
+        <div class="flex-grow p-4 mt-8">
             <div class="relative">
                 <input
                     type="text"
-                    class="border rounded-full h-9 w-full max-w-[780px] mb-4 pl-11 focus:outline-none focus:ring-0"
+                    class="border border-primary rounded-full h-10 w-full mb-16 pl-11 focus:outline-none focus:ring-0"
                     placeholder="Search"
                     onChange={(e: any) => setSearchTerm(e.target.value)}
                 />
-                <svg class="absolute left-3 top-1" width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14.2734 21.8749C19.9818 21.8749 24.6093 17.7616 24.6093 12.6875C24.6093 7.61337 19.9818 3.5 14.2734 3.5C8.56504 3.5 3.9375 7.61337 3.9375 12.6875C3.9375 17.7616 8.56504 21.8749 14.2734 21.8749Z" stroke="#576680" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M21.5815 19.1843L27.5616 24.5" stroke="#576680" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                <svg class="absolute left-3 top-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.7549 14.255H14.9649L14.6849 13.985C15.6649 12.845 16.2549 11.365 16.2549 9.755C16.2549 6.165 13.3449 3.255 9.75488 3.255C6.16488 3.255 3.25488 6.165 3.25488 9.755C3.25488 13.345 6.16488 16.255 9.75488 16.255C11.3649 16.255 12.8449 15.665 13.9849 14.685L14.2549 14.965V15.755L19.2549 20.745L20.7449 19.255L15.7549 14.255ZM9.75488 14.255C7.26488 14.255 5.25488 12.245 5.25488 9.755C5.25488 7.26501 7.26488 5.255 9.75488 5.255C12.2449 5.255 14.2549 7.26501 14.2549 9.755C14.2549 12.245 12.2449 14.255 9.75488 14.255Z" fill="black" />
                 </svg>
             </div>
-            <div class="flex flex-wrap gap-8 justify-center sm:justify-start">
+            <div class="flex flex-wrap gap-12 justify-center sm:justify-start">
                 {filteredItems.length == 0
                     ? <RequestConnector />
                     : filteredItems.map((item) => <IntegrationCard title={item.title} image={item.image} />)}

@@ -175,7 +175,8 @@
           "Title": "Databases",
           "Text": "Get reliable data from any database you want at top speeds",
           "ImagesPerLine": 4,
-          "TitleIcon": {}
+          "TitleIcon": {},
+          "border": true
         },
         {
           "Images": [
@@ -214,7 +215,8 @@
           ],
           "Title": "External sources",
           "Text": "Stream data from any source  you want. Never miss important data again.",
-          "ImagesPerLine": 4
+          "ImagesPerLine": 4,
+          "border": true
         },
         {
           "Images": [
@@ -253,7 +255,8 @@
           ],
           "Title": "Analytics tools",
           "Text": "Analyze your data in the tools of your choice and democratize access to insights.",
-          "ImagesPerLine": 4
+          "ImagesPerLine": 4,
+          "border": true
         }
       ]
     },

@@ -37,13 +37,18 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
     const handleSubmit = (e: any) => {
         e.preventDefault();
         console.log(formData);
+
+        const searchParams = new URLSearchParams(window.location.search);
+        const plan = searchParams.get("plan");
+
+        console.log(plan);
     };
 
     const inputClass = "shadow-soft-shadow border rounded-3xl h-9 w-full mb-4 pl-4 focus:outline-none focus:ring-0";
 
     return (
         <form onSubmit={handleSubmit} class="flex flex-wrap gap-4 justify-between">
-            <label class="flex flex-col w-full text-2xl">
+            <label class="flex flex-col w-full text-lg sm:text-2xl">
                 Email
                 <input
                     type="email"
@@ -52,7 +57,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-5/12 text-2xl">
+            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
                 First Name
                 <input
                     type="text"
@@ -61,7 +66,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-5/12 text-2xl">
+            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
                 Last Name
                 <input
                     type="text"
@@ -70,7 +75,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-5/12 text-2xl">
+            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
                 Country
                 <input
                     type="text"
@@ -79,7 +84,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-5/12 text-2xl">
+            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
                 Phone Number
                 <input
                     type="tel"
@@ -88,7 +93,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-5/12 text-2xl">
+            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
                 Company name
                 <input
                     type="text"
@@ -97,7 +102,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-5/12 text-2xl">
+            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
                 Website URL
                 <input
                     type="text"
@@ -106,7 +111,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-5/12 text-2xl">
+            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
                 Role
                 <input
                     type="text"
@@ -115,7 +120,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-5/12 text-2xl">
+            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
                 Industry
                 <input
                     type="text"
@@ -124,7 +129,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-full text-2xl">
+            <label class="flex flex-col w-full text-lg sm:text-2xl">
                 How can we help?
                 <input
                     type="text"
