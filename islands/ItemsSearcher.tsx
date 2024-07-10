@@ -63,7 +63,7 @@ export default function ({ categories, items }: Props) {
                 {categories.map((category) => (
                     <label className="label inline cursor-pointer flex items-center justify-start w-1/2 sm:w-full">
                         <input type="checkbox" className="checkbox checkbox-primary border-2 border-primary" value={category} onChange={handleCheckboxChange} />
-                        <span className="label-text pl-2 text-lg">{category}</span>
+                        <span className="label-text pl-2 text-base">{category}</span>
                     </label>
                 ))}
             </div>
