@@ -2,6 +2,7 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { VideoWidget } from "apps/admin/widgets.ts";
 import { useScroll } from "site/sdk/useScroll.ts";
+import GlobalDesign from "site/components/GlobalDesign.tsx";
 
 export interface Props {
     backgroundImage?: ImageWidget;
@@ -25,22 +26,24 @@ export default function Video({ video, backgroundImage }: Props) {
             /></div>}
             <div class={`relative mx-auto ${transitionClass} ${scrolled ? 'max-w-[870px]' : 'max-w-[1440px]'}`}>
                 <div class={`absolute ${transitionClass} ${scrolled ? 'top-9' : '-top-24'}`}>
-                    <video
-                        width="1441"
-                        height="720"
-                        autoPlay
-                        playsInline
-                        muted
-                        loading="lazy"
-                        loop
-                        class="w-full h-full object-cover rounded-xl lg:rounded-[42px] mt-4"
-                        style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)"
-                    >
-                        <source src={video} type="video/mp4" />
-                        <object data="" width="320" height="240">
-                            <embed width="320" height="240" src={video} />
-                        </object>
-                    </video>
+                    <GlobalDesign padding={scrolled ? false : true}>
+                        <video
+                            width="1441"
+                            height="720"
+                            autoPlay
+                            playsInline
+                            muted
+                            loading="lazy"
+                            loop
+                            class="w-full h-full object-cover rounded-xl lg:rounded-[42px] mt-4"
+                            style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)"
+                        >
+                            <source src={video} type="video/mp4" />
+                            <object data="" width="320" height="240">
+                                <embed width="320" height="240" src={video} />
+                            </object>
+                        </video>
+                    </GlobalDesign>
                 </div>
             </div>
         </div>

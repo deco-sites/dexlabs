@@ -2,6 +2,7 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
 import { useScroll } from "site/sdk/useScroll.ts";
+import GlobalDesign from "site/components/GlobalDesign.tsx";
 
 export interface CTA {
     id?: string;
@@ -106,51 +107,52 @@ export default function Header({
 
                 {/* main content */}
                 <div class={`drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between pt-8 ${transitionClass} ${scrolled ? "pb-3" : ""} max-w-[1378px]`}>
-
-                    <div id="navContainer" class={`hidden items-center justify-between lg:flex w-full pr-2.5`}>
-                        <div
-                            id="navItemsContainer"
-                            class={`relative flex gap-10 items-center py-2 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}
-                        >
-                            <div id="sharedBg" class={`absolute h-full w-full bg-neutral border border-primary rounded-full ${transitionClass} -z-10 ${scrolled ? bgSizeUp() : bgSizeDown()}`}></div>
-                            <a href="/">
-                                <Image src={logo.src || ""} width={67} height={36} alt={logo.alt} />
-                            </a>
+                    <GlobalDesign>
+                        <div id="navContainer" class={`hidden items-center justify-between lg:flex w-full pr-2.5`}>
                             <div
-                                id="sharedHover"
-                                class="bg-primary rounded-full absolute -z-10 opacity-0 transition-all duration-300 ease-in-out">
+                                id="navItemsContainer"
+                                class={`relative flex gap-10 items-center py-2 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}
+                            >
+                                <div id="sharedBg" class={`absolute h-full w-full bg-neutral border border-primary rounded-full ${transitionClass} -z-10 ${scrolled ? bgSizeUp() : bgSizeDown()}`}></div>
+                                <a href="/">
+                                    <Image src={logo.src || ""} width={67} height={36} alt={logo.alt} />
+                                </a>
+                                <div
+                                    id="sharedHover"
+                                    class="bg-primary rounded-full absolute -z-10 opacity-0 transition-all duration-300 ease-in-out">
+                                </div>
+                                <ul class="flex gap-10">
+                                    {navigation.links.map((link) => (
+                                        <li>
+                                            <a
+                                                href={link.url}
+                                                aria-label={link.label}
+                                                class="link no-underline hover:text-secondary text-primary py-2.5 px-3.5 rounded-full transition"
+                                                onMouseEnter={enableHover}
+                                                onMouseLeave={disableHover}
+                                            >
+                                                {link.label}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
-                            <ul class="flex gap-10">
-                                {navigation.links.map((link) => (
-                                    <li>
-                                        <a
-                                            href={link.url}
-                                            aria-label={link.label}
-                                            class="link no-underline hover:text-secondary text-primary py-2.5 px-3.5 rounded-full transition"
-                                            onMouseEnter={enableHover}
-                                            onMouseLeave={disableHover}
-                                        >
-                                            {link.label}
-                                        </a>
-                                    </li>
+                            <ul class="flex gap-3">
+                                {navigation.buttons?.map((item) => (
+                                    <a
+                                        key={item?.id}
+                                        id={item?.id}
+                                        href={item?.href ?? "#"}
+                                        target={item?.href.includes("http") ? "_blank" : "_self"}
+                                        class={`font-normal btn btn-primary text-secondary font-medium rounded-full min-h-10 h-10 text-lg hover:bg-secondary hover:text-primary ${item.outline && "btn-outline"
+                                            }`}
+                                    >
+                                        {item?.text}
+                                    </a>
                                 ))}
                             </ul>
                         </div>
-                        <ul class="flex gap-3">
-                            {navigation.buttons?.map((item) => (
-                                <a
-                                    key={item?.id}
-                                    id={item?.id}
-                                    href={item?.href ?? "#"}
-                                    target={item?.href.includes("http") ? "_blank" : "_self"}
-                                    class={`font-normal btn btn-primary text-secondary font-medium rounded-full min-h-10 h-10 text-lg hover:bg-secondary hover:text-primary ${item.outline && "btn-outline"
-                                        }`}
-                                >
-                                    {item?.text}
-                                </a>
-                            ))}
-                        </ul>
-                    </div>
+                    </GlobalDesign>
 
                     <label
                         htmlFor="mobile-drawer-nav"
