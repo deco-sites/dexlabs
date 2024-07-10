@@ -55,8 +55,8 @@ export default function StatisticsHero({ title, titleCaption = "", caption = "",
         </div>
         <div class="grow xl:max-w-[480px] p-10 bg-neutral rounded-[40px] flex flex-col gap-11 m-4 xl:m-0" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)">
             {statistics.length && statistics.map((statistic) => (<div class="border-b-2 border-primary">
-                <span class="font-black text-3xl xl:text-[50px] text-left text-primary">{statistic.value}</span>
-                <p class="text-xl xl:text-2xl text-accent">{statistic.text}</p>
+                <span class="font-black text-3xl xl:text-40 text-left text-primary">{statistic.value}</span>
+                <p class="text-xl xl:text-xl text-accent mt-3.5">{statistic.text}</p>
             </div>))}
         </div>
     </section>
