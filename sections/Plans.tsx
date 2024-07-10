@@ -31,7 +31,7 @@ export default function Plans({ plans, link }: Props) {
             <div class="flex flex-wrap gap-11 justify-center">
                 {plans && plans.map((plan) => (
                     <div class="w-96 min-h-[390px] flex flex-col items-center border custom-box px-4 py-10 gap-6 text-primary rounded-3xl" style="box-shadow: 0px 2px 12px 0px #14142B14;">
-                        <h2 class="font-medium text-5xl text-center">{plan.Title}</h2>
+                        <h2 class="font-medium text-40 text-center">{plan.Title}</h2>
                         <p class="text-lg text-center text-info">{plan.caption}</p>
                         {plan.cta?.text && <a
                             key={plan.cta?.id}
