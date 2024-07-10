@@ -103,7 +103,7 @@ export default function Footer({
       <div class="lg:container mx-auto md:max-w-[1440px] text-sm">
         <GlobalDesign>
           <div class="flex flex-col">
-            <div class="flex flex-col gap-6 justify-between lg:flex-row">
+            <div class="flex flex-col gap-6 justify-between items-center lg:flex-row">
               <div class="flex flex-col max-w-md gap-6">
                 <div class="flex justify-center lg:justify-start">
                   <Image
