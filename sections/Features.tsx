@@ -16,7 +16,7 @@ export interface Props {
 
 export default function Features({ Title, Caption, Sections }: Props) {
     return (
-        <section class="max-w-[1240px] mx-auto text-primary py-24">
+        <section class="max-w-[1240px] mx-auto text-primary pt-24">
             <GlobalDesign>
                 <h2 class="font-medium text-3xl sm:text-6xl text-center my-14">{Title}</h2>
                 <p class="text-lg sm:text-2xl text-center text-accent mb-14">{Caption}</p>

@@ -25,7 +25,7 @@ export default function Hero3({ title, titleCaption, caption, items = [] }: Prop
         <h2 class="max-w-[630px] mx-auto text-primary text-xl md:text-2xl font-normal md:leading-7 text-center">{caption || ""}</h2>
         <div class="flex flex-wrap justify-center mt-12 gap-12">
             {items.length && items.map((item) => (<div class="w-2/5 md:w-[365px] flex flex-col items-center md:items-start text-primary">
-                <div class="h-[60px] flex item-bottom">
+                <div class="h-[60px] flex">
                     <Image
                         width={80}
                         alt={item.imageAlt || ""}
