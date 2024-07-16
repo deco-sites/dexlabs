@@ -4,6 +4,7 @@ import Icon from "../components/ui/Icon.tsx";
 import { useScroll } from "site/sdk/useScroll.ts";
 import GlobalDesign from "site/components/GlobalDesign.tsx";
 
+
 export interface CTA {
     id?: string;
     href: string;

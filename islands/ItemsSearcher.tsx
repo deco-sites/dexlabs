@@ -45,6 +45,7 @@ export default function ({ categories, items }: Props) {
             );
         }
     };
+
     return <section class="max-w-[1280px] mx-auto flex flex-wrap justify-center sm:flex-nowrap mb-32">
         <div class="px-10 sm:px-0 sm:pr-10">
             <div class="min-w-44">
