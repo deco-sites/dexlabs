@@ -144,5 +144,9 @@
     "path": "/str/insider",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/deco-records.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/records.ts"
   }
 }
