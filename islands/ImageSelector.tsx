@@ -47,7 +47,7 @@ export default function ImageSelector({ backgroundImage, images = [], cta }: Pro
                     {images.length && images.map((image, index) => (
                         <button
                             onClick={() => setSelectedImage(index)}
-                            class={`text-lg rounded-full px-6  ${index == selectedImage ? 'bg-primary text-secondary' : 'text-primary hover:text-info'}`}
+                            class={`text-lg rounded-full px-6  ${index == selectedImage ? 'bg-primary text-secondary' : 'text-primary hover:text-info'} !text-base`}
                         >
                             {image.title}
                         </button>
