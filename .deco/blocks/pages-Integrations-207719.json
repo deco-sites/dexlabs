@@ -12,10 +12,6 @@
       "description": "deX has more than 300 native connectors. And if you can’t find what you are looking for, don’t worry, we create it for you!"
     },
     {
-      "__resolveType": "site/sections/ManageProfiles.tsx",
-      "email": "teste@gmail.com"
-    },
-    {
       "__resolveType": "site/sections/ItemsSearcher.tsx",
       "categories": [
         "BI and Analytics",
