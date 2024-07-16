@@ -55,7 +55,7 @@ export default function StoriesHero({ stories, link }: Props) {
                     </div>
                 ))}
             </div>
-            <div class="flex flex-wrap gap-4 justify-center my-12">
+            <div class="flex flex-wrap gap-4 my-12">
                 {stories && stories.map((story) => (
                     (selectedCategories.includes(story.category) || selectedCategories.length == 0) &&
                     <a href={story.href || ""} class="rounded-3xl border custom-box p-4 w-full md:w-[400px] flex flex-col items-center gap-6 text-primary" style="box-shadow: 0px 2px 12px 0px #14142B14;">
