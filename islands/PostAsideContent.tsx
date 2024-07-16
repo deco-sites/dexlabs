@@ -9,7 +9,7 @@ export interface Props {
 
 export default function PostAsideContent({ asideLogo, asideInfo, floatingButton }: Props) {
     return (
-        <aside class="w-full lg:w-[275px] flex flex-col mt-24 lg:mt-0">
+        <aside class="w-full lg:w-[275px] flex flex-col mt-24 pb-16 lg:mt-0">
             <div class="bg-info-content rounded-2xl shadow-custom-box flex flex-col px-9 py-12 gap-9">
                 <div class="w-full">
                     <Image
