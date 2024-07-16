@@ -78,7 +78,7 @@
       "title": "Automate  DAG creation",
       "cta": [],
       "description": "Automatically create and manage Airflow DAGs based on your data models. \nFocus on your business and reduce your workflow code by 70%",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/873d144f-6adb-4650-b330-e24e8116ce7a",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/922cfb3a-6b0f-45bb-8e96-2d6ddc0e67dc",
       "placement": "left",
       "disableSpacing": {
         "top": false,
@@ -91,7 +91,7 @@
       "title": "Build. Review. Deploy.",
       "cta": [],
       "description": "Use native Git integration for seamless version control and use pull requests (PRs) to merge updates efficiently.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/8d03bb2e-a82b-4421-86c1-182c9a5f9dd2",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/a352d814-e3da-4724-be3c-f385a2f46185",
       "placement": "right",
       "disableSpacing": {
         "top": false,
