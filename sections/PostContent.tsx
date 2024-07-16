@@ -30,7 +30,7 @@ export interface Props {
 }
 
 export default function PostContent({ mainText, asideLogo, asideInfo, floatingButton }: Props) {
-    return <section class="max-w-[1440px] mx-auto mt-52 lg:mt-0 flex flex-col-reverse lg:flex-row flex-nowrap px-4 lg:px-20 justify-between gap-4 relative">
+    return <section class="max-w-[1440px] mx-auto mt-52 mb-[150px] lg:mt-0 flex flex-col-reverse lg:flex-row flex-nowrap px-4 lg:px-20 justify-between gap-4 relative">
         <div class="max-w-[979px]">
             <p
                 class="text-2xl font-medium"
