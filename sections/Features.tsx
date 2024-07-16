@@ -12,14 +12,15 @@ export interface Props {
     Title: string;
     Caption: string;
     Sections?: Section[];
+    id: string;
 }
 
-export default function Features({ Title, Caption, Sections }: Props) {
+export default function Features({ Title, Caption, Sections, id }: Props) {
     return (
-        <section class="max-w-[1240px] mx-auto text-primary pt-24">
+        <section id={id} class="max-w-[1240px] mx-auto text-primary pt-24">
             <GlobalDesign>
-                <h2 class="font-medium text-3xl sm:text-6xl text-center my-14">{Title}</h2>
-                <p class="text-lg sm:text-2xl text-center text-accent mb-14">{Caption}</p>
+                <h2 class="font-medium text-3xl sm:text-6xl text-center mt-14">{Title}</h2>
+                <p class="text-lg sm:text-2xl text-center text-accent mb-14 mt-3.5">{Caption}</p>
                 <div class="flex flex-col gap-14">
                     {Sections && Sections.map((section) => (
                         <div class="flex flex-wrap lg:flex-nowrap rounded-[40px] border border-primary min-h-[219px] overflow-hidden">

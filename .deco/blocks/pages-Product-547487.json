@@ -41,8 +41,8 @@
           "outline": false
         },
         {
-          "text": "Explore our platform",
-          "href": "/",
+          "text": "Explore all features",
+          "href": "/pricing#features",
           "outline": true
         }
       ]
@@ -103,7 +103,7 @@
       "__resolveType": "site/sections/Buttons.tsx",
       "cta": [
         {
-          "href": "/",
+          "href": "/pricing#features",
           "text": "Explore all features",
           "outline": true
         }
