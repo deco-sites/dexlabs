@@ -64,7 +64,12 @@
             "Databases"
           ]
         }
-      ]
+      ],
+      "requestConnector": {
+        "text": "It seems we couldn't find the integration you're looking for right now. Don't worry, we're here to help you connect with the tools you need.",
+        "buttonText": "Request a connector",
+        "buttonHref": "/bookademo?requestConnector=true"
+      }
     },
     {
       "__resolveType": "site/sections/SimpleHero.tsx",

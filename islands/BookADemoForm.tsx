@@ -40,8 +40,9 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
 
         const searchParams = new URLSearchParams(window.location.search);
         const plan = searchParams.get("plan");
+        const requestConnector = searchParams.get("requestConnector");
 
-        console.log(plan);
+        console.log(plan, requestConnector);
     };
 
     const inputClass = "shadow-soft-shadow border rounded-3xl h-9 w-full mb-4 pl-4 focus:outline-none focus:ring-0";

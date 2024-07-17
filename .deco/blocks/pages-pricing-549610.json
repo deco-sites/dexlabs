@@ -80,7 +80,8 @@
           "TitleIcon": {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/b98eb0e3-a5c5-4da9-ab4e-76ed7c61a3a0",
             "alt": "Migration Icon"
-          }
+          },
+          "border": false
         },
         {
           "Images": [],
@@ -102,7 +103,8 @@
             "alt": "check icon"
           }
         }
-      ]
+      ],
+      "id": "professionalServices"
     },
     {
       "__resolveType": "site/sections/Features.tsx",

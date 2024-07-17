@@ -120,7 +120,7 @@ export default function Header({
                                 </a>
                                 <div
                                     id="sharedHover"
-                                    class="bg-primary rounded-full absolute -z-10 opacity-0 transition-all duration-300 ease-in-out">
+                                    class="bg-primary rounded-full absolute -z-10 opacity-0 transition-all duration-500 ease-in-out">
                                 </div>
                                 <ul class="flex gap-10">
                                     {navigation.links.map((link) => (
