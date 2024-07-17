@@ -33,6 +33,7 @@ export interface CTA {
 }
 
 export interface Props {
+    id?: string;
     title: string;
     titleCaption?: string;
     caption?: string;
@@ -40,14 +41,14 @@ export interface Props {
     heroSections?: IHeroSection[];
 }
 
-export default function ({ title, titleCaption, caption, cta, heroSections }: Props) {
+export default function ({ title, titleCaption, caption, cta, heroSections, id }: Props) {
     const imageWidth = {
         1: 'w-full',
         2: 'w-1/2',
         3: 'w-[33%]',
         4: 'w-1/4'
     };
-    return <section class="bg-primary">
+    return <section class="bg-primary" id={id || ""}>
         <div class="max-w-[1378px] md:rounded-[40px] mx-auto p-4 md:p-14 text-center lg:text-left">
             <GlobalDesign>
 
