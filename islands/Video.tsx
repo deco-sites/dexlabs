@@ -24,7 +24,7 @@ export default function Video({ video, backgroundImage }: Props) {
                 height={816}
                 class={`w-full object-cover h-full ${transitionClass} ${scrolled && 'rounded-xl lg:rounded-[42px]'}`}
             /></div>}
-            <div class={`relative mx-auto ${transitionClass} ${scrolled ? 'max-w-[870px]' : 'max-w-[1440px]'}`}>
+            <div class={`relative mx-auto flex justify-center ${transitionClass} ${scrolled ? 'max-w-[870px]' : 'max-w-[1440px]'}`}>
                 <div class={`absolute ${transitionClass} ${scrolled ? 'top-9' : '-top-24'}`}>
                     <GlobalDesign padding={scrolled ? false : true}>
                         <video

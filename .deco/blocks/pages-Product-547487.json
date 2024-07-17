@@ -14,26 +14,6 @@
     {
       "__resolveType": "site/sections/ImageSelector.tsx",
       "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/102a7e19-5c30-4a21-bfdb-ada500c1e613",
-      "images": [
-        {
-          "title": "Ingest data",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/d7d81347-2e72-446f-a583-7fa25a49ff13",
-          "alt": "ingest data"
-        },
-        {
-          "title": "Create models",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/08323e0f-a0f1-4333-8d10-99d827fc53ed",
-          "alt": "sunset"
-        },
-        {
-          "title": "Ensure reliability",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/8d03bb2e-a82b-4421-86c1-182c9a5f9dd2"
-        },
-        {
-          "title": "Orchestrate",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/873d144f-6adb-4650-b330-e24e8116ce7a"
-        }
-      ],
       "cta": [
         {
           "href": "/bookademo",
@@ -44,6 +24,26 @@
           "text": "Explore all features",
           "href": "/pricing#features",
           "outline": true
+        }
+      ],
+      "videos": [
+        {
+          "title": "Ingest data",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/55959c5f-3c02-42f3-9f97-f6f6af7d5f68",
+          "alt": "ingest data"
+        },
+        {
+          "title": "Create models",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/6483cceb-4e5b-42b7-a65a-658938c2a565",
+          "alt": "sunset"
+        },
+        {
+          "title": "Ensure reliability",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/42050be3-dda3-433d-8943-d7ed02633ef0"
+        },
+        {
+          "title": "Orchestrate",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/8ad146bd-c1e4-476c-88d6-361cef3f81cc"
         }
       ]
     },
