@@ -80,10 +80,6 @@
     },
     {
       "__resolveType": "global footer"
-    },
-    {
-      "__resolveType": "site/sections/ManageProfiles.tsx",
-      "email": "tete@gmail.com"
     }
   ],
   "seo": {

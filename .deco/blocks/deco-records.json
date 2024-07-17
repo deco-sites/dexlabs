@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/apps/deco/records.ts",
+  "authToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "aeadeda453fedcb9aeda11dba42f90e2278a81e9fef7778ae4cc7afe7ea1517bb2c8957a4a63c69f3d3bd9f07cd9f60ffcc161263353f6f26069a2b8d23b38294158bb60f2cf9c876c95bd94836eee92678e2652d96b75bf3bf84677a640f33f48b6702b075f9f2df35926e5f2800e653ba7d97e22497878df46da455f86a1ca66f150b744cbf6e6b6905a2659cbc11546d4e29d6d874fcd30e2f1c94a25f6b41a5815f3815936f92d91ede0226b773dd184cdda1b4c7393a1a2618f467a4d607b3b79064d7edf73959f5e0d7156b00d",
+    "name": "DATABASE_AUTH_TOKEN"
+  },
+  "url": "libsql://dexlabs-decocx.turso.io"
+}
