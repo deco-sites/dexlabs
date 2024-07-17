@@ -114,7 +114,7 @@ export default function Header({
                                 id="navItemsContainer"
                                 class={`relative flex gap-10 items-center py-2 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}
                             >
-                                <div id="sharedBg" class={`absolute h-full w-full bg-neutral border border-primary rounded-full ${transitionClass} -z-10 ${scrolled ? bgSizeUp() : bgSizeDown()}`}></div>
+                                <div id="sharedBg" class={`absolute h-full w-full bg-secondary border border-primary rounded-full ${transitionClass} -z-10 ${scrolled ? bgSizeUp() : bgSizeDown()}`}></div>
                                 <a href="/">
                                     <Image src={logo.src || ""} width={67} height={36} alt={logo.alt} />
                                 </a>
