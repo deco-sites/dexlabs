@@ -122,17 +122,20 @@ export default function Header({
                                     id="sharedHover"
                                     class="bg-primary rounded-full absolute -z-10 opacity-0 transition-all duration-500 ease-in-out">
                                 </div>
-                                <ul class="flex gap-10">
+                                <ul class="flex flex-wrap gap-10">
                                     {navigation.links.map((link) => (
-                                        <li>
+                                        <li class="overflow-hidden">
                                             <a
                                                 href={link.url}
                                                 aria-label={link.label}
-                                                class="link no-underline hover:text-secondary text-primary py-2.5 px-3.5 rounded-full transition"
+                                                class="link no-underline text-primary rounded-full transition"
                                                 onMouseEnter={enableHover}
                                                 onMouseLeave={disableHover}
                                             >
-                                                {link.label}
+                                                <div class={`flex flex-col relative hover:-translate-y-full transition-all duration-500 ease-in-out`}>
+                                                    <span class="py-1.5 px-3.5">{link.label}</span>
+                                                    <span class="absolute text-secondary top-full py-1.5 px-3.5">{link.label}</span>
+                                                </div>
                                             </a>
                                         </li>
                                     ))}
