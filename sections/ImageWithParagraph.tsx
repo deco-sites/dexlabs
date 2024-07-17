@@ -62,11 +62,11 @@ export default function ImageWithParagraph({
           } gap-12 md:gap-20 text-left items-center z-10 ${disableSpacing?.top ? "" : "pt-12 lg:pt-28"
           } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
-        <div class="w-full md:w-3/5 border border-secondary rounded-lg overflow-hidden">
+        <div class="w-full max-h-[350px] md:w-3/5 border border-secondary rounded-lg overflow-hidden">
           <Image
-            width={732}
-            height={732}
-            class="object-fit z-10"
+            width={1280}
+            height={611}
+            class="object-contain z-10 h-full"
             sizes="(max-width: 640px) 100vw, 30vw"
             src={image}
             alt={image}

@@ -57,7 +57,7 @@
       ],
       "link": {
         "text": "See all features you can have",
-        "href": "/"
+        "href": "#features"
       }
     },
     {
@@ -145,7 +145,8 @@
           ],
           "Title": "Premium Support"
         }
-      ]
+      ],
+      "id": "features"
     },
     {
       "__resolveType": "site/sections/Faq.tsx",

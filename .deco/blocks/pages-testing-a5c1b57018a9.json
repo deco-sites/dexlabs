@@ -24,7 +24,7 @@
     },
     {
       "__resolveType": "site/sections/Video.tsx",
-      "video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/5b8994c4-6cbd-4afd-8939-c534c4351de9",
+      "video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/5ef78f50-3e00-45f9-bd00-08936ff31e43",
       "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4c56e482-eb2c-4298-99ae-7faef19ee725"
     },
     {
@@ -64,7 +64,7 @@
       "caption": "Answer business questions, make the right decisions  and grow with data intelligence",
       "items": [
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f6dd8f1e-7b0a-4aab-bbb5-25df8d440846",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/887bd3e6-4743-43c6-9dd9-b66bef850c7c",
           "title": "Make the right call",
           "description": "Create data models, perform quality testing, and make decisions based on trusted data.",
           "imageAlt": "Lamp icon"
@@ -76,7 +76,7 @@
           "description": "Empower your team with data  to find new insights."
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/0b43dd45-87e5-4ece-a838-44ae5457a6f9",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/2fea03ef-07ac-49e4-88cd-84aee5fd1198",
           "imageAlt": "coin icon",
           "title": "Reduce costs",
           "description": "Gain efficiency and simplify complexity with a unified, serverless data infrastructure."
