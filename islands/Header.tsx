@@ -4,7 +4,9 @@ import Icon from "../components/ui/Icon.tsx";
 import { useScroll } from "site/sdk/useScroll.ts";
 import GlobalDesign from "site/components/GlobalDesign.tsx";
 
-
+/**
+ * @title {{text}}
+ */
 export interface CTA {
     id?: string;
     href: string;
@@ -114,7 +116,7 @@ export default function Header({
                                 id="navItemsContainer"
                                 class={`relative flex gap-10 items-center py-2 pr-8 ${scrolled && "bg-opacity-0 border-opacity-0"}`}
                             >
-                                <div id="sharedBg" class={`absolute h-full w-full bg-neutral border border-primary rounded-full ${transitionClass} -z-10 ${scrolled ? bgSizeUp() : bgSizeDown()}`}></div>
+                                <div id="sharedBg" class={`absolute h-full w-full bg-secondary border border-primary rounded-full ${transitionClass} -z-10 ${scrolled ? bgSizeUp() : bgSizeDown()}`}></div>
                                 <a href="/">
                                     <Image src={logo.src || ""} width={67} height={36} alt={logo.alt} />
                                 </a>
@@ -122,17 +124,20 @@ export default function Header({
                                     id="sharedHover"
                                     class="bg-primary rounded-full absolute -z-10 opacity-0 transition-all duration-500 ease-in-out">
                                 </div>
-                                <ul class="flex gap-10">
+                                <ul class="flex flex-wrap gap-10">
                                     {navigation.links.map((link) => (
-                                        <li>
+                                        <li class="overflow-hidden">
                                             <a
                                                 href={link.url}
                                                 aria-label={link.label}
-                                                class="link no-underline hover:text-secondary text-primary py-2.5 px-3.5 rounded-full transition"
+                                                class="link no-underline text-primary rounded-full transition"
                                                 onMouseEnter={enableHover}
                                                 onMouseLeave={disableHover}
                                             >
-                                                {link.label}
+                                                <div class={`flex flex-col relative hover:-translate-y-full transition-all duration-500 ease-in-out`}>
+                                                    <span class="py-1.5 px-3.5">{link.label}</span>
+                                                    <span class="absolute text-secondary top-full py-1.5 px-3.5">{link.label}</span>
+                                                </div>
                                             </a>
                                         </li>
                                     ))}
@@ -145,10 +150,13 @@ export default function Header({
                                         id={item?.id}
                                         href={item?.href ?? "#"}
                                         target={item?.href.includes("http") ? "_blank" : "_self"}
-                                        class={`font-normal btn btn-primary text-secondary font-medium rounded-full min-h-10 h-10 text-lg hover:bg-secondary hover:text-primary ${item.outline && "btn-outline"
+                                        class={`overflow-hidden font-normal btn btn-primary px-0 text-secondary font-medium rounded-full min-h-10 h-10 text-lg hover:bg-secondary ${item.outline && "btn-outline"
                                             }`}
                                     >
-                                        {item?.text}
+                                        <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
+                                            <span class="">{item?.text}</span>
+                                            <span class={`absolute top-full ${item.outline ? 'text-secondary' : 'text-primary'}`}>{item?.text}</span>
+                                        </div>
                                     </a>
                                 ))}
                             </ul>
