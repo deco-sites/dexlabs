@@ -20,11 +20,12 @@ export interface ILink {
 }
 
 export interface Props {
+    id?: string;
     stories: IStory[];
     link?: ILink;
 }
 
-export default function StoriesHero({ stories, link }: Props) {
+export default function StoriesHero({ stories, link, id }: Props) {
     const buttonClass = "font-normal btn btn-primary font-medium rounded-full min-h-10 text-sm sm:text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary w-full";
     const tagClass = " text-center bg-zinc-300 rounded text-zinc-600 mt-2.5 p-2 cursor-pointer text-sm sm:text-lg";
 
@@ -40,7 +41,7 @@ export default function StoriesHero({ stories, link }: Props) {
     }
 
     return (
-        <section class="mx-auto max-w-[1240px]">
+        <section class="mx-auto max-w-[1240px]" id={id || ""}>
             <div class="flex flex-wrap justify-center gap-12">
                 <div class="max-w-24 sm:max-w-full">
                     <button class={buttonClass} onClick={() => setSelectedCategories([])}>All categories</button>
