@@ -1,13 +1,16 @@
-export default function RequestConnector() {
+import { IRequestConnector } from "site/islands/ItemsSearcher.tsx"
+
+export default function RequestConnector({ text, buttonText, buttonHref }: IRequestConnector) {
     return (
         <div class="flex flex-col items-center gap-8 mx-auto">
             <p
                 class="max-w-[456px] text-2xl text-center text-primary"
             >
-                It seems we couldn't find the integration you're looking for right now. Don't worry, we're here to help you connect with the tools you need.</p>
+                {text || ""}</p>
             <a
                 class="font-normal btn btn-primary font-medium rounded-full min-h-10 h-10 text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary"
-            >Request a connector</a>
+                href={buttonHref}
+            >{buttonText}</a>
         </div>
     )
 }

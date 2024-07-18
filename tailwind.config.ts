@@ -18,6 +18,8 @@ export default {
       animation: {
         sliding: "sliding 30s linear infinite",
         slidingFast: "slidingFast 20s linear infinite",
+        "fade-in": "fade-in 0.5s ease-in-out",
+        "pop-up": "pop-up 0.5s ease-in-out",
       },
       keyframes: {
         sliding: {
@@ -27,6 +29,14 @@ export default {
         slidingFast: {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-100%)" },
+        },
+        "fade-in": {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        "pop-up": {
+          "0%": { transform: "scale(90%)" },
+          "100%": { transform: "scale(100%)" },
         },
       },
       boxShadow: {

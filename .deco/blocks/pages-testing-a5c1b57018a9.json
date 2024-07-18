@@ -15,7 +15,7 @@
           "href": "/bookademo"
         },
         {
-          "href": "/",
+          "href": "/product",
           "text": "Explore our platform",
           "outline": true
         }
@@ -54,7 +54,7 @@
       ],
       "link": {
         "text": "Read all customers stories",
-        "href": "/"
+        "href": "/stories"
       }
     },
     {
@@ -117,7 +117,7 @@
       },
       "link": {
         "text": "Explore our platform",
-        "href": "/"
+        "href": "/product"
       }
     },
     {
@@ -274,7 +274,7 @@
       "cta": [
         {
           "style": "Ghost",
-          "href": "/",
+          "href": "/pricing#professionalServices",
           "text": "Learn more"
         }
       ],

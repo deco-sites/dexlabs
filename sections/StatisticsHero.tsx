@@ -36,10 +36,13 @@ export default function StatisticsHero({ title, titleCaption = "", caption = "",
                 {button && <a
                     href={button.href}
                     target={button.href.includes("http") ? "_blank" : "_self"}
-                    class={`font-normal btn btn-primary font-medium rounded-full min-h-10 h-10 text-lg hover:bg-secondary text-secondary hover:text-primary ${button.outline && "btn-outline"
+                    class={`overflow-hidden font-normal btn btn-primary px-0 font-medium rounded-full min-h-10 h-10 text-lg hover:bg-secondary text-secondary hover:text-primary ${button.outline && "btn-outline"
                         }`}
                 >
-                    {button.text}
+                    <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
+                        <span class={`${button.outline ? 'text-primary' : 'text-secondary'}`}>{button?.text}</span>
+                        <span class={`absolute top-full ${button.outline ? 'text-secondary' : 'text-primary'}`}>{button?.text}</span>
+                    </div>
                 </a>}
                 {link && <a
                     href={link.href}

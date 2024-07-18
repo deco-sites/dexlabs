@@ -33,6 +33,7 @@ export interface CTA {
 }
 
 export interface Props {
+    id?: string;
     title: string;
     titleCaption?: string;
     caption?: string;
@@ -40,14 +41,14 @@ export interface Props {
     heroSections?: IHeroSection[];
 }
 
-export default function ({ title, titleCaption, caption, cta, heroSections }: Props) {
+export default function ({ title, titleCaption, caption, cta, heroSections, id }: Props) {
     const imageWidth = {
         1: 'w-full',
         2: 'w-1/2',
         3: 'w-[33%]',
         4: 'w-1/4'
     };
-    return <section class="bg-primary">
+    return <section class="bg-primary" id={id || ""}>
         <div class="max-w-[1378px] md:rounded-[40px] mx-auto p-4 md:p-14 text-center lg:text-left">
             <GlobalDesign>
 
@@ -61,11 +62,21 @@ export default function ({ title, titleCaption, caption, cta, heroSections }: Pr
                             id={item?.id}
                             href={item?.href}
                             target={item?.href.includes("http") ? "_blank" : "_self"}
-                            class={`font-normal btn font-semibold rounded-full min-h-10 h-10 text-lg text-primary border-none transition-all duration-200
+                            class={`overflow-hidden font-normal btn px-0 font-semibold rounded-full min-h-10 h-10 text-lg text-primary border-none transition-all duration-200
                                 ${item.outline ? 'bg-success hover:bg-secondary' : 'bg-secondary hover:bg-success'}`
                             }
                         >
-                            {item?.text}
+                            <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
+                                <span class={` ${item.outline ? 'text-primary' : 'text-primary'}`}>
+                                    {item?.text}
+
+
+                                </span>
+                                <span class={`absolute top-full ${item.outline ? 'text-primary' : 'text-primary'}`}>
+                                    {item?.text}
+
+                                </span>
+                            </div>
                         </a>
                     ))}
                 </div>
