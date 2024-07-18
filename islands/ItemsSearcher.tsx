@@ -21,9 +21,9 @@ export interface Item {
 }
 
 export interface Props {
+    requestConnector: IRequestConnector;
     categories: string[];
     items: Item[];
-    requestConnector: IRequestConnector;
 }
 
 export default function ({ categories, items, requestConnector }: Props) {
