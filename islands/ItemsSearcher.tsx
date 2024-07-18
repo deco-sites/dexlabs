@@ -15,15 +15,15 @@ export interface IRequestConnector {
 
 /** @title {{title}} */
 export interface Item {
-    image: ImageWidget;
+    image?: ImageWidget;
     title: string;
     categories?: string[];
 }
 
 export interface Props {
+    requestConnector: IRequestConnector;
     categories: string[];
     items: Item[];
-    requestConnector: IRequestConnector;
 }
 
 export default function ({ categories, items, requestConnector }: Props) {
@@ -93,7 +93,7 @@ export default function ({ categories, items, requestConnector }: Props) {
             <div class="flex flex-wrap gap-12 justify-center sm:justify-start">
                 {filteredItems.length == 0
                     ? <RequestConnector {...requestConnector} />
-                    : filteredItems.map((item) => <IntegrationCard title={item.title} image={item.image} />)}
+                    : filteredItems.map((item) => <IntegrationCard title={item.title} image={item.image || ""} />)}
             </div>
         </div>
     </section>
