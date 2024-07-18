@@ -21,11 +21,11 @@
       ],
       "items": [
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/a55a5ff7-b92a-4220-8d74-b04a76ce8197",
           "title": "Active Campaign",
           "categories": [
             "BI and Analytics"
-          ]
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/a55a5ff7-b92a-4220-8d74-b04a76ce8197"
         },
         {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/0b105f5f-da09-4202-928e-0562ba9010a0",
