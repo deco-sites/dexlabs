@@ -9,7 +9,7 @@ export default function IntegrationCard({ image, title }: Props) {
     return (
         <div class="shadow-spreaded-softshadow border rounded-md w-32 flex flex-col items-center gap-2 p-2 animate-pop-up">
             <div class="h-[64px]">
-                {image && <Image
+                <Image
                     height={64}
                     width={100}
                     src={image}

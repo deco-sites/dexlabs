@@ -8,14 +8,10 @@ export interface CTA {
   outline?: boolean;
 }
 
-/**
- * @title {{title}}
- */
 export interface Question {
   title: string;
   /** @format rich-text */
   answer: string;
-  id?: string;
 }
 
 export interface Props {
@@ -87,7 +83,7 @@ export default function BlogPosts({
         </div>
         <div class="flex-auto border-info-content border-t">
           {questions?.map((question) => (
-            <details id={question.id || ""} class="border-info-content border-b group">
+            <details class="border-info-content border-b group">
               <summary class="text-lg cursor-pointer py-6 flex ">
                 <span class="flex-auto">{question.title}</span>
                 <span class="flex-none transition group-open:rotate-180">

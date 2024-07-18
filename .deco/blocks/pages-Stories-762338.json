@@ -43,8 +43,7 @@
       ],
       "link": {
         "text": "Read all stories"
-      },
-      "allCategoriesButtonText": "All categories"
+      }
     },
     {
       "__resolveType": "site/sections/SimpleHero.tsx",
