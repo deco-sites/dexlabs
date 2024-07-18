@@ -14,6 +14,7 @@ export default function IntegrationCard({ image, title }: Props) {
                     width={100}
                     src={image}
                     class="h-full"
+                    loading="lazy"
                 />}
             </div>
             <div class="flex-grow flex items-center">
