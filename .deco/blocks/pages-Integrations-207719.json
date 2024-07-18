@@ -2382,7 +2382,6 @@
           ]
         },
         {
-          "image": "https://airbyte.com/connectors",
           "title": "Yahoo Finance Price",
           "categories": [
             ""
