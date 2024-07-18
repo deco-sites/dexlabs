@@ -26,7 +26,7 @@ export interface Props {
 }
 
 export default function StoriesHero({ stories, link, id }: Props) {
-    const buttonClass = "overflow-hidden font-normal btn btn-primary px-0 font-medium rounded-full min-h-10 text-sm sm:text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary w-full";
+    const buttonClass = "font-normal btn btn-primary font-medium rounded-full min-h-10 text-sm sm:text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary w-full";
     const tagClass = " text-center bg-zinc-300 rounded text-zinc-600 mt-2.5 p-2 cursor-pointer text-sm sm:text-lg";
 
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
@@ -44,21 +44,11 @@ export default function StoriesHero({ stories, link, id }: Props) {
         <section class="mx-auto max-w-[1240px]" id={id || ""}>
             <div class="flex flex-wrap justify-center gap-12">
                 <div class="max-w-24 sm:max-w-full">
-                    <button class={buttonClass} onClick={() => setSelectedCategories([])}>
-                        <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
-                            <span class={`text-primary`}>All categories</span>
-                            <span class={`absolute top-full text-secondary`}>All categories</span>
-                        </div>
-                    </button>
+                    <button class={buttonClass} onClick={() => setSelectedCategories([])}>All categories</button>
                 </div>
                 {categories.map((category) => (
                     <div class="max-w-24 sm:max-w-full">
-                        <button class={buttonClass} onClick={() => addCategory(category)}>
-                            <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
-                                <span class={`text-primary`}>{category}</span>
-                                <span class={`absolute top-full text-secondary`}>{category}</span>
-                            </div>
-                        </button>
+                        <button class={buttonClass} onClick={() => addCategory(category)}>{category}</button>
                         {selectedCategories.includes(category) && <div class={tagClass} onClick={() => removeCategory(category)}>
                             {category}
                             <span class="pl-2">X</span>
