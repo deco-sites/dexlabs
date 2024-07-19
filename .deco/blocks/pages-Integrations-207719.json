@@ -1274,17 +1274,11 @@
           ]
         },
         {
-          "title": "MS SQL Server",
-          "categories": [
-            ""
-          ]
-        },
-        {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57548d46c17629a369f7c_mailchimp.svg",
           "title": "Mailchimp",
           "categories": [
             "Marketing Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57548d46c17629a369f7c_mailchimp.svg"
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a1c7763994856d40d53b03_mailerlite.svg",
@@ -1468,11 +1462,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a1630b32cfe430643f6283_openweather.svg",
           "title": "Openweather",
           "categories": [
             "Others"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a1630b32cfe430643f6283_openweather.svg"
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/648721b68dbf4a419dcddce1_opsgenie.svg",
@@ -1523,11 +1517,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a1233241bbca30e0a0c24f_outreach.svg",
           "title": "Outreach",
           "categories": [
             "Sales & Support Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a1233241bbca30e0a0c24f_outreach.svg"
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a02b460f5b60a357ba4866_pagerduty.svg",
@@ -1879,11 +1873,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a579b38cfe916ec5c28180_salesloft.svg",
           "title": "SalesLoft",
           "categories": [
             "Sales & Support Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a579b38cfe916ec5c28180_salesloft.svg"
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/64836cff00e7a521b7af48c1_scylla.svg",
@@ -1948,11 +1942,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57a826b5256366077ef0c_shopify.svg",
           "title": "Shopify",
           "categories": [
             "Finance & Ops Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57a826b5256366077ef0c_shopify.svg"
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57a8b6c31f2a0c7201523_short.svg",
@@ -2009,11 +2003,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639deabb0df036f621439002_sonarcloud.svg",
           "title": "Sonar Cloud",
           "categories": [
             "Engineering Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639deabb0df036f621439002_sonarcloud.svg"
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639de8b9b154ec64e721aee8_spacex.svg",
@@ -2169,11 +2163,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/648723dbfc2754ceebf0bf3d_todoist.svg",
           "title": "Todoist",
           "categories": [
             "Finance & Ops Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/648723dbfc2754ceebf0bf3d_todoist.svg"
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639de2054d11e780da80a5be_toggl.svg",
@@ -2278,11 +2272,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639dd15158a3175b33584926_victorops.svg",
           "title": "VictorOps",
           "categories": [
             "Engineering Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639dd15158a3175b33584926_victorops.svg"
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639dd0613172222ca174c920_visma-e-conomic.svg",
@@ -2375,11 +2369,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639d85c0a35ee38186514bcb_Xero.svg",
           "title": "Xero",
           "categories": [
             "Finance & Ops Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639d85c0a35ee38186514bcb_Xero.svg"
         },
         {
           "title": "Yahoo Finance Price",
@@ -2388,11 +2382,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57cd32cb21c9b3806407e_yandexmetrica.svg",
           "title": "Yandex Metrica",
           "categories": [
             "Marketing Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57cd32cb21c9b3806407e_yandexmetrica.svg"
         },
         {
           "title": "Yellowbrick",
@@ -2401,11 +2395,11 @@
           ]
         },
         {
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/648724fcfc2754ceebf21f64_yotpo.svg",
           "title": "Yotpo",
           "categories": [
             "Marketing Analytics"
-          ]
+          ],
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/648724fcfc2754ceebf21f64_yotpo.svg"
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639d7f54d81fb2a083dbaf8f_youtube_analytics.svg",
@@ -2524,7 +2518,8 @@
         "text": "It seems we couldn't find the integration you're looking for right now. Don't worry, we're here to help you connect with the tools you need.",
         "buttonText": "Request a connector",
         "buttonHref": "/bookademo?requestConnector=true"
-      }
+      },
+      "itemsPerPage": 50
     },
     {
       "__resolveType": "site/sections/SimpleHero.tsx",
