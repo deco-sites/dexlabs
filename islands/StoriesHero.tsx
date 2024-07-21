@@ -14,12 +14,12 @@ export interface ILink {
 
 export interface Props {
     id?: string;
-    categories: string[];
+    categoryFilters: string[];
     stories: BlogPost[] | null;
     link?: ILink;
 }
 
-export default function StoriesHero({ stories, link, id, categories }: Props) {
+export default function StoriesHero({ stories, link, id, categoryFilters }: Props) {
     const buttonClass = "overflow-hidden font-normal btn btn-primary px-0 font-medium rounded-full min-h-10 text-sm sm:text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary w-full";
     const tagClass = " text-center bg-zinc-300 rounded text-zinc-600 mt-2.5 p-2 cursor-pointer text-sm sm:text-lg";
 
@@ -49,7 +49,7 @@ export default function StoriesHero({ stories, link, id, categories }: Props) {
                         </div>
                     </button>
                 </div>
-                {categories.map((category) => (
+                {categoryFilters.map((category) => (
                     <div class="max-w-24 sm:max-w-full">
                         <button class={buttonClass} onClick={() => addCategory(category)}>
                             <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>

@@ -30,7 +30,7 @@
         "__resolveType": "blog/loaders/BlogpostList.ts",
         "count": 100
       },
-      "categories": [
+      "categoryFilters": [
         "Customers",
         "Tech Insights",
         "Company news"

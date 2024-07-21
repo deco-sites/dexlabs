@@ -30,9 +30,16 @@ export default function PostAsideContent({ asideLogo, asideInfo, floatingButton 
                     <h2 class="text-center font-semibold text-xl lg:text-2xl">{floatingButton.title}</h2>
                     <a
                         href={floatingButton.href || ""}
-                        class={`font-normal btn font-semibold rounded-full min-h-10 text-lg text-primary border-none transition-all duration-200 bg-success hover:bg-secondary`}
+                        class={`overflow-hidden font-normal btn font-semibold px-0 py-0 rounded-full text-lg text-primary border-none transition-all duration-200 bg-success hover:bg-secondary`}
                     >
-                        {floatingButton.text}
+                        <div class={`flex flex-col justify-center px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out h-full`}>
+                            <span class={`flex items-center text-primary`}>
+                                {floatingButton.text}
+                            </span>
+                            <span class={`flex items-center absolute top-full h-full text-primary`}>
+                                {floatingButton.text}
+                            </span>
+                        </div>
                     </a>
                 </div>
             </div>
