@@ -1,18 +1,11 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { useState } from "preact/hooks";
+import { BlogPost } from "apps/blog/types.ts";
 
 /**
  * @title {{title}}
  */
-export interface IStory {
-    image?: ImageWidget;
-    imageAlt?: string;
-    title: string;
-    caption: string;
-    category: 'Customers' | 'Tech Insights' | 'Company news';
-    href?: string;
-}
 
 export interface ILink {
     text?: string;
@@ -21,7 +14,7 @@ export interface ILink {
 
 export interface Props {
     id?: string;
-    stories: IStory[];
+    stories: BlogPost[] | null;
     link?: ILink;
 }
 
@@ -32,7 +25,9 @@ export default function StoriesHero({ stories, link, id }: Props) {
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
     const [limit, setLimit] = useState(3);
 
-    if (limit > 0) stories = stories.slice(0, limit);
+    let filteredStories = selectedCategories.length > 0 ? stories?.filter((story) => selectedCategories.includes(story.categories[0]?.name)) : stories;
+
+    if (limit > 0 && filteredStories) filteredStories = filteredStories.slice(0, limit);
     const categories = ['Customers', 'Tech Insights', 'Company news'];
 
     function addCategory(value: string) {
@@ -70,24 +65,23 @@ export default function StoriesHero({ stories, link, id }: Props) {
                 ))}
             </div>
             <div class="flex flex-wrap gap-4 my-12">
-                {stories && stories.map((story) => (
-                    (selectedCategories.includes(story.category) || selectedCategories.length == 0) &&
+                {filteredStories && filteredStories.map((story) => (
                     <a
-                        href={story.href || ""}
+                        href={`/str/${story.slug}`}
                         class="hover:scale-110 transition-transform bg-secondary rounded-3xl border custom-box p-4 w-full md:w-[400px] flex flex-col items-center gap-6 text-primary"
                         style="box-shadow: 0px 2px 12px 0px #14142B14;"
                     >
                         <div class="h-44">
                             {story.image && <Image
-                                src={story.image}
-                                alt={story.imageAlt || ""}
+                                src={story.image || ""}
+                                alt={story.image || ""}
                                 width={340}
                                 class="h-full object-cover"
                             />}
                         </div>
-                        <h3 class=" font-light text-lg text-right w-full">{story.category}</h3>
+                        <h3 class=" font-light text-lg text-right w-full">{(story.categories[0] && story.categories[0]?.name) || ""}</h3>
                         <h2 class="font-semibold text-2xl">{story.title}</h2>
-                        <p class="text-lg">{story.caption}</p>
+                        <p class="text-lg">{story.excerpt}</p>
                     </a>
                 ))}
             </div>

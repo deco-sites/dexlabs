@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/aee8c02adcc5",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Customers",
+    "slug": "customers"
+  }
+}

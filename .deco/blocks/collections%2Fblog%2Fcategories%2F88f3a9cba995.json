@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/88f3a9cba995",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Company news",
+    "slug": "companynews"
+  }
+}

@@ -1,5 +1,4 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
 import PostAsideContent from "site/islands/PostAsideContent.tsx";
 
 /**
@@ -11,7 +10,7 @@ export interface IInfo {
 }
 
 export interface IImage {
-    src: ImageWidget;
+    src?: ImageWidget;
     alt?: string;
 }
 
@@ -24,9 +23,9 @@ export interface IFloatingButton {
 export interface Props {
     /** @format rich-text */
     mainText: string;
-    asideLogo: IImage;
-    asideInfo: IInfo[];
-    floatingButton: IFloatingButton;
+    asideLogo?: IImage;
+    asideInfo?: IInfo[];
+    floatingButton?: IFloatingButton;
 }
 
 export default function PostContent({ mainText, asideLogo, asideInfo, floatingButton }: Props) {

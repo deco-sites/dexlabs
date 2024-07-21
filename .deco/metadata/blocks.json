@@ -141,12 +141,52 @@
   },
   "/.deco/blocks/pages-Str-738864.json": {
     "name": "Str",
-    "path": "/str/insider",
+    "path": "/str/:slug",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/deco-records.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/records.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fposts%2F14eb3c5f0c31.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Blogpost.ts"
+  },
+  "/.deco/blocks/Preview%20blog%2Fsections%2FTemplate.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "blog/sections/Template.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FBlogPosts.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/BlogPosts.tsx"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fauthors%2F0b48deaf14a5.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Author.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fcategories%2Faee8c02adcc5.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Category.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fposts%2F73f90db6b93a.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Blogpost.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fposts%2F90db6460d621.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Blogpost.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fposts%2F72aa8d00c2b2.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Blogpost.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fcategories%2F8314fb6c905d.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Category.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fcategories%2F88f3a9cba995.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Category.ts"
   }
 }

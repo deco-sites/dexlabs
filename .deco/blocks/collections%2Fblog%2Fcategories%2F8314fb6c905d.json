@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/8314fb6c905d",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Tech Insights",
+    "slug": "techinsights"
+  }
+}
