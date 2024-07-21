@@ -29,7 +29,12 @@
       "stories": {
         "__resolveType": "blog/loaders/BlogpostList.ts",
         "count": 100
-      }
+      },
+      "categories": [
+        "Customers",
+        "Tech Insights",
+        "Company news"
+      ]
     },
     {
       "__resolveType": "site/sections/SimpleHero.tsx",

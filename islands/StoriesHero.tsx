@@ -14,11 +14,12 @@ export interface ILink {
 
 export interface Props {
     id?: string;
+    categories: string[];
     stories: BlogPost[] | null;
     link?: ILink;
 }
 
-export default function StoriesHero({ stories, link, id }: Props) {
+export default function StoriesHero({ stories, link, id, categories }: Props) {
     const buttonClass = "overflow-hidden font-normal btn btn-primary px-0 font-medium rounded-full min-h-10 text-sm sm:text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary w-full";
     const tagClass = " text-center bg-zinc-300 rounded text-zinc-600 mt-2.5 p-2 cursor-pointer text-sm sm:text-lg";
 
@@ -28,7 +29,6 @@ export default function StoriesHero({ stories, link, id }: Props) {
     let filteredStories = selectedCategories.length > 0 ? stories?.filter((story) => selectedCategories.includes(story.categories[0]?.name)) : stories;
 
     if (limit > 0 && filteredStories) filteredStories = filteredStories.slice(0, limit);
-    const categories = ['Customers', 'Tech Insights', 'Company news'];
 
     function addCategory(value: string) {
         if (!selectedCategories.includes(value)) setSelectedCategories((prevCategories) => [...prevCategories, value])
