@@ -1,0 +1,18 @@
+{
+  "name": "collections/blog/posts/e9c5a9cc13c5",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Tech Insights",
+        "slug": "techinsights"
+      }
+    ],
+    "title": "teste",
+    "excerpt": "teste",
+    "date": "2024-06-05",
+    "slug": "teste",
+    "content": "<p>teste</p>"
+  }
+}

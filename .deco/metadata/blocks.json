@@ -188,5 +188,9 @@
   "/.deco/blocks/collections%2Fblog%2Fcategories%2F88f3a9cba995.json": {
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Category.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fposts%2Fe9c5a9cc13c5.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Blogpost.ts"
   }
 }
