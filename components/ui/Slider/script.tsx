@@ -1,4 +1,4 @@
-import { scriptAsDataURI } from "deco/utils/dataURI.ts";
+import { scriptAsDataURI } from "./dataURI.ts";
 
 export interface Props {
   rootId: string;

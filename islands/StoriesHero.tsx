@@ -24,9 +24,11 @@ export default function StoriesHero({ stories, link, id, categoryFilters }: Prop
     const tagClass = " text-center bg-zinc-300 rounded text-zinc-600 mt-2.5 p-2 cursor-pointer text-sm sm:text-lg";
 
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-    const [limit, setLimit] = useState(3);
+    const [limit, setLimit] = useState(10);
 
-    let filteredStories = selectedCategories.length > 0 ? stories?.filter((story) => selectedCategories.includes(story.categories[0]?.name)) : stories;
+
+    if (!stories) return <></>
+    let filteredStories = selectedCategories.length > 0 ? stories.filter((story) => selectedCategories.includes(story.categories[0]?.name)) : stories;
 
     if (limit > 0 && filteredStories) filteredStories = filteredStories.slice(0, limit);
 
