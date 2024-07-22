@@ -1,0 +1,9 @@
+{
+  "name": "collections/blog/authors/0b48deaf14a5",
+  "__resolveType": "blog/loaders/Author.ts",
+  "author": {
+    "name": "Eduardo",
+    "email": "eduardo.balbinot.dev@gmail.com",
+    "jobTitle": "dev"
+  }
+}

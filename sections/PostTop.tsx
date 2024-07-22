@@ -9,7 +9,7 @@ export interface postData {
     caption: string;
 }
 
-export interface Image {
+export interface IImage {
     src: ImageWidget;
     alt?: string;
 }
@@ -17,11 +17,11 @@ export interface Image {
 export interface Props {
     title: string;
     caption: string;
-    image: Image;
+    image: IImage;
     postData?: postData[];
 }
 
-export default function PostTop({ title, caption, image, postData }: Props) {
+export default function PostTop({ title, caption, image, postData = [] }: Props) {
     return (
         <section class="mb-20">
             <div class="bg-info-content">
@@ -41,14 +41,14 @@ export default function PostTop({ title, caption, image, postData }: Props) {
                 </div>
             </div>
             <div>
-                <div class="max-w-[956px] mx-auto py-14 bg-neutral shadow-custom-box rounded-2xl -mt-14 z-10 min-h-48 flex flex-wrap justify-evenly gap-4">
+                {postData.length > 0 && <div class="max-w-[956px] mx-auto py-14 bg-neutral shadow-custom-box rounded-2xl -mt-14 z-10 min-h-48 flex flex-wrap justify-evenly gap-4">
                     {postData?.map((postdata) => (
                         <div class="flex flex-col">
                             <h2 class="font-bold text-2xl lg:text-4xl text-center">{postdata.data}</h2>
                             <p class="text-xl lg:text-2xl text-accent text-center">{postdata.caption}</p>
                         </div>
                     ))}
-                </div>
+                </div>}
             </div>
         </section>
     )
