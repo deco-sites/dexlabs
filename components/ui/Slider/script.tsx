@@ -1,4 +1,4 @@
-import { scriptAsDataURI } from "./dataURI.ts";
+import { useScriptAsDataURI } from "deco/hooks/useScript.ts";
 
 export interface Props {
   rootId: string;
@@ -193,7 +193,7 @@ function Slider({
   return (
     <script
       defer
-      src={scriptAsDataURI(setup, { rootId, scroll, interval, infinite })}
+      src={useScriptAsDataURI(setup, { rootId, scroll, interval, infinite })}
     />
   );
 }
