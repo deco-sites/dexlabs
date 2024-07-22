@@ -26,15 +26,15 @@
         "text": "Read all stories"
       },
       "allCategoriesButtonText": "All categories",
-      "stories": {
-        "__resolveType": "blog/loaders/BlogpostList.ts",
-        "count": 100
-      },
       "categoryFilters": [
         "Customers",
         "Tech Insights",
         "Company news"
-      ]
+      ],
+      "stories": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "count": 100
+      }
     },
     {
       "__resolveType": "site/sections/SimpleHero.tsx",
