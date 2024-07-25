@@ -30,7 +30,7 @@ export interface Props {
 
 export default function ({ categories, items, requestConnector, showMoreText, itemsPerPage = 50 }: Props) {
     const [searchTerm, setSearchTerm] = useState('');
-    const [selectedOrder, setSelectedOrder] = useState('Asc');
+    const [selectedOrder, setSelectedOrder] = useState('Ascending');
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
     const [limit, setLimit] = useState(itemsPerPage);
 
@@ -40,14 +40,14 @@ export default function ({ categories, items, requestConnector, showMoreText, it
 
     if (selectedCategories.length) filteredItems = filteredItems.filter((item) => item.categories?.some((category) => selectedCategories.includes(category.toLowerCase())));
 
-    if (selectedOrder == 'Asc') filteredItems = filteredItems.sort((a, b) => a.title.localeCompare(b.title));
+    if (selectedOrder == 'Ascending') filteredItems = filteredItems.sort((a, b) => a.title.localeCompare(b.title));
     else filteredItems = filteredItems.sort((a, b) => b.title.localeCompare(a.title));
 
     const originalZise = filteredItems.length;
     filteredItems = filteredItems.slice(0, limit);
 
     const handleOrderChange = (event: any) => {
-        setSelectedOrder(event.target.value || 'Asc');
+        setSelectedOrder(event.target.value || 'Ascending ');
     };
 
     const handleCheckboxChange = (event: any) => {
@@ -65,13 +65,21 @@ export default function ({ categories, items, requestConnector, showMoreText, it
         <div class="px-10 sm:px-0 sm:pr-10">
             <div class="min-w-44">
                 <h2 class="font-semibold text-3xl text-center sm:text-left">Sort by</h2>
-                <select
-                    class="rounded-full w-full h-10 my-3 px-3 border border-primary focus:outline-none focus:ring-0"
-                    onChange={handleOrderChange}
-                >
-                    <option>Asc</option>
-                    <option>Desc</option>
-                </select>
+                <div class="relative my-3 ">
+                    <div class="absolute right-4 top-0 h-full flex items-center">
+                        <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 1L6.5 7L1 1" stroke="#576680" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <select
+                        class="rounded-full w-full h-10 px-3 border border-primary focus:outline-none focus:ring-0"
+                        style="-webkit-appearance: none"
+                        onChange={handleOrderChange}
+                    >
+                        <option>Ascending</option>
+                        <option>Descending</option>
+                    </select>
+                </div>
             </div>
 
             <h2 class="font-semibold text-3xl mt-3 text-center sm:text-left">Categories</h2>

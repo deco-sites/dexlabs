@@ -62,14 +62,14 @@
         "bottom": true
       },
       "justifyText": "left",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4e7fc42f-290a-430e-9ac7-80786da7c4e4"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/14ca95e1-e412-4d4f-ad93-aee378a8e77f"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "Embed testing into your workflow",
       "cta": [],
       "description": "Integrate data testing into your CI/CD \npipeline with a single line of code. Make data quality checks maintainable to ensure data quality and integrity.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/08323e0f-a0f1-4333-8d10-99d827fc53ed",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/1a0af7e6-92c8-42ce-99d3-fd78fe93d3d9",
       "placement": "right",
       "disableSpacing": {
         "top": false,
@@ -82,7 +82,7 @@
       "title": "Automate  DAG creation",
       "cta": [],
       "description": "Automatically create and manage Airflow DAGs based on your data models. \nFocus on your business and reduce your workflow code by 70%",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/922cfb3a-6b0f-45bb-8e96-2d6ddc0e67dc",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/eba348f2-579a-4d52-9e7a-a96c4615e648",
       "placement": "left",
       "disableSpacing": {
         "top": false,
@@ -95,7 +95,7 @@
       "cta": [],
       "title": "Build. Review. Deploy.",
       "description": "Use native Git integration for seamless version control and use pull requests (PRs) to merge updates efficiently.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/a352d814-e3da-4724-be3c-f385a2f46185",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/d97a8e3d-8157-43c1-b804-6fb857491234",
       "placement": "right",
       "disableSpacing": {
         "top": false,
