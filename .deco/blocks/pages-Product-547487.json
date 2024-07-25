@@ -3,17 +3,20 @@
   "path": "/product",
   "sections": [
     {
+      "__resolveType": "site/sections/PageName.tsx",
+      "pageName": "deX | Product"
+    },
+    {
       "__resolveType": "Header"
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>The data platform to drive business value</p>",
       "cta": [],
+      "title": "<p>The data platform to drive business value</p>",
       "description": "A faster, more efficient way to do data engineering."
     },
     {
       "__resolveType": "site/sections/ImageSelector.tsx",
-      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/102a7e19-5c30-4a21-bfdb-ada500c1e613",
       "cta": [
         {
           "href": "/bookademo",
@@ -26,6 +29,7 @@
           "outline": true
         }
       ],
+      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/102a7e19-5c30-4a21-bfdb-ada500c1e613",
       "videos": [
         {
           "title": "Ingest data",
@@ -52,26 +56,26 @@
       "title": "Work in multiple environments",
       "cta": [],
       "description": "Work across environments with improved collaboration and streamlined development\n to ensure a smooth transition from development to production.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4e7fc42f-290a-430e-9ac7-80786da7c4e4",
       "placement": "left",
       "disableSpacing": {
         "top": false,
         "bottom": true
       },
-      "justifyText": "left"
+      "justifyText": "left",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4e7fc42f-290a-430e-9ac7-80786da7c4e4"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "Embed testing into your workflow",
       "cta": [],
       "description": "Integrate data testing into your CI/CD \npipeline with a single line of code. Make data quality checks maintainable to ensure data quality and integrity.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/08323e0f-a0f1-4333-8d10-99d827fc53ed",
       "placement": "right",
       "disableSpacing": {
         "top": false,
         "bottom": true
       },
-      "justifyText": "left",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/08323e0f-a0f1-4333-8d10-99d827fc53ed"
+      "justifyText": "left"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -88,8 +92,8 @@
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "title": "Build. Review. Deploy.",
       "cta": [],
+      "title": "Build. Review. Deploy.",
       "description": "Use native Git integration for seamless version control and use pull requests (PRs) to merge updates efficiently.",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/a352d814-e3da-4724-be3c-f385a2f46185",
       "placement": "right",

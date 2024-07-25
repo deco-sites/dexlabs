@@ -3,6 +3,10 @@
   "path": "/integrations",
   "sections": [
     {
+      "__resolveType": "site/sections/PageName.tsx",
+      "pageName": "deX | Integrations"
+    },
+    {
       "__resolveType": "Header"
     },
     {

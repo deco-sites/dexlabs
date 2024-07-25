@@ -8,6 +8,7 @@ import * as $Header from "./islands/Header.tsx";
 import * as $Hero from "./islands/Hero.tsx";
 import * as $ImageSelector from "./islands/ImageSelector.tsx";
 import * as $ItemsSearcher from "./islands/ItemsSearcher.tsx";
+import * as $PageName from "./islands/PageName.tsx";
 import * as $PostAsideContent from "./islands/PostAsideContent.tsx";
 import * as $SmothRedirector from "./islands/SmothRedirector.tsx";
 import * as $StoriesHero from "./islands/StoriesHero.tsx";
@@ -24,6 +25,7 @@ const manifest = {
     "./islands/Hero.tsx": $Hero,
     "./islands/ImageSelector.tsx": $ImageSelector,
     "./islands/ItemsSearcher.tsx": $ItemsSearcher,
+    "./islands/PageName.tsx": $PageName,
     "./islands/PostAsideContent.tsx": $PostAsideContent,
     "./islands/SmothRedirector.tsx": $SmothRedirector,
     "./islands/StoriesHero.tsx": $StoriesHero,

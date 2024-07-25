@@ -212,6 +212,10 @@
     },
     {
       "__resolveType": "global footer"
+    },
+    {
+      "__resolveType": "site/sections/PageName.tsx",
+      "pageName": "deX | Pricing"
     }
   ],
   "seo": {

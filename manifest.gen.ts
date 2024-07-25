@@ -14,26 +14,27 @@ import * as $$$$$$5 from "./sections/Faq.tsx";
 import * as $$$$$$6 from "./sections/Features.tsx";
 import * as $$$$$$7 from "./sections/Footer.tsx";
 import * as $$$$$$8 from "./sections/Header.tsx";
-import * as $$$$$$26 from "./sections/hero-1.tsx";
-import * as $$$$$$27 from "./sections/hero-2.tsx";
+import * as $$$$$$27 from "./sections/hero-1.tsx";
+import * as $$$$$$28 from "./sections/hero-2.tsx";
 import * as $$$$$$9 from "./sections/Hero.tsx";
-import * as $$$$$$28 from "./sections/hero2.tsx";
+import * as $$$$$$29 from "./sections/hero2.tsx";
 import * as $$$$$$10 from "./sections/Hero3.tsx";
 import * as $$$$$$11 from "./sections/ImageSelector.tsx";
 import * as $$$$$$12 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$13 from "./sections/ItemsSearcher.tsx";
 import * as $$$$$$14 from "./sections/Logos.tsx";
 import * as $$$$$$15 from "./sections/ManageProfiles.tsx";
-import * as $$$$$$16 from "./sections/Plans.tsx";
-import * as $$$$$$17 from "./sections/PostContent.tsx";
-import * as $$$$$$18 from "./sections/PostTop.tsx";
-import * as $$$$$$19 from "./sections/SimpleHero.tsx";
-import * as $$$$$$20 from "./sections/SmallImageHero.tsx";
-import * as $$$$$$21 from "./sections/StatisticsHero.tsx";
-import * as $$$$$$22 from "./sections/StoriesHero.tsx";
-import * as $$$$$$23 from "./sections/Testimonials.tsx";
-import * as $$$$$$24 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$25 from "./sections/Video.tsx";
+import * as $$$$$$16 from "./sections/PageName.tsx";
+import * as $$$$$$17 from "./sections/Plans.tsx";
+import * as $$$$$$18 from "./sections/PostContent.tsx";
+import * as $$$$$$19 from "./sections/PostTop.tsx";
+import * as $$$$$$20 from "./sections/SimpleHero.tsx";
+import * as $$$$$$21 from "./sections/SmallImageHero.tsx";
+import * as $$$$$$22 from "./sections/StatisticsHero.tsx";
+import * as $$$$$$23 from "./sections/StoriesHero.tsx";
+import * as $$$$$$24 from "./sections/Testimonials.tsx";
+import * as $$$$$$25 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$26 from "./sections/Video.tsx";
 
 const manifest = {
   "sections": {
@@ -46,26 +47,27 @@ const manifest = {
     "site/sections/Features.tsx": $$$$$$6,
     "site/sections/Footer.tsx": $$$$$$7,
     "site/sections/Header.tsx": $$$$$$8,
-    "site/sections/hero-1.tsx": $$$$$$26,
-    "site/sections/hero-2.tsx": $$$$$$27,
+    "site/sections/hero-1.tsx": $$$$$$27,
+    "site/sections/hero-2.tsx": $$$$$$28,
     "site/sections/Hero.tsx": $$$$$$9,
-    "site/sections/hero2.tsx": $$$$$$28,
+    "site/sections/hero2.tsx": $$$$$$29,
     "site/sections/Hero3.tsx": $$$$$$10,
     "site/sections/ImageSelector.tsx": $$$$$$11,
     "site/sections/ImageWithParagraph.tsx": $$$$$$12,
     "site/sections/ItemsSearcher.tsx": $$$$$$13,
     "site/sections/Logos.tsx": $$$$$$14,
     "site/sections/ManageProfiles.tsx": $$$$$$15,
-    "site/sections/Plans.tsx": $$$$$$16,
-    "site/sections/PostContent.tsx": $$$$$$17,
-    "site/sections/PostTop.tsx": $$$$$$18,
-    "site/sections/SimpleHero.tsx": $$$$$$19,
-    "site/sections/SmallImageHero.tsx": $$$$$$20,
-    "site/sections/StatisticsHero.tsx": $$$$$$21,
-    "site/sections/StoriesHero.tsx": $$$$$$22,
-    "site/sections/Testimonials.tsx": $$$$$$23,
-    "site/sections/Theme/Theme.tsx": $$$$$$24,
-    "site/sections/Video.tsx": $$$$$$25,
+    "site/sections/PageName.tsx": $$$$$$16,
+    "site/sections/Plans.tsx": $$$$$$17,
+    "site/sections/PostContent.tsx": $$$$$$18,
+    "site/sections/PostTop.tsx": $$$$$$19,
+    "site/sections/SimpleHero.tsx": $$$$$$20,
+    "site/sections/SmallImageHero.tsx": $$$$$$21,
+    "site/sections/StatisticsHero.tsx": $$$$$$22,
+    "site/sections/StoriesHero.tsx": $$$$$$23,
+    "site/sections/Testimonials.tsx": $$$$$$24,
+    "site/sections/Theme/Theme.tsx": $$$$$$25,
+    "site/sections/Video.tsx": $$$$$$26,
   },
   "apps": {
     "site/apps/deco/records.ts": $$$$$$$$$$$0,

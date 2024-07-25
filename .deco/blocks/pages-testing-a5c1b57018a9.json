@@ -3,6 +3,10 @@
   "path": "/",
   "sections": [
     {
+      "__resolveType": "site/sections/PageName.tsx",
+      "pageName": "deX | Home"
+    },
+    {
       "__resolveType": "Header"
     },
     {
@@ -64,19 +68,19 @@
       "caption": "Answer business questions, make the right decisions  and grow with data intelligence",
       "items": [
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/887bd3e6-4743-43c6-9dd9-b66bef850c7c",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/c700b674-1004-42b4-8f61-ee116548bf48",
           "title": "Make the right call",
           "description": "Create data models, perform quality testing, and make decisions based on trusted data.",
           "imageAlt": "Lamp icon"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/1084f2d8-2c11-48a3-890b-80f05aaef004",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/a64b760c-d5e5-4670-9c54-776b867802b5",
           "imageAlt": "people icon",
           "title": "Democratize insights",
           "description": "Empower your team with data  to find new insights."
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/2fea03ef-07ac-49e4-88cd-84aee5fd1198",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/936f9af7-4b95-4785-9852-f0b0bdca63ab",
           "imageAlt": "coin icon",
           "title": "Reduce costs",
           "description": "Gain efficiency and simplify complexity with a unified, serverless data infrastructure."
@@ -123,8 +127,6 @@
     {
       "__resolveType": "site/sections/DetailedHero.tsx",
       "title": "Get your data in minutes, not days",
-      "titleCaption": "INTEGRATIONS",
-      "caption": "Collect data using 300+ native connectors and quickly sync to your data warehouse",
       "cta": [
         {
           "href": "/bookademo",
@@ -136,6 +138,8 @@
           "outline": true
         }
       ],
+      "titleCaption": "INTEGRATIONS",
+      "caption": "Collect data using 300+ native connectors and quickly sync to your data warehouse",
       "heroSections": [
         {
           "Images": [
@@ -263,6 +267,13 @@
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "Need help building your models?",
+      "cta": [
+        {
+          "href": "/pricing#professionalServices",
+          "text": "Learn more",
+          "style": "Ghost"
+        }
+      ],
       "description": "deX offers an optional professional services package to help you build your models and structuring your data.",
       "tagline": "PROFESSIONAL SERVICES",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/5c2006f5-cbbb-4658-b473-7b7f0c016ab6",
@@ -271,13 +282,6 @@
         "top": false,
         "bottom": false
       },
-      "cta": [
-        {
-          "style": "Ghost",
-          "href": "/pricing#professionalServices",
-          "text": "Learn more"
-        }
-      ],
       "justifyText": "right"
     },
     {

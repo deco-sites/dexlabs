@@ -3,6 +3,10 @@
   "path": "/stories",
   "sections": [
     {
+      "__resolveType": "site/sections/PageName.tsx",
+      "pageName": "deX | Stories"
+    },
+    {
       "__resolveType": "Header"
     },
     {
