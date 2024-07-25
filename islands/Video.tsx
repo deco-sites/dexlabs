@@ -22,7 +22,7 @@ export default function Video({ video, backgroundImage }: Props) {
                 alt="Background Image"
                 width={1440}
                 height={816}
-                class={`w-full object-cover h-full ${transitionClass} ${scrolled && 'rounded-xl lg:rounded-[42px]'}`}
+                class={`w-full object-cover h-full ${transitionClass} ${scrolled && 'rounded-xl lg:rounded-2xl'}`}
             /></div>}
             <div class={`relative mx-auto flex justify-center ${transitionClass} ${scrolled ? 'max-w-[870px]' : 'max-w-[1440px]'}`}>
                 <div class={`absolute ${transitionClass} ${scrolled ? 'top-9' : '-top-24'}`}>
@@ -35,7 +35,7 @@ export default function Video({ video, backgroundImage }: Props) {
                             muted
                             loading="lazy"
                             loop
-                            class="w-full h-full object-cover rounded-xl lg:rounded-[42px] mt-4"
+                            class="w-full h-full object-cover rounded-xl lg:rounded-2xl mt-4"
                             style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)"
                         >
                             <source src={video} type="video/mp4" />
