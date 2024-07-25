@@ -28,11 +28,6 @@ export interface Props {
 export default function ImageSelector({ backgroundImage, videos = [], cta }: Props) {
     const [selectedImage, setSelectedImage] = useState(0);
 
-    const scroll = useScroll();
-    const scrollTransition = 20;
-    const scrolled = scroll.value > scrollTransition;
-    const transitionClass = "transition-all duration-1000 ease-in-out";
-
     function changeImage(imageIndex: number) {
         setSelectedImage(imageIndex);
         const videoContainer = document.getElementById('videoContainer');
@@ -46,15 +41,15 @@ export default function ImageSelector({ backgroundImage, videos = [], cta }: Pro
     }
 
     return <section class="overflow-hidden">
-        <div class={`${transitionClass} ${scrolled ? 'max-w-[1230px] h-[620px]' : 'max-w-full mt-24 h-[816px]'} mx-auto relative sm:p-8`}>
+        <div class={`max-w-[1230px] h-[620px] mx-auto relative sm:p-8`}>
             {backgroundImage && <div class="absolute w-full h-full -z-10 left-0 top-0"><Image
                 src={backgroundImage}
                 alt="Background Image"
                 width={1440}
                 height={816}
-                class={`w-full h-full object-cover ${transitionClass} ${scrolled && 'rounded-xl lg:rounded-2xl'}`}
+                class={`w-full h-full object-cover 'rounded-xl lg:rounded-2xl'`}
             /></div>}
-            <div class={`flex justify-end max-w-[1440px] mx-auto ${transitionClass} ${!scrolled && 'opacity-0'}`}>
+            <div class={`flex justify-end max-w-[1440px] mx-auto `}>
                 <div
                     class="min-h-[52px] flex flex-wrap justify-center lg:justify-end gap-4 border border-primary rounded-lg lg:rounded-full bg-neutral mb-6"
                 >
@@ -69,8 +64,8 @@ export default function ImageSelector({ backgroundImage, videos = [], cta }: Pro
                 </div>
             </div>
 
-            <div class={`animate-fade-in relative w-full max-h-[600px] flex justify-center z-10 mx-auto ${transitionClass} ${scrolled ? 'max-w-[870px] h-[490px]' : 'max-w-[1440px]'}`}>
-                <div id="videoContainer" class={`absolute ${transitionClass} ${scrolled ? 'top-0' : 'top-[-200px]'}`}>
+            <div class={`animate-fade-in relative w-full max-h-[600px] flex justify-center z-10 mx-auto max-w-[870px] h-[490px]' : 'max-w-[1440px]`}>
+                <div id="videoContainer" class={`absolute top-0`}>
                     <video
                         src={videos[selectedImage].image}
                         alt={videos[selectedImage].alt || ""}
