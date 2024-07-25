@@ -1,11 +1,26 @@
 import { type BlogPost, BlogPostPage } from "apps/blog/types.ts";
 import Image from "apps/website/components/Image.tsx";
-import PostContent from "./PostContent.tsx"
+import type { ImageWidget } from "apps/admin/widgets.ts";
 import PostAsideContent from "site/islands/PostAsideContent.tsx";
 import PostTop from "./PostTop.tsx";
-import { IInfo, IImage, IFloatingButton } from "./PostContent.tsx";
 import { postData } from "site/sections/PostTop.tsx";
 import { CSS } from "../static/css.ts";
+
+export interface IInfo {
+    title: string
+    text: string;
+}
+
+export interface IImage {
+    src?: ImageWidget;
+    alt?: string;
+}
+
+export interface IFloatingButton {
+    title: string;
+    text: string;
+    href: string;
+}
 
 /**
  * @title {{postSlug}}

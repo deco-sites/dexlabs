@@ -19,7 +19,8 @@ export const CSS = `
 
   .deco-post-preview {
     font-family: 'Albert sans', sans-serif;
-    color: #66736C;
+    color: #242424;
+    font-size: 20px;
   }
   
   .deco-post-preview p {

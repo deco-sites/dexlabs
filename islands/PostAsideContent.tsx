@@ -1,5 +1,5 @@
 import Image from "apps/website/components/Image.tsx";
-import { IInfo, IImage, IFloatingButton } from "../sections/PostContent.tsx";
+import { IInfo, IImage, IFloatingButton } from "../sections/BlogPost.tsx";
 
 export interface Props {
     asideLogo?: IImage;
