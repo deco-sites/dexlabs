@@ -1,9 +1,11 @@
 import { type BlogPost, BlogPostPage } from "apps/blog/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import PostContent from "./PostContent.tsx"
+import PostAsideContent from "site/islands/PostAsideContent.tsx";
 import PostTop from "./PostTop.tsx";
 import { IInfo, IImage, IFloatingButton } from "./PostContent.tsx";
 import { postData } from "site/sections/PostTop.tsx";
+import { CSS } from "../static/css.ts";
 
 /**
  * @title {{postSlug}}
@@ -57,31 +59,39 @@ export default function BlogPost({ page, additionalData = [], floatingButton }: 
     });
 
     return (
-        <section>
-            <PostTop title={title} caption={excerpt} image={{ src: image || "", alt: "blogpost image" }} postData={data?.topInfo} />
-            <PostContent mainText={content} asideInfo={data?.asideInfo} asideLogo={data?.asideLogo} floatingButton={floatingButton} />
-
-            {authors.length > 0 && <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
-                <div class="w-full h-px bg-zinc-300"></div>
-                <div className="flex items-center gap-4">
-                    <Image
-                        className="object-cover w-14 h-14 rounded-full"
-                        alt={authors[0]?.name}
-                        src={authors[0]?.avatar || ""}
-                        width={56}
-                        height={56}
-                    />
-                    <div className="flex flex-col">
-                        <p className="font-semibold text-base">
-                            {authors[0].name}
-                        </p>
-                        <p className="text-base">
-                            {`${authors[0].jobTitle ?? "Job Title"}, ${authors[0].company || "Company"
-                                }`}
-                        </p>
+        <>
+            <style dangerouslySetInnerHTML={{ __html: CSS }} />
+            <section>
+                <PostTop title={title} caption={excerpt} image={{ src: image || "", alt: "blogpost image" }} postData={data?.topInfo} />
+                <div class="max-w-[1440px] mx-auto mt-52 lg:mt-0 flex flex-col-reverse lg:flex-row flex-nowrap px-4 lg:px-20 justify-between gap-4 relative">
+                    <div class="max-w-[979px] pb-[150px] deco-post-preview">
+                        <div dangerouslySetInnerHTML={{ __html: content }} />
                     </div>
+                    <PostAsideContent asideLogo={data?.asideLogo} asideInfo={data?.asideInfo} floatingButton={floatingButton} />
                 </div>
-            </div>}
-        </section>
+
+                {authors.length > 0 && <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
+                    <div class="w-full h-px bg-zinc-300"></div>
+                    <div className="flex items-center gap-4">
+                        <Image
+                            className="object-cover w-14 h-14 rounded-full"
+                            alt={authors[0]?.name}
+                            src={authors[0]?.avatar || ""}
+                            width={56}
+                            height={56}
+                        />
+                        <div className="flex flex-col">
+                            <p className="font-semibold text-base">
+                                {authors[0].name}
+                            </p>
+                            <p className="text-base">
+                                {`${authors[0].jobTitle ?? "Job Title"}, ${authors[0].company || "Company"
+                                    }`}
+                            </p>
+                        </div>
+                    </div>
+                </div>}
+            </section>
+        </>
     );
 }
