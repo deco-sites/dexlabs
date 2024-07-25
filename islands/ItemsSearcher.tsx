@@ -82,7 +82,7 @@ export default function ({ categories, items, requestConnector, showMoreText, it
                 </div>
             </div>
 
-            <h2 class="font-semibold text-3xl mt-3 text-center sm:text-left">Categories</h2>
+            <h2 class="font-semibold text-3xl mt-16 text-center sm:text-left">Categories</h2>
             <div className="form-control p-4 sm:p-0 flex-row sm:flex-col flex-wrap">
                 {categories.map((category) => (
                     <label className="label inline cursor-pointer flex items-center justify-start w-1/2 sm:w-full">
