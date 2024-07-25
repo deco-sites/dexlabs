@@ -77,20 +77,6 @@
           "asideInfo": [],
           "asideLogo": {},
           "postSlug": "byaliens"
-        },
-        {
-          "topInfo": [
-            {
-              "data": "info 1 title",
-              "caption": "info 1 caption"
-            },
-            {
-              "data": "info 2 title",
-              "caption": "info 2 caption"
-            }
-          ],
-          "asideInfo": [],
-          "postSlug": "manageduringpmf"
         }
       ],
       "floatingButton": {

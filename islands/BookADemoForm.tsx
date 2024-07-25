@@ -45,15 +45,24 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
         console.log(plan, requestConnector);
     };
 
-    const inputClass = "shadow-soft-shadow border rounded-3xl h-9 w-full mb-4 pl-4 focus:outline-none focus:ring-0";
+    const inputClass = "shadow-soft-shadow border rounded-3xl h-9 w-full pl-4 focus:outline-none focus:ring-0";
 
     return (
-        <form onSubmit={handleSubmit} class="flex flex-wrap gap-4 justify-between">
+        <form onSubmit={handleSubmit} class="flex flex-wrap gap-[10px] justify-between">
             <label class="flex flex-col w-full text-lg sm:text-2xl">
                 Email
                 <input
                     type="email"
                     name="email"
+                    class={inputClass}
+                    onChange={handleChange}
+                />
+            </label>
+            <label class="flex flex-col w-full text-lg sm:text-2xl">
+                Company name
+                <input
+                    type="text"
+                    name="companyName"
                     class={inputClass}
                     onChange={handleChange}
                 />
@@ -77,10 +86,10 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                 />
             </label>
             <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
-                Country
+                Role
                 <input
                     type="text"
-                    name="country"
+                    name="role"
                     class={inputClass}
                     onChange={handleChange}
                 />
@@ -94,38 +103,11 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     onChange={handleChange}
                 />
             </label>
-            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
-                Company name
+            <label class="flex flex-col w-full text-lg sm:text-2xl">
+                Country
                 <input
                     type="text"
-                    name="companyName"
-                    class={inputClass}
-                    onChange={handleChange}
-                />
-            </label>
-            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
-                Website URL
-                <input
-                    type="text"
-                    name="websiteUrl"
-                    class={inputClass}
-                    onChange={handleChange}
-                />
-            </label>
-            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
-                Role
-                <input
-                    type="text"
-                    name="role"
-                    class={inputClass}
-                    onChange={handleChange}
-                />
-            </label>
-            <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
-                Industry
-                <input
-                    type="text"
-                    name="industry"
+                    name="country"
                     class={inputClass}
                     onChange={handleChange}
                 />
