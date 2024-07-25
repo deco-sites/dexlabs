@@ -52,7 +52,7 @@ export default function ImageSelector({ backgroundImage, videos = [], cta }: Pro
                 alt="Background Image"
                 width={1440}
                 height={816}
-                class={`w-full h-full object-cover ${transitionClass} ${scrolled && 'rounded-xl lg:rounded-[42px]'}`}
+                class={`w-full h-full object-cover ${transitionClass} ${scrolled && 'rounded-xl lg:rounded-2xl'}`}
             /></div>}
             <div class={`flex justify-end max-w-[1440px] mx-auto ${transitionClass} ${!scrolled && 'opacity-0'}`}>
                 <div
@@ -81,7 +81,7 @@ export default function ImageSelector({ backgroundImage, videos = [], cta }: Pro
                         muted
                         loading="lazy"
                         loop
-                        class={`h-full object-cover md:object-contain`}
+                        class={`h-full object-cover md:object-contain rounded-2xl`}
                     />
                 </div>
             </div>
