@@ -37,6 +37,7 @@ export default function PostTop({ title, caption, image, postData = [] }: Props)
                             width={518}
                             height={215}
                             class="object-contain"
+
                         />
                     </div>
                 </div>
