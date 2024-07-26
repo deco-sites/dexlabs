@@ -36,6 +36,7 @@ export default function PostTop({ title, caption, image, postData = [] }: Props)
                             alt={image.alt || ""}
                             width={518}
                             height={215}
+                            class="object-contain"
                         />
                     </div>
                 </div>
