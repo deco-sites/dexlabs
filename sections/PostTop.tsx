@@ -23,7 +23,7 @@ export interface Props {
 
 export default function PostTop({ title, caption, image, postData = [] }: Props) {
     return (
-        <section class="mb-20">
+        <section class="mb-20 mt-28">
             <div class="bg-info-content">
                 <div class="max-w-[1440px] p-4 lg:pt-16 lg:px-20 lg:pb-24 mx-auto text-primary flex flex-wrap justify-between">
                     <div class="w-full xl:max-w-[724px]">
