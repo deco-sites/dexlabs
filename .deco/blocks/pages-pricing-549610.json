@@ -157,37 +157,37 @@
       "description": "Frequently asked questions about how to start your journey with deX",
       "questions": [
         {
-          "title": "What is deX?",
-          "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>"
+          "title": "What problems does deX solve?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px\">deX solves the complexity and high costs of traditional data engineering by offering a unified, cost-effective platform that integrates data ingestion, transformation, orchestration, and monitoring. It eliminates the need for multiple tools, simplifies infrastructure management with a serverless model, enhances efficiency with an easy-to-use interface, and ensures data security and scalability. This allows businesses to focus on their core activities while deX handles the technical complexities.</span></p>"
         },
         {
-          "title": "What can deX Lake Platform do?",
-          "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>"
+          "title": "Who should use deX?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px\">Companies of all sizes that are building or growing their data organization should use deX. Its ease of use and superior value for cost make it an ideal solution for startups, small to medium enterprises, and large corporations. deX offers great performance at a lower price for business analytics, data science, and machine learning, making it perfect for those looking to streamline their data engineering processes. Whether you are starting from scratch or scaling up your data capabilities, deX provides a unified, cost-effective platform that simplifies the complexity of data engineering, ensuring you have high-quality data to power your initiatives.</span></p>"
         },
         {
-          "title": "To whom is deX for?",
-          "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>"
+          "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px\">Yes, deX has built-in connectors that allow you to ingest data from a wide range of sources, including application databases, CRMs, payment processors, external APIs, as well as marketing platforms like Facebook Ads and Google Analytics. This ensures that you can easily consolidate and manage all your data in one place.</span></p>",
+          "title": "Can deX handle data from multiple sources?"
         },
         {
           "title": "Is deX exclusive to one Cloud Provider?",
-          "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>"
+          "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px\">No. deX is designed to work seamlessly with multiple cloud platforms including AWS, GCP, and Azure, providing flexibility and choice for your data engineering and analytics needs.</span></p>"
         },
         {
-          "title": "How secure is my data with deX?",
-          "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>"
+          "title": "What kind of support does deX offer?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px\">The deX Support team is available to customers via email, WhatsApp, Slack, or in-product live chat. Additionally, all customers receive implementation assistance and dedicated account management to ensure a smooth and successful experience with deX.</span></p>"
         },
         {
-          "title": "Will I be locked-in with deX?",
-          "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>"
+          "title": "How does deX handle data security and privacy?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px\">Our architecture leverages a control plane and a data plane to ensure robust data security and privacy. The control plane, hosted on the deX cloud, manages functions, automations, the user interface, and integrations. Meanwhile, the data plane resides on the customer's cloud infrastructure, where the actual data and code are stored and processed. This separation ensures that your data remains within your own cloud environment at all times, enhancing security and privacy by preventing data from leaving your controlled domain.</span></p>"
         },
         {
-          "title": "What are the Free Package conditions?",
-          "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>",
+          "title": "Can I try deX before committing to a subscription?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px\">Yes, we provide a trial environment with demo databases that customers can use to test all the features of deX. Additionally, this trial environment can be integrated with your cloud infrastructure, allowing for a broader and more personalized exploration of the tool. This way, you can fully experience how deX fits into your data workflows before making a commitment. Contact us to learn more.</span></p>",
           "id": "freeplan"
         },
         {
           "title": "What is the deX for Startups Program?",
-          "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px\">We provide special conditions for early-stage startups to help them get started with deX. Contact us to learn more.</span></p>",
           "id": "startupsplan"
         },
         {
