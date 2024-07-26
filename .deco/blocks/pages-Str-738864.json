@@ -62,20 +62,31 @@
         {
           "topInfo": [
             {
-              "data": "info 1 title",
-              "caption": "info 1 caption"
+              "caption": "reduction in # of tables",
+              "data": "50%"
             },
             {
-              "data": "info 2 title",
-              "caption": "info 2 caption"
-            },
-            {
-              "data": "info 3 title",
-              "caption": "info 3 caption"
+              "data": "90%",
+              "caption": "reduction in Big Query data processing costs"
             }
           ],
-          "asideInfo": [],
-          "asideLogo": {},
+          "asideInfo": [
+            {
+              "title": "Industry",
+              "text": "Gaming"
+            },
+            {
+              "title": "Headquarters",
+              "text": "Dubai, UAE"
+            },
+            {
+              "title": "Data Stack",
+              "text": "Google Cloud Platform, deX Lake Platform"
+            }
+          ],
+          "asideLogo": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/1221564b-99c8-4677-b169-4d87edd521e4"
+          },
           "postSlug": "byaliens"
         }
       ],

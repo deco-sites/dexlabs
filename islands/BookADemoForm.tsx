@@ -50,7 +50,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
     return (
         <form onSubmit={handleSubmit} class="flex flex-wrap gap-[10px] justify-between">
             <label class="flex flex-col w-full text-lg sm:text-2xl">
-                Email
+                Work Email
                 <input
                     type="email"
                     name="email"
@@ -117,7 +117,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                 <input
                     type="text"
                     name="howCanWeHelp"
-                    class={inputClass + " min-h-24"}
+                    class={inputClass + " min-h-24 my-2"}
                     onChange={handleChange}
                 />
             </label>

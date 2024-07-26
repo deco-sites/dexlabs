@@ -78,7 +78,7 @@ export default function StoriesHero({ stories, link, id, categoryFilters }: Prop
                                 src={story.image || ""}
                                 alt={story.image || ""}
                                 width={340}
-                                class="h-full object-cover"
+                                class="h-full object-contain"
                             />}
                         </div>
                         <h3 class=" font-light text-lg text-right w-full">{(story.categories[0] && story.categories[0]?.name) || ""}</h3>

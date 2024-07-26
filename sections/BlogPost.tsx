@@ -6,6 +6,7 @@ import PostTop from "./PostTop.tsx";
 import { postData } from "site/sections/PostTop.tsx";
 import { CSS } from "../static/css.ts";
 
+/** @title {{title}} */
 export interface IInfo {
     title: string
     text: string;
