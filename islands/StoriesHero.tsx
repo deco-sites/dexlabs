@@ -20,7 +20,7 @@ export interface Props {
 }
 
 export default function StoriesHero({ stories, link, id, categoryFilters }: Props) {
-    const buttonClass = "overflow-hidden font-normal btn btn-primary px-0 font-medium rounded-full min-h-10 text-sm sm:text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary w-full";
+    const buttonClass = "overflow-hidden font-normal btn h-auto p-0 font-medium rounded-full min-h-10 text-sm sm:text-lg bg-secondary hover:bg-secondary text-primary w-full";
     const tagClass = " text-center bg-zinc-300 rounded text-zinc-600 mt-2.5 p-2 cursor-pointer text-sm sm:text-lg";
 
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
@@ -46,17 +46,17 @@ export default function StoriesHero({ stories, link, id, categoryFilters }: Prop
                 <div class="max-w-24 sm:max-w-full">
                     <button class={buttonClass} onClick={() => setSelectedCategories([])}>
                         <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
-                            <span class={`text-primary`}>All categories</span>
-                            <span class={`absolute top-full text-secondary`}>All categories</span>
+                            <span class="h-11 flex items-center">All categories</span>
+                            <span class={`absolute top-11 h-full flex items-center`}>All categories</span>
                         </div>
                     </button>
                 </div>
                 {categoryFilters.map((category) => (
                     <div class="max-w-24 sm:max-w-full">
                         <button class={buttonClass} onClick={() => addCategory(category)}>
-                            <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
-                                <span class={`text-primary`}>{category}</span>
-                                <span class={`absolute top-full text-secondary`}>{category}</span>
+                            <div class={`flex flex-col px-4 py-0 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
+                                <span class="h-11 flex items-center">{category}</span>
+                                <span class={`absolute top-11 h-full flex items-center`}>{category}</span>
                             </div>
                         </button>
                         {selectedCategories.includes(category) && <div class={tagClass} onClick={() => removeCategory(category)}>

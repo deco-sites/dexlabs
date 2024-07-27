@@ -40,11 +40,11 @@ export default function Plans({ plans, link }: Props) {
                             id={plan.cta?.id}
                             href={plan.cta?.href || ""}
                             target={plan.cta?.href?.includes("http") ? "_blank" : "_self"}
-                            class={`overflow-hidden font-normal btn btn-primary px-0 !font-bold rounded-full min-h-10 text-sm sm:text-xl bg-secondary hover:bg-primary text-primary hover:text-secondary`}
+                            class={`overflow-hidden font-normal btn px-0 !font-bold rounded-full min-h-10 text-sm sm:text-xl bg-secondary hover:bg-secondary text-primary`}
                         >
-                            <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
-                                <span class={`text-primary`}>{plan.cta?.text}</span>
-                                <span class={`absolute top-full text-secondary`}>{plan.cta?.text}</span>
+                            <div class={`flex flex-col px-4 relative hover:-translate-y-full h-full transition-transform duration-500 ease-in-out`}>
+                                <span class={`h-full flex items-center`}>{plan.cta?.text}</span>
+                                <span class={`absolute top-full flex items-center h-full`}>{plan.cta?.text}</span>
                             </div>
                         </a>}
                         <p class="text-center text-lg">{plan.description}</p>
