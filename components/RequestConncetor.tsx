@@ -8,9 +8,16 @@ export default function RequestConnector({ text, buttonText, buttonHref }: IRequ
             >
                 {text || ""}</p>
             <a
-                class="font-normal btn btn-primary font-medium rounded-full min-h-10 h-10 text-lg bg-secondary hover:bg-primary text-primary hover:text-secondary"
+
                 href={buttonHref}
-            >{buttonText}</a>
+                target={buttonHref.includes("http") ? "_blank" : "_self"}
+                class={`overflow-hidden font-normal btn btn-primary px-0 font-medium rounded-full min-h-10 h-10 text-lg bg-secondary hover:bg-secondary`}
+            >
+                <div class={`flex flex-col px-4 pb-0.5 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
+                    <span class={`text-primary`}>{buttonText}</span>
+                    <span class={`absolute top-full h-full text-primary`}>{buttonText}</span>
+                </div>
+            </a>
         </div>
     )
 }
