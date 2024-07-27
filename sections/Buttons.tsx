@@ -18,14 +18,14 @@ export default function Buttons({ cta }: Props) {
             <a
                 key={item?.id}
                 id={item?.id}
-                href={item?.href}
+                href={item?.href ?? "#"}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`overflow-hidden font-normal btn btn-primary px-0 font-medium rounded-full min-h-10 h-10 text-lg hover:bg-secondary text-secondary hover:text-primary ${item.outline && "btn-outline"
+                class={`overflow-hidden font-normal btn btn-primary px-0 text-secondary font-medium rounded-full min-h-10 h-10 text-lg  ${item.outline && "bg-secondary hover:bg-secondary !text-primary"
                     }`}
             >
                 <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
-                    <span class={`${item.outline ? 'text-primary' : 'text-secondary'}`}>{item?.text}</span>
-                    <span class={`absolute top-full ${item.outline ? 'text-secondary' : 'text-primary'}`}>{item?.text}</span>
+                    <span class="">{item?.text}</span>
+                    <span class={`absolute top-full ${item.outline ? 'text-primary' : 'text-secondary'}`}>{item?.text}</span>
                 </div>
             </a>
         ))}
