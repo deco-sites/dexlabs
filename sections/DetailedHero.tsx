@@ -62,18 +62,15 @@ export default function ({ title, titleCaption, caption, cta, heroSections, id }
                         href={item?.href}
                         target={item?.href.includes("http") ? "_blank" : "_self"}
                         class={`overflow-hidden font-normal btn px-0 font-semibold rounded-full min-h-10 h-10 text-lg text-primary border-none transition-all duration-200
-                                ${item.outline ? 'bg-success hover:bg-secondary' : 'bg-secondary hover:bg-success'}`
+                                ${item.outline ? 'bg-success hover:bg-success' : 'bg-secondary hover:bg-secondary'}`
                         }
                     >
                         <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
                             <span class={` ${item.outline ? 'text-primary' : 'text-primary'}`}>
                                 {item?.text}
-
-
                             </span>
                             <span class={`absolute top-full ${item.outline ? 'text-primary' : 'text-primary'}`}>
                                 {item?.text}
-
                             </span>
                         </div>
                     </a>
