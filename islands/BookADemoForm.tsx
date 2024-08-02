@@ -57,7 +57,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
     const inputClass = "shadow-soft-shadow border rounded-3xl h-9 w-full pl-4 focus:outline-none focus:ring-0";
 
     return (
-        <form action="https://formsubmit.co/support@dexlabs.io" method="POST" class="flex flex-wrap gap-[10px] justify-between">
+        <form action="https://formsubmit.co/862b7083a09fab4cc5132ce01e24ad4c" method="POST" class="flex flex-wrap gap-[10px] justify-between">
             <input type="hidden" name="_cc" value="gustavo.beltrami@dexlabs.io, luca.castellano@dexlabs.io"></input>
             <label class="flex flex-col w-full text-lg sm:text-2xl">
                 Work Email
