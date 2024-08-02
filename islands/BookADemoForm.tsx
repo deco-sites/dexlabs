@@ -141,7 +141,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
             </label>
             <p class="text-primary text-base">By submitting you agree to our <a href={privacyUrl} class="cursor-pointer">Privacy Policy</a></p>
             <div class="w-full h-full flex justify-center items-bottom pt-12">
-                <input
+                <button
                     key={cta?.id}
                     type="submit"
                     id={cta?.id}
@@ -161,7 +161,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                         </span>
                     </div>
 
-                </input>
+                </button>
             </div>
         </form>
     );
