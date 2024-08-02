@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useState, useEffect } from 'preact/hooks';
 
 export interface CTA {
     id?: string;
@@ -11,49 +11,60 @@ export interface Props {
 }
 
 export default function BookADemoForm({ cta, privacyUrl }: Props) {
-    const [formData, setFormData] = useState({
-        email: '',
-        firstName: '',
-        lastName: '',
-        country: '',
-        phoneNumber: '',
-        companyName: '',
-        websiteUrl: '',
-        role: '',
-        industry: '',
-        howCanWeHelp: '',
-    });
+    // const [formData, setFormData] = useState({
+    //     email: '',
+    //     firstName: '',
+    //     lastName: '',
+    //     country: '',
+    //     phoneNumber: '',
+    //     companyName: '',
+    //     websiteUrl: '',
+    //     role: '',
+    //     industry: '',
+    //     howCanWeHelp: '',
+    // });
 
-    const handleChange = (e: any) => {
-        const { name, value } = e.target;
-        setFormData((prevData) => ({
-            ...prevData,
-            [name]: value,
-        }));
-    };
+    // const handleChange = (e: any) => {
+    //     const { name, value } = e.target;
+    //     setFormData((prevData) => ({
+    //         ...prevData,
+    //         [name]: value,
+    //     }));
+    // };
 
-    const handleSubmit = (e: any) => {
-        e.preventDefault();
-        console.log(formData);
+    // const handleSubmit = (e: any) => {
+    //     e.preventDefault();
+    //     console.log(formData);
 
+    //     const searchParams = new URLSearchParams(window.location.search);
+    //     const plan = searchParams.get("plan");
+    //     const requestConnector = searchParams.get("requestConnector");
+
+    //     console.log(plan, requestConnector);
+    // };
+
+    const [plan, setPlan] = useState("");
+    const [requestConnector, setRequestConnector] = useState("false");
+
+    useEffect(() => {
         const searchParams = new URLSearchParams(window.location.search);
         const plan = searchParams.get("plan");
         const requestConnector = searchParams.get("requestConnector");
-
-        console.log(plan, requestConnector);
-    };
+        setPlan(plan || "");
+        setRequestConnector(requestConnector || "false");
+    }, []);
 
     const inputClass = "shadow-soft-shadow border rounded-3xl h-9 w-full pl-4 focus:outline-none focus:ring-0";
 
     return (
-        <form onSubmit={handleSubmit} class="flex flex-wrap gap-[10px] justify-between">
+        <form action="https://formsubmit.co/support@dexlabs.io" method="POST" class="flex flex-wrap gap-[10px] justify-between">
+            <input type="hidden" name="_cc" value="gustavo.beltrami@dexlabs.io, luca.castellano@dexlabs.io"></input>
             <label class="flex flex-col w-full text-lg sm:text-2xl">
                 Work Email
                 <input
                     type="email"
                     name="email"
                     class={inputClass}
-                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-full text-lg sm:text-2xl">
@@ -62,7 +73,6 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="companyName"
                     class={inputClass}
-                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
@@ -71,7 +81,6 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="firstName"
                     class={inputClass}
-                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
@@ -80,7 +89,6 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="lastName"
                     class={inputClass}
-                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
@@ -89,7 +97,6 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="role"
                     class={inputClass}
-                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
@@ -98,7 +105,6 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="tel"
                     name="phoneNumber"
                     class={inputClass}
-                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-full text-lg sm:text-2xl">
@@ -107,7 +113,6 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="country"
                     class={inputClass}
-                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-full text-lg sm:text-2xl">
@@ -116,12 +121,27 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="howCanWeHelp"
                     class={inputClass + " min-h-24 my-2"}
-                    onChange={handleChange}
+                />
+            </label>
+            <label class="hidden flex flex-col w-full text-lg sm:text-2xl">
+                <input
+                    type="text"
+                    name="plan"
+                    class={inputClass}
+                    value={plan}
+                />
+            </label>
+            <label class="hidden flex flex-col w-full text-lg sm:text-2xl">
+                <input
+                    type="text"
+                    name="requestConnector"
+                    class={inputClass}
+                    value={requestConnector}
                 />
             </label>
             <p class="text-primary text-base">By submitting you agree to our <a href={privacyUrl} class="cursor-pointer">Privacy Policy</a></p>
             <div class="w-full h-full flex justify-center items-bottom pt-12">
-                <button
+                <input
                     key={cta?.id}
                     type="submit"
                     id={cta?.id}
@@ -141,7 +161,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                         </span>
                     </div>
 
-                </button>
+                </input>
             </div>
         </form>
     );
