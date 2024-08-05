@@ -2,8 +2,9 @@
   "__resolveType": "site/apps/deco/resend.ts",
   "apiWrite": {},
   "emailTo": [
-    "eduardo.balbinot.dev@gmail.com",
-    "914thepro@gmail.com"
+    "support@dexlabs.io",
+    "gustavo.beltrami@dexlabs.io",
+    " luca.castellano@dexlabs.io"
   ],
   "apiKey": {
     "__resolveType": "website/loaders/secret.ts",
