@@ -2,16 +2,13 @@
   "__resolveType": "site/apps/deco/resend.ts",
   "apiWrite": {},
   "emailTo": [
-    "support@dexlabs.io",
-    "gustavo.beltrami@dexlabs.io",
-    " luca.castellano@dexlabs.io"
+    "support@dexlabs.io"
   ],
   "apiKey": {
     "__resolveType": "website/loaders/secret.ts",
-    "encrypted": "5761e24a6e09b13d088d0958d96c01a0ee7b90c289b14dd0771454df7af723aa848bb42722166677f95ec6b2b3bb11e0"
+    "encrypted": "974d2c2766b2009b59cf9c35de08e8427070fe84783a63a8fe3348ef5aa76ed1c6f2c637048f6fd2efb7cae6bd0d056c",
+    "name": "deXLabs"
   },
-  "emailFrom": {
-    "name": "Book a demo"
-  },
+  "emailFrom": {},
   "subject": "Book a demo"
 }
