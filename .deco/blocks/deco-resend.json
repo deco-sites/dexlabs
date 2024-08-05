@@ -1,1 +1,12 @@
-{"__resolveType":"site/apps/deco/resend.ts"}
+{
+  "__resolveType": "site/apps/deco/resend.ts",
+  "apiWrite": {},
+  "emailTo": [
+    "eduardo.balbinot.dev@gmail.com",
+    "914thepro@gmail.com"
+  ],
+  "apiKey": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "8a64b49ad68cbb0f734cfe9eceae640d38c24c254f7b495aed7e1a370d2e98ce9eb51057a434610743e70a904dafc98c"
+  }
+}
