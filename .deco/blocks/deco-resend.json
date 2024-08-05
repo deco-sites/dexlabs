@@ -1,0 +1,17 @@
+{
+  "__resolveType": "site/apps/deco/resend.ts",
+  "apiWrite": {},
+  "apiKey": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "e9002026c06f5980e1c56823f29cdf9098b1620c4d06b042fd183649da8bb8710ef1f7b39816f4f6d0f63f0b8b9e85d5",
+    "name": "DEXLABS_KEY"
+  },
+  "emailTo": [
+    "eduardo.balbinot.dev@gmail.com",
+    "914thepro@gmail.com"
+  ],
+  "subject": "Book a demo",
+  "emailFrom": {
+    "name": "Book a demo"
+  }
+}

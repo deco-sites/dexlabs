@@ -15,9 +15,10 @@ export interface Props {
     FormTitle?: string;
     PrivacyPolicyUrl?: string;
     cta?: CTA;
+    sentMessage?: string;
 }
 
-export default function BookADemo({ Title, Caption, FeaturesTitle, Features, FormTitle, PrivacyPolicyUrl, cta }: Props) {
+export default function BookADemo({ Title, Caption, FeaturesTitle, Features, FormTitle, PrivacyPolicyUrl, cta, sentMessage }: Props) {
     return (
         <section class="flex flex-wrap md:flex-nowrap pt-24 pb-28">
             <div class="w-full md:w-1/2 mr-8 flex justify-end text-secondary">
@@ -39,7 +40,7 @@ export default function BookADemo({ Title, Caption, FeaturesTitle, Features, For
             <div class="w-full md:w-1/2 px-8 flex justify-start text-primary">
                 <div class="max-w-[670px]">
                     <h2 class="text-6xl font-medium text-primary mt-3 mb-6">{FormTitle}</h2>
-                    <BookADemoForm cta={cta} privacyUrl={PrivacyPolicyUrl} />
+                    <BookADemoForm cta={cta} privacyUrl={PrivacyPolicyUrl} sentMessage={sentMessage} />
                 </div>
             </div>
         </section>

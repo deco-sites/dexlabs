@@ -1,4 +1,8 @@
 import { useState, useEffect } from 'preact/hooks';
+import { invoke } from "../runtime.ts";
+import { render } from "apps/resend/utils/reactEmail.ts";
+import { JSX } from "preact/jsx-runtime";
+import EmailModel from "site/components/EmailModel.tsx";
 
 export interface CTA {
     id?: string;
@@ -8,56 +12,61 @@ export interface CTA {
 export interface Props {
     privacyUrl?: string;
     cta?: CTA;
+    sentMessage?: string
 }
 
-export default function BookADemoForm({ cta, privacyUrl }: Props) {
-    // const [formData, setFormData] = useState({
-    //     email: '',
-    //     firstName: '',
-    //     lastName: '',
-    //     country: '',
-    //     phoneNumber: '',
-    //     companyName: '',
-    //     websiteUrl: '',
-    //     role: '',
-    //     industry: '',
-    //     howCanWeHelp: '',
-    // });
+export default function BookADemoForm({ cta, privacyUrl, sentMessage }: Props) {
+    const [formData, setFormData] = useState({
+        email: '',
+        firstName: '',
+        lastName: '',
+        country: '',
+        phoneNumber: '',
+        companyName: '',
+        role: '',
+        howCanWeHelp: '',
+        plan: '',
+        requestConnector: 'false'
+    });
 
-    // const handleChange = (e: any) => {
-    //     const { name, value } = e.target;
-    //     setFormData((prevData) => ({
-    //         ...prevData,
-    //         [name]: value,
-    //     }));
-    // };
+    const handleChange = (e: any) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }));
+    };
 
-    // const handleSubmit = (e: any) => {
-    //     e.preventDefault();
-    //     console.log(formData);
+    const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
+        e.preventDefault();
 
-    //     const searchParams = new URLSearchParams(window.location.search);
-    //     const plan = searchParams.get("plan");
-    //     const requestConnector = searchParams.get("requestConnector");
+        try {
 
-    //     console.log(plan, requestConnector);
-    // };
+            const response = await invoke.resend.actions.emails.send({
+                html: render(<EmailModel data={formData} />, { // Convert your react email template when the action is triggered to HTML using render or pure HTML too
+                    pretty: true, // 
+                }),
+            });
 
-    const [plan, setPlan] = useState("");
-    const [requestConnector, setRequestConnector] = useState("false");
+            console.log(response);
+            alert(sentMessage || "Sent");
+            window.location.href = '/';
+        } catch (error) {
+            alert(error.message);
+        }
+    }
 
     useEffect(() => {
         const searchParams = new URLSearchParams(window.location.search);
-        const plan = searchParams.get("plan");
-        const requestConnector = searchParams.get("requestConnector");
-        setPlan(plan || "");
-        setRequestConnector(requestConnector || "false");
+        const plan = searchParams.get("plan") || "";
+        const requestConnector = searchParams.get("requestConnector") || "false";
+        setFormData({ ...formData, plan, requestConnector });
     }, []);
 
     const inputClass = "shadow-soft-shadow border rounded-3xl h-9 w-full pl-4 focus:outline-none focus:ring-0";
 
     return (
-        <form action="https://formsubmit.co/862b7083a09fab4cc5132ce01e24ad4c" method="POST" class="flex flex-wrap gap-[10px] justify-between">
+        <form class="flex flex-wrap gap-[10px] justify-between" onSubmit={handleSubmit}>
             <input type="hidden" name="_cc" value="gustavo.beltrami@dexlabs.io, luca.castellano@dexlabs.io"></input>
             <label class="flex flex-col w-full text-lg sm:text-2xl">
                 Work Email
@@ -65,6 +74,8 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="email"
                     name="email"
                     class={inputClass}
+                    onChange={handleChange}
+                    required
                 />
             </label>
             <label class="flex flex-col w-full text-lg sm:text-2xl">
@@ -73,6 +84,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="companyName"
                     class={inputClass}
+                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
@@ -81,6 +93,8 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="firstName"
                     class={inputClass}
+                    onChange={handleChange}
+                    required
                 />
             </label>
             <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
@@ -89,6 +103,8 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="lastName"
                     class={inputClass}
+                    onChange={handleChange}
+                    required
                 />
             </label>
             <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
@@ -97,6 +113,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="role"
                     class={inputClass}
+                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-5/12 text-lg sm:text-2xl">
@@ -105,6 +122,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="tel"
                     name="phoneNumber"
                     class={inputClass}
+                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-full text-lg sm:text-2xl">
@@ -113,6 +131,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="country"
                     class={inputClass}
+                    onChange={handleChange}
                 />
             </label>
             <label class="flex flex-col w-full text-lg sm:text-2xl">
@@ -121,22 +140,7 @@ export default function BookADemoForm({ cta, privacyUrl }: Props) {
                     type="text"
                     name="howCanWeHelp"
                     class={inputClass + " min-h-24 my-2"}
-                />
-            </label>
-            <label class="hidden flex flex-col w-full text-lg sm:text-2xl">
-                <input
-                    type="text"
-                    name="plan"
-                    class={inputClass}
-                    value={plan}
-                />
-            </label>
-            <label class="hidden flex flex-col w-full text-lg sm:text-2xl">
-                <input
-                    type="text"
-                    name="requestConnector"
-                    class={inputClass}
-                    value={requestConnector}
+                    onChange={handleChange}
                 />
             </label>
             <p class="text-primary text-base">By submitting you agree to our <a href={privacyUrl} class="cursor-pointer">Privacy Policy</a></p>

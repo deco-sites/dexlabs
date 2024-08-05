@@ -28,7 +28,8 @@
         "href": "/",
         "outline": true
       },
-      "PrivacyPolicyUrl": "/"
+      "PrivacyPolicyUrl": "/",
+      "sentMessage": "Sent"
     },
     {
       "__resolveType": "global footer"
