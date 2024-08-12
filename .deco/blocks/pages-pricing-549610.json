@@ -9,7 +9,7 @@
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Making the right call is priceless</p>",
       "cta": [],
-      "description": "deX offers a free proof of concept so you can see our platform in action. Once it's proven its value, you will have affordable plans available"
+      "description": "deX offers a Free Trial so you can see our platform in action. Once it's proven its value, you will have affordable plans available"
     },
     {
       "__resolveType": "site/sections/Plans.tsx",
@@ -192,7 +192,7 @@
         },
         {
           "title": "What are the deX for Enterprises differentials?",
-          "answer": "<p><strong>Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</span></p>",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px\">deX for Enterprises offers unique differentiators including dedicated support, enhanced integration capabilities, and high scalability. Our platform ensures that you will never face limits on seats or data volume, allowing your business to grow without constraints.</span></p>",
           "id": "enterpriseplan"
         }
       ],
