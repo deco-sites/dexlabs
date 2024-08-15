@@ -3,6 +3,7 @@ import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
 import { useScroll } from "site/sdk/useScroll.ts";
 import GlobalDesign from "site/components/GlobalDesign.tsx";
+import IntercomScript from "site/components/IntercomScript.tsx";
 
 /**
  * @title {{text}}
@@ -105,6 +106,7 @@ export default function Header({
     return (
         <>
             <div class="h-20"></div>
+            <IntercomScript />
             <nav class={`drawer drawer-end fixed top-0 w-full z-50 bg-gradient-to-b from-secondary to-transparent ${transitionClass} ${scrolled && "bg-opacity-95"}`}>
                 <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
