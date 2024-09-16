@@ -37,7 +37,7 @@ export default function BookADemoForm({ cta, privacyUrl, sentMessage }: Props) {
         }));
     };
 
-    const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
+    const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e: any) => {
         e.preventDefault();
 
         try {
@@ -149,7 +149,7 @@ export default function BookADemoForm({ cta, privacyUrl, sentMessage }: Props) {
                     key={cta?.id}
                     type="submit"
                     id={cta?.id}
-                    class={`font-normal btn px-0 font-semibold rounded-full min-h-10 h-10 text-lg border-none transition-all duration-200 bg-primary hover:bg-primary text-secondary hover:text-secondary`
+                    class={`btn px-0 font-semibold rounded-full min-h-10 h-10 text-lg border-none transition-all duration-200 bg-primary hover:bg-primary text-secondary hover:text-secondary`
                     }
                 >
                     <div class={`flex flex-col px-4 relative hover:-translate-y-full transition-transform duration-500 ease-in-out`}>
