@@ -63,7 +63,7 @@ export default function BookADemoForm({ cta, privacyUrl, sentMessage }: Props) {
         setFormData({ ...formData, plan, requestConnector });
     }, []);
 
-    const inputClass = "shadow-soft-shadow border rounded-3xl h-9 w-full pl-4 focus:outline-none focus:ring-0";
+    const inputClass = "border-[2px] border-info-content rounded-3xl h-9 w-full pl-4 focus:outline-none focus:ring-0";
 
     return (
         <form class="flex flex-wrap gap-[10px] justify-between" onSubmit={handleSubmit}>
