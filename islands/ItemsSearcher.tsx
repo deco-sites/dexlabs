@@ -18,6 +18,7 @@ export interface Item {
     image?: ImageWidget;
     title: string;
     categories?: string[];
+    hide?: boolean;
 }
 
 export interface Props {
@@ -35,6 +36,8 @@ export default function ({ categories, items, requestConnector, showMoreText, it
     const [limit, setLimit] = useState(itemsPerPage);
 
     let filteredItems = items;
+
+    filteredItems = filteredItems.filter((item) => !item.hide);
 
     if (searchTerm) filteredItems = filteredItems.filter((item) => item.title.toLowerCase().includes(searchTerm.toLowerCase()));
 

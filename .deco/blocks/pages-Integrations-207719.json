@@ -231,14 +231,16 @@
           "title": "ActiveCampaign",
           "categories": [
             "Marketing Analytics"
-          ]
+          ],
+          "hide": false
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a31d41fd9b93d7eda11ecd_adjust.svg",
           "title": "Adjust",
           "categories": [
             "Product Analytics"
-          ]
+          ],
+          "hide": false
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a31c40a8019d51ad5dbfb9_aha.svg",
