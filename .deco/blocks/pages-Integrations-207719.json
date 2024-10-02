@@ -35,7 +35,8 @@
           "categories": [
             "Warehouses and Lakes"
           ],
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a32a08b6d6329d4b0d6768_azureblobstorage.svg"
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a32a08b6d6329d4b0d6768_azureblobstorage.svg",
+          "show": false
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a569dec97e6a785d2cdeac_bigquery.svg",
