@@ -18,7 +18,6 @@
     {
       "__resolveType": "site/sections/ItemsSearcher.tsx",
       "categories": [
-        "Unstructured",
         "Databases",
         "Warehouses and Lakes",
         "Marketing Analytics",
@@ -43,7 +42,8 @@
           "title": "BigQuery",
           "categories": [
             "Warehouses and Lakes"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63e36afa35c0cf7645e74752_DuckDB_Logo_2.svg.webp",
@@ -85,14 +85,16 @@
           "title": "Google Analytics 4 (GA4)",
           "categories": [
             "Marketing Analytics"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57342760c9d47dfc37671_google-sheets.svg",
           "title": "Google Sheets",
           "categories": [
             "Files"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a5741bf8cc9103c72eeeec_hubspot.svg",
@@ -134,7 +136,8 @@
           "title": "MySQL",
           "categories": [
             "Databases"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a5761dd46c17227b36a777_mysql.svg",
@@ -155,7 +158,8 @@
           "title": "Postgres",
           "categories": [
             "Databases"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a577e06df355bfe1e45f50_postgresql.svg",
@@ -183,7 +187,8 @@
           "title": "S3",
           "categories": [
             "Warehouses and Lakes"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639decbfa51e772ab2070c32_salesforce.svg",
@@ -305,7 +310,8 @@
           "title": "Amplitude",
           "categories": [
             "Product Analytics"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a3188333965569ef0ea2fb_apachedoris.svg",
@@ -745,7 +751,8 @@
           "title": "DynamoDB",
           "categories": [
             "Databases"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a56e2f6ccbdb36d65c79e2_dynamodb.svg",
@@ -798,10 +805,11 @@
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a2d7b0208c7d38f9b41cba_facebook.svg",
-          "title": "Facebook Pages",
+          "title": "Facebook Ads",
           "categories": [
             "Marketing Analytics"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a3253fdd26aa7fb0e7706f_fastbill.svg",
@@ -1068,7 +1076,8 @@
           "title": "Instagram",
           "categories": [
             "Marketing Analytics"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/64872070ddeff466f26463f8_instatus.svg",
@@ -1612,7 +1621,8 @@
           "title": "Pipedrive",
           "categories": [
             "Sales & Support Analytics"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/64872260e4fc3e7d2590f2b8_pivotal-tracker.svg",
@@ -1953,7 +1963,8 @@
           "categories": [
             "Finance & Ops Analytics"
           ],
-          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57a826b5256366077ef0c_shopify.svg"
+          "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57a826b5256366077ef0c_shopify.svg",
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/63a57a8b6c31f2a0c7201523_short.svg",
@@ -2413,7 +2424,8 @@
           "title": "YouTube Analytics",
           "categories": [
             "Marketing Analytics"
-          ]
+          ],
+          "show": true
         },
         {
           "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/639d7fe9e6be668238490c04_younium.svg",
@@ -2519,6 +2531,158 @@
           "categories": [
             "Others"
           ]
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/c0c8cb49-142f-470e-ae80-0e1edf8799fc/anymarket.png",
+          "title": "Anymarket",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/166f3c75-be29-46aa-b932-82a0192cc5b6/arquivei.png",
+          "title": "Arquivei",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/a9ad7135-37e5-40c0-ae65-396767f4b45f/bling.svg",
+          "title": "Bling",
+          "show": true
+        },
+        {
+          "categories": [
+            "Databases"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/3f345d42-c28b-4161-9121-83505ac971dc/firestore-new-new.png",
+          "title": "Firestore",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/a8fe9479-0780-4a7e-ac40-a3f0366ce687/intelipost-new-new.jpg",
+          "title": "Intelipost",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/7374f499-33c0-4c98-adc7-adb7e46b8484/shipsmart.png",
+          "title": "Shipsmart",
+          "show": true
+        },
+        {
+          "categories": [
+            "Sales & Support Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/4b4723e9-2111-4955-9646-bced366bb2ad/troquecommerce.jpg",
+          "title": "Troquecommerce",
+          "show": true
+        },
+        {
+          "categories": [
+            "Sales & Support Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/e0f54d72-0a48-4212-a2cc-e1aaef4308dd/zendesk.png",
+          "title": "Zendesk",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/930fb037-d133-429b-a5e3-06a9ba641ad6/ifood.png",
+          "title": "iFood Restaurante",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/930fb037-d133-429b-a5e3-06a9ba641ad6/ifood.png",
+          "title": "iFood Mercado",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/bff872b9-b83d-4851-8fcb-69210d6713a4/lalamove.svg",
+          "title": "Lalamove",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/08e5ffc0-0150-4626-b7db-0ece57be84fb/vtex-new.png",
+          "title": "Vtex",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/b04929fe-81c3-48cd-8897-1f41368827aa/mottu_new.png",
+          "title": "Mottu",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/dbfd70c1-2c31-4c3d-885c-d573dabfd8ff/pagarme-new.png",
+          "title": "Pagarme",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/805b7533-e914-416a-afb8-afd41e6e9bd4/mercado-livre-new.png",
+          "show": true,
+          "title": "Mercado Livre"
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/c51099a2-1db8-4172-b929-59d4fdbcf830/mercado-pago.png",
+          "title": "Mercado Pago",
+          "show": true
+        },
+        {
+          "categories": [
+            "Sales & Support Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/f212b8f3-df72-4fb0-9b4d-d8f2e2b0ce7c/hubspot-1.svg",
+          "title": "Hubspot",
+          "show": true
+        },
+        {
+          "categories": [
+            "Finance & Ops Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/55ce3b68-335f-46cf-8fc3-b0408a91b5f5/google-merchant-center.svg",
+          "title": "Google Merchant",
+          "show": true
+        },
+        {
+          "categories": [
+            "Sales & Support Analytics"
+          ],
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/03cb1efc-9af4-4ded-add9-7270fdd83d22/insider_crm-new.svg",
+          "title": "Insider (CRM)",
+          "show": true
         }
       ],
       "requestConnector": {
