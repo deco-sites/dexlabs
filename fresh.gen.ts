@@ -13,7 +13,7 @@ import * as $PostAsideContent from "./islands/PostAsideContent.tsx";
 import * as $SmothRedirector from "./islands/SmothRedirector.tsx";
 import * as $StoriesHero from "./islands/StoriesHero.tsx";
 import * as $Video from "./islands/Video.tsx";
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {

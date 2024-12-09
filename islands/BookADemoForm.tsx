@@ -53,6 +53,7 @@ export default function BookADemoForm({ cta, privacyUrl, sentMessage }: Props) {
             window.location.href = '/';
         } catch (error) {
             alert(error.message);
+            console.log(error.message);
         }
     }
 
