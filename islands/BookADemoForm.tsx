@@ -42,10 +42,16 @@ export default function BookADemoForm({ cta, privacyUrl, sentMessage }: Props) {
 
         try {
 
-            const response = await invoke.resend.actions.emails.send({
-                html: render(<EmailModel data={formData} />, { // Convert your react email template when the action is triggered to HTML using render or pure HTML too
-                    pretty: true, // 
-                }),
+            // const response = await invoke.resend.actions.emails.send({
+            //     from: "Acme <onboarding@resend.dev>",
+            //     html: render(<EmailModel data={formData} />, { // Convert your react email template when the action is triggered to HTML using render or pure HTML too
+            //         pretty: true, // 
+            //     }),
+            // });
+
+            const response = await invoke({
+                key: "site/actions/sendFormInfo.ts",
+                props: { email: "support@dexlabs.io", subject: "bookademo", fields: { ...formData } },
             });
 
             console.log(response);

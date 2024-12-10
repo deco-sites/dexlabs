@@ -19,6 +19,7 @@
     "preact-render-to-string": "npm:preact-render-to-string@6.4.2",
     "site/": "./",
     "std/": "https://deno.land/std@0.190.0/",
+    "resend": "https://deno.land/x/resend_js@v1.1.0/mod.ts",
     "@deco/dev": "jsr:@deco/dev@1.107.0"
   },
   "tasks": {

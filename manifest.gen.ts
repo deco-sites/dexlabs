@@ -2,6 +2,7 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $$$$$$$$$0 from "./actions/sendFormInfo.ts";
 import * as $$$$$$$$$$$0 from "./apps/deco/records.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/resend.ts";
 import * as $$$$$$$$$$$2 from "./apps/decohub.ts";
@@ -67,6 +68,9 @@ const manifest = {
     "site/sections/Testimonials.tsx": $$$$$$23,
     "site/sections/Theme/Theme.tsx": $$$$$$24,
     "site/sections/Video.tsx": $$$$$$25,
+  },
+  "actions": {
+    "site/actions/sendFormInfo.ts": $$$$$$$$$0,
   },
   "apps": {
     "site/apps/deco/records.ts": $$$$$$$$$$$0,

@@ -30,5 +30,22 @@
   "firstByteThresholdMS": false,
   "theme": {
     "__resolveType": "Neutral"
+  },
+  "resendApiKey": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "bed42227998c56f6bbe0ef3e690ffc7ef8d02dccaabbffb98b60967a4691636a3f09e258a6fc5fa3762cc8500e156eb8",
+    "name": "bookademo"
+  },
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    },
+    "includeScriptsToBody": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
   }
 }
