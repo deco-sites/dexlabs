@@ -11,7 +11,7 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>The fastest way to build data products</p>",
+      "title": "<p>The fastest way to build data products </p>",
       "cta": [
         {
           "text": "Book a demo",

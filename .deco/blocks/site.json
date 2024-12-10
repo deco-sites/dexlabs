@@ -31,11 +31,6 @@
   "theme": {
     "__resolveType": "Neutral"
   },
-  "resendApiKey": {
-    "__resolveType": "website/loaders/secret.ts",
-    "encrypted": "bed42227998c56f6bbe0ef3e690ffc7ef8d02dccaabbffb98b60967a4691636a3f09e258a6fc5fa3762cc8500e156eb8",
-    "name": "bookademo"
-  },
   "abTesting": {
     "replaces": [],
     "includeScriptsToHead": {
@@ -47,5 +42,10 @@
   },
   "flavor": {
     "framework": "fresh"
+  },
+  "resendApiKey": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "6ae2c87ab9b8046afae39831c30e18a495c1ec470fc02f03fa098490a2aa0bc0cedc3f14f2e158e88dbb1bc283e81cab",
+    "name": "bookademo"
   }
 }
