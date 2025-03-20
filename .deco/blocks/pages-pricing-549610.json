@@ -78,7 +78,7 @@
           "Text": "Work with our experts to migrate your existing workflows to deX with minimal effort and time",
           "ImagesPerLine": 4,
           "TitleIcon": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/b98eb0e3-a5c5-4da9-ab4e-76ed7c61a3a0",
+            "image": "https://assets.decocache.com/dexlabs/a2bc50d6-5944-4781-b0db-d39f9ebc0ce5/1742477166064-b98eb0e3-a5c5-4da9-ab4e-76ed7c61a3a0",
             "alt": "Migration Icon"
           },
           "border": false
@@ -90,7 +90,7 @@
           "ImagesPerLine": 4,
           "TitleIcon": {
             "alt": "modeling Icon",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f7e1a9b0-a793-46db-9df0-87edc6a77dce"
+            "image": "https://assets.decocache.com/dexlabs/d2546e0f-a86c-4262-9817-28ee00ae9fa8/1742477167491-f7e1a9b0-a793-46db-9df0-87edc6a77dce"
           }
         },
         {
@@ -99,7 +99,7 @@
           "Text": "Get expert help to improve data quality and ensure data consistency throughout the data pipeline",
           "ImagesPerLine": 1,
           "TitleIcon": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/b5ece3de-9629-49fd-91b0-bae1c7fcfb2b",
+            "image": "https://assets.decocache.com/dexlabs/f55abee5-8e98-410d-adcb-09bc580b2c7a/1742477168788-b5ece3de-9629-49fd-91b0-bae1c7fcfb2b",
             "alt": "check icon"
           }
         }
