@@ -28,31 +28,31 @@
     },
     {
       "__resolveType": "site/sections/Video.tsx",
-      "video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/857d9caa-d721-47d5-b427-e19268d52e4e",
-      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4f92b1ee-65f3-4b47-8ac1-dc3d2cddf6ca"
+      "video": "https://assets.decocache.com/dexlabs/1e1f9a4b-1885-4085-b925-eccd2cec2cc0/1742477191563-857d9caa-d721-47d5-b427-e19268d52e4e",
+      "backgroundImage": "https://assets.decocache.com/dexlabs/8bb13495-a4c2-486e-8944-b2864c5833cf/1742477193151-4f92b1ee-65f3-4b47-8ac1-dc3d2cddf6ca"
     },
     {
       "__resolveType": "site/sections/Logos.tsx",
       "title": "TRUSTED BY",
       "logos": [
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/607b7bbd-e31b-47a5-b8c9-bf0f8d704c98",
+          "src": "https://assets.decocache.com/dexlabs/d0bad18d-a436-4a57-9e53-2e6108dfb4cc/1742477195669-607b7bbd-e31b-47a5-b8c9-bf0f8d704c98",
           "altText": "medway logo"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/51b7a89c-be8b-4839-8b86-9f0bbd4438d7",
+          "src": "https://assets.decocache.com/dexlabs/03e1c4e2-436b-4cb5-a332-2bc7ef1d0076/1742477197081-51b7a89c-be8b-4839-8b86-9f0bbd4438d7",
           "altText": "by aliens logo"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/18fb7a34-abbc-42ff-9f19-91e251d9b0e5",
+          "src": "https://assets.decocache.com/dexlabs/5681b8e7-99a1-41e3-80bd-ba39e51d1cfc/1742477198401-18fb7a34-abbc-42ff-9f19-91e251d9b0e5",
           "altText": "hub logo"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ec470887-0ae3-4639-b237-5d8b612dcbaa",
+          "src": "https://assets.decocache.com/dexlabs/70d21c5b-1387-4688-a727-fedffc9c5d65/1742477188514-ec470887-0ae3-4639-b237-5d8b612dcbaa",
           "altText": "insider logo"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/ec3cb946-0c99-41e3-8eb2-8792e7d83235",
+          "src": "https://assets.decocache.com/dexlabs/ebba0492-cea0-4b68-a49f-735fa3dfb6db/1742477200254-ec3cb946-0c99-41e3-8eb2-8792e7d83235",
           "altText": "unb logo"
         }
       ],
@@ -68,19 +68,19 @@
       "caption": "Answer business questions, make the right decisions  and grow with data intelligence",
       "items": [
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/c700b674-1004-42b4-8f61-ee116548bf48",
+          "image": "https://assets.decocache.com/dexlabs/fbf5d06c-f74b-436b-9643-9cd078ebea0b/1742477204904-c700b674-1004-42b4-8f61-ee116548bf48",
           "title": "Make the right call",
           "description": "Create data models, perform quality testing, and make decisions based on trusted data.",
           "imageAlt": "Lamp icon"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/a64b760c-d5e5-4670-9c54-776b867802b5",
+          "image": "https://assets.decocache.com/dexlabs/3f910724-6224-41fe-81a9-c7132fd64251/1742477206187-a64b760c-d5e5-4670-9c54-776b867802b5",
           "imageAlt": "people icon",
           "title": "Democratize insights",
           "description": "Empower your team with data  to find new insights."
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/936f9af7-4b95-4785-9852-f0b0bdca63ab",
+          "image": "https://assets.decocache.com/dexlabs/551f71f0-7dee-42ec-9cbe-25fae9a7532e/1742477208155-936f9af7-4b95-4785-9852-f0b0bdca63ab",
           "imageAlt": "coin icon",
           "title": "Reduce costs",
           "description": "Gain efficiency and simplify complexity with a unified, serverless data infrastructure."
@@ -144,35 +144,35 @@
         {
           "Images": [
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4aec330f-e1b8-49ba-bd91-c7cd2be6d2f4",
+              "image": "https://assets.decocache.com/dexlabs/9b0afb29-5a37-46cd-8e57-5ef291ca47fc/1742477209370-4aec330f-e1b8-49ba-bd91-c7cd2be6d2f4",
               "alt": "integration icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/7a5bd7f2-3f71-43a6-a03a-b4a1eb9f84a5",
+              "image": "https://assets.decocache.com/dexlabs/28bd986a-240c-4331-99a5-ec6ef4970f22/1742477210640-7a5bd7f2-3f71-43a6-a03a-b4a1eb9f84a5",
               "alt": "HubSpot icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/45284dc8-cc28-44b0-99ed-a40b80c17608",
+              "image": "https://assets.decocache.com/dexlabs/33854daf-ebf4-46d1-b552-61a657acc529/1742477211883-45284dc8-cc28-44b0-99ed-a40b80c17608",
               "alt": "php icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/9ae73f0c-8d82-409c-ae69-07ffb4e5f8f1",
+              "image": "https://assets.decocache.com/dexlabs/f9279138-2722-4d44-a190-67deca64a9de/1742477213333-9ae73f0c-8d82-409c-ae69-07ffb4e5f8f1",
               "alt": "exel icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/edf3815e-6e40-4b19-b61e-6ff7cf4b6452",
+              "image": "https://assets.decocache.com/dexlabs/4f92f1c2-d270-4f32-af35-d0915c799aa9/1742477214616-edf3815e-6e40-4b19-b61e-6ff7cf4b6452",
               "alt": "blue magnifying glass icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/79e2b906-76b3-425c-84f1-9721f16a8d9d",
+              "image": "https://assets.decocache.com/dexlabs/b51032f1-fd4a-4831-9997-a8e81b59243b/1742477215876-79e2b906-76b3-425c-84f1-9721f16a8d9d",
               "alt": "dolphin icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/b2198030-7ee0-4d31-8973-ebea4fe92c7b",
+              "image": "https://assets.decocache.com/dexlabs/7203fb8b-c927-4bdc-9eeb-b165dd6f7988/1742477217247-b2198030-7ee0-4d31-8973-ebea4fe92c7b",
               "alt": "flower pot icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/449adfb8-d19c-4e2f-82cd-4b21dedf4050",
+              "image": "https://assets.decocache.com/dexlabs/4217fd16-9742-4b7d-b43c-5d96f2a30d9f/1742477218490-449adfb8-d19c-4e2f-82cd-4b21dedf4050",
               "alt": "files icon"
             }
           ],
@@ -186,34 +186,34 @@
           "Images": [
             {
               "alt": "git icon",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4d47e521-2313-424a-a156-a7b366804e99"
+              "image": "https://assets.decocache.com/dexlabs/c499e7d3-0d11-49fd-ae62-7f9a0e159de1/1742477219853-4d47e521-2313-424a-a156-a7b366804e99"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f133a78b-fca8-4a1d-a30e-8f6017930411",
+              "image": "https://assets.decocache.com/dexlabs/b285f14b-debe-4997-979e-6bee13d4fbb4/1742477221238-f133a78b-fca8-4a1d-a30e-8f6017930411",
               "alt": "colorful up arrow icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/0f5bb207-fdcf-4547-9ce2-1df72baad9b1",
+              "image": "https://assets.decocache.com/dexlabs/ce35b189-18e3-4dcb-96a2-942b0a9b39ab/1742477222522-0f5bb207-fdcf-4547-9ce2-1df72baad9b1",
               "alt": "tik tok icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4343a690-4205-4a3e-b11f-c25fc236884f",
+              "image": "https://assets.decocache.com/dexlabs/238aba32-4de5-4047-b0c9-388f64d216f2/1742477223860-4343a690-4205-4a3e-b11f-c25fc236884f",
               "alt": "facebook icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/f2e49bc5-015a-4366-a700-ce9d20c4617c",
+              "image": "https://assets.decocache.com/dexlabs/5d8aa6a2-4683-449e-a0be-a7aaf59d0cb8/1742477225197-f2e49bc5-015a-4366-a700-ce9d20c4617c",
               "alt": "store bag icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/2133390b-1ff3-491f-bc78-ab4c3242ed88",
+              "image": "https://assets.decocache.com/dexlabs/69ac87ae-56fa-4973-9e96-a46dac02f02c/1742477226782-2133390b-1ff3-491f-bc78-ab4c3242ed88",
               "alt": "bing icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/4872e78d-d710-4731-b62c-e71aa450713b",
+              "image": "https://assets.decocache.com/dexlabs/50638c85-6a77-466a-a80e-006af0939ec2/1742477228087-4872e78d-d710-4731-b62c-e71aa450713b",
               "alt": "yellow bars icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/0f9195e0-efb6-48c7-8300-16b9d602fbbe",
+              "image": "https://assets.decocache.com/dexlabs/0ad9b322-a5f5-4ef6-bb08-6a2f147cb136/1742477229314-0f9195e0-efb6-48c7-8300-16b9d602fbbe",
               "alt": "paypal icon"
             }
           ],
@@ -225,35 +225,35 @@
         {
           "Images": [
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/bc385ad0-66e4-48da-94c6-98df92423e21",
+              "image": "https://assets.decocache.com/dexlabs/0e3c6853-de92-4e7c-80f5-600418f5cea8/1742477230632-bc385ad0-66e4-48da-94c6-98df92423e21",
               "alt": "doted M icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/1378d333-cf96-4a60-a977-6ba32490c745",
+              "image": "https://assets.decocache.com/dexlabs/92793e97-967f-4e8b-a092-f371fc96793c/1742477232009-1378d333-cf96-4a60-a977-6ba32490c745",
               "alt": "stripes icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/64765bee-620f-4fa0-9557-9085f0974a10",
+              "image": "https://assets.decocache.com/dexlabs/f3e870ea-533e-47ee-bf43-a5158a2d19fa/1742477233304-64765bee-620f-4fa0-9557-9085f0974a10",
               "alt": "colorful plus icons"
             },
             {
               "alt": "R icon",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/89718c27-ef21-46dc-af6f-f6c1138cc168"
+              "image": "https://assets.decocache.com/dexlabs/937a7d37-123b-4ceb-bced-150c8157c8f5/1742477234549-89718c27-ef21-46dc-af6f-f6c1138cc168"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/fb98f067-6f8e-47cf-b477-cd58c7feb1fd",
+              "image": "https://assets.decocache.com/dexlabs/c1a7c63b-71d3-447a-af4a-3697997648e3/1742477236002-fb98f067-6f8e-47cf-b477-cd58c7feb1fd",
               "alt": "green magnifying glass icon"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/c88be65c-c5b5-41b8-8c6a-ed043c226690",
+              "image": "https://assets.decocache.com/dexlabs/d4ff1794-5497-4627-aeb0-d3cd43e0a013/1742477237270-c88be65c-c5b5-41b8-8c6a-ed043c226690",
               "alt": "colorful circles icon"
             },
             {
               "alt": "python",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/dd1a8e33-418a-40b0-aeb6-f1b8730fae9a"
+              "image": "https://assets.decocache.com/dexlabs/ae84f411-7127-4fba-8293-c470c5c3f71a/1742477238488-dd1a8e33-418a-40b0-aeb6-f1b8730fae9a"
             },
             {
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/2a5a696a-4be0-4d93-b1e6-cc3f60e8c1ea",
+              "image": "https://assets.decocache.com/dexlabs/6cc8f372-7310-4578-aa8f-070ed7965281/1742477239795-2a5a696a-4be0-4d93-b1e6-cc3f60e8c1ea",
               "alt": "jupyter icon"
             }
           ],
@@ -276,7 +276,7 @@
       ],
       "description": "deX offers an optional professional services package to help you build your models and structuring your data.",
       "tagline": "PROFESSIONAL SERVICES",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/5c2006f5-cbbb-4658-b473-7b7f0c016ab6",
+      "image": "https://assets.decocache.com/dexlabs/e0220963-177d-450d-97c0-4d0b0b9f2afa/1742477241092-5c2006f5-cbbb-4658-b473-7b7f0c016ab6",
       "placement": "left",
       "disableSpacing": {
         "top": false,

@@ -1,1 +1,136 @@
-{"name":"Product","path":"/product","sections":[{"__resolveType":"site/sections/PageName.tsx","pageName":"deX | Product"},{"__resolveType":"Header"},{"__resolveType":"site/sections/Hero.tsx","cta":[],"title":"<p>The data platform to drive business value</p>","description":"A faster, more efficient way to do data engineering."},{"__resolveType":"site/sections/ImageSelector.tsx","cta":[{"href":"/bookademo","text":"Book a demo","outline":false},{"text":"Explore all features","href":"/pricing#features","outline":true}],"backgroundImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/102a7e19-5c30-4a21-bfdb-ada500c1e613","videos":[{"title":"Ingest data","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/05aa7db7-c681-4bf3-a5ad-e1daffc0ab66","alt":"ingest data"},{"title":"Create models","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/6483cceb-4e5b-42b7-a65a-658938c2a565","alt":"sunset"},{"title":"Ensure reliability","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/42050be3-dda3-433d-8943-d7ed02633ef0"},{"title":"Orchestrate","image":"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/9ba22fe6-32db-4d62-8922-f3ed52397a02/300007---DEXLABS_v3.mp4"}]},{"__resolveType":"site/sections/ImageWithParagraph.tsx","title":"Work in multiple environments","cta":[],"description":"Work across environments with improved collaboration and streamlined development\n to ensure a smooth transition from development to production.","placement":"left","disableSpacing":{"top":false,"bottom":true},"justifyText":"left","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/14ca95e1-e412-4d4f-ad93-aee378a8e77f"},{"__resolveType":"site/sections/ImageWithParagraph.tsx","title":"Embed testing into your workflow","cta":[],"description":"Integrate data testing into your CI/CD \npipeline with a single line of code. Make data quality checks maintainable to ensure data quality and integrity.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/1a0af7e6-92c8-42ce-99d3-fd78fe93d3d9","placement":"right","disableSpacing":{"top":false,"bottom":true},"justifyText":"left"},{"__resolveType":"site/sections/ImageWithParagraph.tsx","title":"Automate  DAG creation","cta":[],"description":"Automatically create and manage Airflow DAGs based on your data models. \nFocus on your business and reduce your workflow code by 70%","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/eba348f2-579a-4d52-9e7a-a96c4615e648","placement":"left","disableSpacing":{"top":false,"bottom":true},"justifyText":"left"},{"__resolveType":"site/sections/ImageWithParagraph.tsx","cta":[],"title":"Build. Review. Deploy.","description":"Use native Git integration for seamless version control and use pull requests (PRs) to merge updates efficiently.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10896/d97a8e3d-8157-43c1-b804-6fb857491234","placement":"right","disableSpacing":{"top":false,"bottom":true},"justifyText":"left"},{"__resolveType":"site/sections/Buttons.tsx","cta":[{"href":"/pricing#features","text":"Explore all features","outline":true}]},{"__resolveType":"site/sections/SimpleHero.tsx","title":"Ready to get started?","caption":"See what you can do with a unified Lakehouse Platform","cta":[{"href":"/bookademo","text":"Book a demo","outline":true}]},{"__resolveType":"global footer"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Product",
+  "path": "/product",
+  "sections": [
+    {
+      "__resolveType": "site/sections/PageName.tsx",
+      "pageName": "deX | Product"
+    },
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "cta": [],
+      "title": "<p>The data platform to drive business value</p>",
+      "description": "A faster, more efficient way to do data engineering."
+    },
+    {
+      "__resolveType": "site/sections/ImageSelector.tsx",
+      "cta": [
+        {
+          "href": "/bookademo",
+          "text": "Book a demo",
+          "outline": false
+        },
+        {
+          "text": "Explore all features",
+          "href": "/pricing#features",
+          "outline": true
+        }
+      ],
+      "backgroundImage": "https://assets.decocache.com/dexlabs/1f3bdbb2-88b0-496d-aeb4-05f31c995a86/1742477170135-102a7e19-5c30-4a21-bfdb-ada500c1e613",
+      "videos": [
+        {
+          "title": "Ingest data",
+          "image": "https://assets.decocache.com/dexlabs/fd87c166-a412-4f87-a1c4-8cb2820bd936/1742477172204-05aa7db7-c681-4bf3-a5ad-e1daffc0ab66",
+          "alt": "ingest data"
+        },
+        {
+          "title": "Create models",
+          "image": "https://assets.decocache.com/dexlabs/108e4168-630b-4a67-95b1-e443606a7b1e/1742477173854-6483cceb-4e5b-42b7-a65a-658938c2a565",
+          "alt": "sunset"
+        },
+        {
+          "title": "Ensure reliability",
+          "image": "https://assets.decocache.com/dexlabs/3ee429f9-b38e-4208-864d-374bf36e25b8/1742477175539-42050be3-dda3-433d-8943-d7ed02633ef0"
+        },
+        {
+          "title": "Orchestrate",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dexlabs/9ba22fe6-32db-4d62-8922-f3ed52397a02/300007---DEXLABS_v3.mp4"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Work in multiple environments",
+      "cta": [],
+      "description": "Work across environments with improved collaboration and streamlined development\n to ensure a smooth transition from development to production.",
+      "placement": "left",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left",
+      "image": "https://assets.decocache.com/dexlabs/c67698be-65d7-417d-ba31-20f41563f412/1742477176800-14ca95e1-e412-4d4f-ad93-aee378a8e77f"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Embed testing into your workflow",
+      "cta": [],
+      "description": "Integrate data testing into your CI/CD \npipeline with a single line of code. Make data quality checks maintainable to ensure data quality and integrity.",
+      "image": "https://assets.decocache.com/dexlabs/9e192bc2-4206-4e41-99d0-7e1ecf98a2c4/1742477178547-1a0af7e6-92c8-42ce-99d3-fd78fe93d3d9",
+      "placement": "right",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Automate  DAG creation",
+      "cta": [],
+      "description": "Automatically create and manage Airflow DAGs based on your data models. \nFocus on your business and reduce your workflow code by 70%",
+      "image": "https://assets.decocache.com/dexlabs/6e9e2474-ebb1-44a7-b081-85721e76f557/1742477180136-eba348f2-579a-4d52-9e7a-a96c4615e648",
+      "placement": "left",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "cta": [],
+      "title": "Build. Review. Deploy.",
+      "description": "Use native Git integration for seamless version control and use pull requests (PRs) to merge updates efficiently.",
+      "image": "https://assets.decocache.com/dexlabs/4eef738c-f56e-4121-8d5f-73b83180d8cf/1742477182059-d97a8e3d-8157-43c1-b804-6fb857491234",
+      "placement": "right",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "justifyText": "left"
+    },
+    {
+      "__resolveType": "site/sections/Buttons.tsx",
+      "cta": [
+        {
+          "href": "/pricing#features",
+          "text": "Explore all features",
+          "outline": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/SimpleHero.tsx",
+      "title": "Ready to get started?",
+      "caption": "See what you can do with a unified Lakehouse Platform",
+      "cta": [
+        {
+          "href": "/bookademo",
+          "text": "Book a demo",
+          "outline": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "global footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
