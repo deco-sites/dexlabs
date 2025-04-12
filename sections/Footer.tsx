@@ -1,5 +1,5 @@
 import Image from "apps/website/components/Image.tsx";
-import type { ImageWidget } from "apps/admin/widgets.ts";
+import type { ImageWidget, RichText } from "apps/admin/widgets.ts";
 import GlobalDesign from "site/components/GlobalDesign.tsx";
 
 /**
@@ -25,7 +25,7 @@ export interface Props {
     src?: ImageWidget;
     alt?: string;
   };
-  text: string;
+  text: RichText;
   links?: Column[];
   madeWith?: {
     label?: string;
@@ -113,7 +113,7 @@ export default function Footer({
                     alt={logo.alt}
                   />
                 </div>
-                <p class="text-lg font-normal">{text}</p>
+                <div class="text-lg font-normal" dangerouslySetInnerHTML={{ __html: text }} />
                 <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center ">
                   <div class="flex gap-3">
                     {social?.map((item) => (
